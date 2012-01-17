@@ -1,0 +1,38 @@
+title: 2011-12-09
+author: len jaffe <lenjaffe@lenjaffe.com>
+topic: Perl Advent Planet
+
+=head1 Perl
+
+L<Perl:  Perl Advent Calendar 2011 -  Taming Search with Data::SearchEngine  |http://perladvent.org/2011/2011-12-09.html>
+
+L<Catalyst: Catalyst Advent Calendar - Day 31|http://www.catalystframework.org/calendar/2011/9>
+
+L<Dancer:  Profiling Dancer apps with Dancer::Plugin::NYTProf - PerlDancer Advent Calendar|http://advent.perldancer.org/2011/9>
+
+L<Perl 6: 2011  December  09 &laquo; Perl 6 Advent Calendar|http://perl6advent.wordpress.com/2011/12/9/>
+
+=head2 Perl Advent Calendar Japan:
+
+L<acme: Acme::State で Kensiro！ - Perl Advent Calendar Japan 2011 Acme Track|http://perl-users.jp/articles/advent-calendar/2011/acme/9>
+
+L<casual: 業務終了後、git logとDist::Makerでさっさと帰る話。 - Perl Advent Calendar Japan 2011 Casual Track|http://perl-users.jp/articles/advent-calendar/2011/casual/9>
+
+L<teng: #09 update / delete - Perl Advent Calendar Japan 2011 Teng Track|http://perl-users.jp/articles/advent-calendar/2011/teng/9>
+
+L<dbix: DBIx::QueryLog で DBI で実行された SQL を丸見えにする！ - Perl Advent Calendar Japan 2011 Dbix Track|http://perl-users.jp/articles/advent-calendar/2011/dbix/9>
+
+anysan: unavailable
+
+L<hacker: App::Donburi - IRCを使い倒すアプリ - Perl Advent Calendar Japan 2011 Hacker Track|http://perl-users.jp/articles/advent-calendar/2011/hacker/9>
+
+L<test: テストだってテストが必要です - Perl Advent Calendar Japan 2011 Test Track|http://perl-users.jp/articles/advent-calendar/2011/test/9>
+
+amon2: unavailable
+
+english: unavailable
+
+=head1 Python
+
+L<Ball Pythons: December 9 - Advent calendar - World of Ball Pythons|http://www.worldofballpythons.com/christmas/9/>
+

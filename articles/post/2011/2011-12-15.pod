@@ -1,0 +1,38 @@
+title: 2011-12-15
+author: len jaffe <lenjaffe@lenjaffe.com>
+topic: Perl Advent Planet
+
+=head1 Perl
+
+L<Perl:  Perl Advent Calendar 2011 -  Install Even Less  |http://perladvent.org/2011/2011-12-15.html>
+
+L<Catalyst: Catalyst Advent Calendar - Day 15|http://www.catalystframework.org/calendar/2011/15>
+
+L<Dancer:  Sending email in Dancer using Dancer::Plugin::Email - PerlDancer Advent Calendar|http://advent.perldancer.org/2011/15>
+
+L<Perl 6: 2011  December  15 &laquo; Perl 6 Advent Calendar|http://perl6advent.wordpress.com/2011/12/15/>
+
+=head2 Perl Advent Calendar Japan:
+
+L<acme: 将　　　　　（Acme::Shorten::ZoffixsModuleNames） - Perl Advent Calendar Japan 2011 Acme Track|http://perl-users.jp/articles/advent-calendar/2011/acme/15>
+
+L<casual: TheSchwartzでちょっとした大きなデータを扱いたい！ - Perl Advent Calendar Japan 2011 Casual Track|http://perl-users.jp/articles/advent-calendar/2011/casual/15>
+
+L<teng: #15 schema migration - Perl Advent Calendar Japan 2011 Teng Track|http://perl-users.jp/articles/advent-calendar/2011/teng/15>
+
+L<dbix: Javaで便利だと思ったORMをDBIxなモジュールで頑張って再現する - Perl Advent Calendar Japan 2011 Dbix Track|http://perl-users.jp/articles/advent-calendar/2011/dbix/15>
+
+anysan: unavailable
+
+L<hacker: Text::AAlib - すべての画像を AAに - Perl Advent Calendar Japan 2011 Hacker Track|http://perl-users.jp/articles/advent-calendar/2011/hacker/15>
+
+L<test: テストのカバレッジを出す - Perl Advent Calendar Japan 2011 Test Track|http://perl-users.jp/articles/advent-calendar/2011/test/15>
+
+amon2: unavailable
+
+english: unavailable
+
+=head1 Python
+
+L<Ball Pythons: December 15 - Advent calendar - World of Ball Pythons|http://www.worldofballpythons.com/christmas/15/>
+

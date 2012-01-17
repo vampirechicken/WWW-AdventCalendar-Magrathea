@@ -1,0 +1,38 @@
+title: 2011-12-14
+author: len jaffe <lenjaffe@lenjaffe.com>
+topic: Perl Advent Planet
+
+=head1 Perl
+
+L<Perl|http://perladvent.org/2011/2011-12-14.html>
+
+L<Catalyst|http://www.catalystframework.org/calendar/2011/14>
+
+L<Dancer|http://advent.perldancer.org/2011/14>
+
+L<Perl 6|http://perl6advent.wordpress.com/2011/12/14/>
+
+=head2 Perl Advent Calendar Japan:
+
+L<acme|http://perl-users.jp/articles/advent-calendar/2011/acme/14>
+
+L<casual|http://perl-users.jp/articles/advent-calendar/2011/casual/14>
+
+L<teng|http://perl-users.jp/articles/advent-calendar/2011/teng/14>
+
+L<dbix|http://perl-users.jp/articles/advent-calendar/2011/dbix/14>
+
+L<anysan|http://perl-users.jp/articles/advent-calendar/2011/anysan/14>
+
+L<hacker|http://perl-users.jp/articles/advent-calendar/2011/hacker/14>
+
+L<test|http://perl-users.jp/articles/advent-calendar/2011/test/14>
+
+L<amon2|http://perl-users.jp/articles/advent-calendar/2011/amon2/14>
+
+L<english|http://perl-users.jp/articles/advent-calendar/2011/english/14>
+
+=head1 Python
+
+L<Ball Pythons|http://www.worldofballpythons.com/christmas/14/>
+

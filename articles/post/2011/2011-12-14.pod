@@ -1,0 +1,38 @@
+title: 2011-12-14
+author: len jaffe <lenjaffe@lenjaffe.com>
+topic: Perl Advent Planet
+
+=head1 Perl
+
+L<Perl:  Perl Advent Calendar 2011 -  Don&#39;t Get Kickbanned  |http://perladvent.org/2011/2011-12-14.html>
+
+L<Catalyst: Catalyst Advent Calendar - Day 31|http://www.catalystframework.org/calendar/2011/14>
+
+L<Dancer:  Dynamic AJAX charting with Dancer and Highcharts - PerlDancer Advent Calendar|http://advent.perldancer.org/2011/14>
+
+L<Perl 6: 2011  December  14 &laquo; Perl 6 Advent Calendar|http://perl6advent.wordpress.com/2011/12/14/>
+
+=head2 Perl Advent Calendar Japan:
+
+L<acme: 玉　　　　　（Acme::Magic8Ball） - Perl Advent Calendar Japan 2011 Acme Track|http://perl-users.jp/articles/advent-calendar/2011/acme/14>
+
+L<casual: Geo::Coordinates::Converter - 位置座標の測地系やフォーマットを変換する - Perl Advent Calendar Japan 2011 Casual Track|http://perl-users.jp/articles/advent-calendar/2011/casual/14>
+
+L<teng: #14 schema dumper - Perl Advent Calendar Japan 2011 Teng Track|http://perl-users.jp/articles/advent-calendar/2011/teng/14>
+
+L<dbix: DBIx::DBSchema: 環境ごとのテーブルスキーマを管理したい、したかったんだ… - Perl Advent Calendar Japan 2011 Dbix Track|http://perl-users.jp/articles/advent-calendar/2011/dbix/14>
+
+anysan: unavailable
+
+L<hacker: Data::Monad::CondVar でAnyEvent を使いやすくする - Perl Advent Calendar Japan 2011 Hacker Track|http://perl-users.jp/articles/advent-calendar/2011/hacker/14>
+
+L<test: Test::Exception で Death テスト - Perl Advent Calendar Japan 2011 Test Track|http://perl-users.jp/articles/advent-calendar/2011/test/14>
+
+amon2: unavailable
+
+english: unavailable
+
+=head1 Python
+
+L<Ball Pythons: December 14 - Advent calendar - World of Ball Pythons|http://www.worldofballpythons.com/christmas/14/>
+

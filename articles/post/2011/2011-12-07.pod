@@ -1,0 +1,38 @@
+title: 2011-12-07
+author: len jaffe <lenjaffe@lenjaffe.com>
+topic: Perl Advent Planet
+
+=head1 Perl
+
+L<Perl:  Perl Advent Calendar 2011 -  Unwrapping the Package(::Stash)  |http://perladvent.org/2011/2011-12-07.html>
+
+L<Catalyst: Catalyst Advent Calendar - Day 31|http://www.catalystframework.org/calendar/2011/7>
+
+L<Dancer:  Building a blog engine using Perl Dancer - PerlDancer Advent Calendar|http://advent.perldancer.org/2011/7>
+
+L<Perl 6: 2011  December  07 &laquo; Perl 6 Advent Calendar|http://perl6advent.wordpress.com/2011/12/7/>
+
+=head2 Perl Advent Calendar Japan:
+
+L<acme: Acme::KamenriderOOO - 仮面ライダーオーズに変身してみよう - Perl Advent Calendar Japan 2011 Acme Track|http://perl-users.jp/articles/advent-calendar/2011/acme/7>
+
+L<casual: かゆいところに手が届くマイナーCPANモジュールランキング - Perl Advent Calendar Japan 2011 Casual Track|http://perl-users.jp/articles/advent-calendar/2011/casual/7>
+
+L<teng: #07 Teng::Iterator - Perl Advent Calendar Japan 2011 Teng Track|http://perl-users.jp/articles/advent-calendar/2011/teng/7>
+
+L<dbix: ベンチどうしますか？ - Perl Advent Calendar Japan 2011 Dbix Track|http://perl-users.jp/articles/advent-calendar/2011/dbix/7>
+
+anysan: unavailable
+
+L<hacker: Time::Piece::Over24 - 24時以降の時間をTime::Pieceで扱う - Perl Advent Calendar Japan 2011 Hacker Track|http://perl-users.jp/articles/advent-calendar/2011/hacker/7>
+
+L<test: Test::MockTime - 時間にまつわるtest - Perl Advent Calendar Japan 2011 Test Track|http://perl-users.jp/articles/advent-calendar/2011/test/7>
+
+L<amon2: caym.js の dispatcher について - Perl Advent Calendar Japan 2011 Amon2 Track|http://perl-users.jp/articles/advent-calendar/2011/amon2/7>
+
+english: unavailable
+
+=head1 Python
+
+L<Ball Pythons: December 7 - Advent calendar - World of Ball Pythons|http://www.worldofballpythons.com/christmas/7/>
+

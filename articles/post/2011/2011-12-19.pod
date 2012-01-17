@@ -1,0 +1,38 @@
+title: 2011-12-19
+author: len jaffe <lenjaffe@lenjaffe.com>
+topic: Perl Advent Planet
+
+=head1 Perl
+
+L<Perl:  Perl Advent Calendar 2011 -  Process ALL the FILES!  |http://perladvent.org/2011/2011-12-19.html>
+
+L<Catalyst: Catalyst Advent Calendar - Day 31|http://www.catalystframework.org/calendar/2011/19>
+
+L<Dancer:  How to use Dancer::Plugin::Redis - PerlDancer Advent Calendar|http://advent.perldancer.org/2011/19>
+
+L<Perl 6: 2011  December  19 &laquo; Perl 6 Advent Calendar|http://perl6advent.wordpress.com/2011/12/19/>
+
+=head2 Perl Advent Calendar Japan:
+
+L<acme: Acme何thing?　出題編 - Perl Advent Calendar Japan 2011 Acme Track|http://perl-users.jp/articles/advent-calendar/2011/acme/19>
+
+L<casual: Smart::Matchで快適スマートマッチ - Perl Advent Calendar Japan 2011 Casual Track|http://perl-users.jp/articles/advent-calendar/2011/casual/19>
+
+L<teng: #19 標準Plugin1 - Perl Advent Calendar Japan 2011 Teng Track|http://perl-users.jp/articles/advent-calendar/2011/teng/19>
+
+L<dbix: migrationライブラリの紹介 - Perl Advent Calendar Japan 2011 Dbix Track|http://perl-users.jp/articles/advent-calendar/2011/dbix/19>
+
+anysan: unavailable
+
+L<hacker: dotcloudで複数サーバーが必要なシステムを立ち上げたりした話 2011年12月版 - Perl Advent Calendar Japan 2011 Hacker Track|http://perl-users.jp/articles/advent-calendar/2011/hacker/19>
+
+L<test: データの偏りを考慮したデータ増幅：【続】PerlとOracleDatabaseでの性能試験 - Perl Advent Calendar Japan 2011 Test Track|http://perl-users.jp/articles/advent-calendar/2011/test/19>
+
+amon2: unavailable
+
+english: unavailable
+
+=head1 Python
+
+L<Ball Pythons: December 19 - Advent calendar - World of Ball Pythons|http://www.worldofballpythons.com/christmas/19/>
+

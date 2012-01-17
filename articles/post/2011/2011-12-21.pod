@@ -1,0 +1,38 @@
+title: 2011-12-21
+author: len jaffe <lenjaffe@lenjaffe.com>
+topic: Perl Advent Planet
+
+=head1 Perl
+
+L<Perl:  Perl Advent Calendar 2011 -  A Shortcut to Unicode  |http://perladvent.org/2011/2011-12-21.html>
+
+L<Catalyst: Catalyst Advent Calendar - Day 31|http://www.catalystframework.org/calendar/2011/21>
+
+L<Dancer:  Making RSS feeds using Dancer::Plugin::Feed - PerlDancer Advent Calendar|http://advent.perldancer.org/2011/21>
+
+L<Perl 6: 2011  December  21 &laquo; Perl 6 Advent Calendar|http://perl6advent.wordpress.com/2011/12/21/>
+
+=head2 Perl Advent Calendar Japan:
+
+L<acme: Acme何thing?　番外編 - Perl Advent Calendar Japan 2011 Acme Track|http://perl-users.jp/articles/advent-calendar/2011/acme/21>
+
+L<casual: Getopt::Longでコマンドラインのオプション指定をサクっと簡単に取得する - Perl Advent Calendar Japan 2011 Casual Track|http://perl-users.jp/articles/advent-calendar/2011/casual/21>
+
+teng: unavailable
+
+L<dbix: SQL::Interpで生がお好きなあなたも満足 - Perl Advent Calendar Japan 2011 Dbix Track|http://perl-users.jp/articles/advent-calendar/2011/dbix/21>
+
+anysan: unavailable
+
+L<hacker: Perl::Metrics::Lite - プラガブルなメトリクス測定モジュール - Perl Advent Calendar Japan 2011 Hacker Track|http://perl-users.jp/articles/advent-calendar/2011/hacker/21>
+
+L<test: prove についてのおさらい - Perl Advent Calendar Japan 2011 Test Track|http://perl-users.jp/articles/advent-calendar/2011/test/21>
+
+amon2: unavailable
+
+english: unavailable
+
+=head1 Python
+
+L<Ball Pythons: December 21 - Advent calendar - World of Ball Pythons|http://www.worldofballpythons.com/christmas/21/>
+

@@ -1,0 +1,38 @@
+title: 2011-12-05
+author: len jaffe <lenjaffe@lenjaffe.com>
+topic: Perl Advent Planet
+
+=head1 Perl
+
+L<Perl:  Perl Advent Calendar 2011 -  Stupid Command Line Tricks  |http://perladvent.org/2011/2011-12-05.html>
+
+L<Catalyst: Catalyst Advent Calendar - Day 31|http://www.catalystframework.org/calendar/2011/5>
+
+L<Dancer:  Easy Database Access with Dancer::Plugin::Database - PerlDancer Advent Calendar|http://advent.perldancer.org/2011/5>
+
+L<Perl 6: 2011  December  05 &laquo; Perl 6 Advent Calendar|http://perl6advent.wordpress.com/2011/12/5/>
+
+=head2 Perl Advent Calendar Japan:
+
+L<acme: Acme::Jiro - ラーメン二郎ジェネレータ in Perl - Perl Advent Calendar Japan 2011 Acme Track|http://perl-users.jp/articles/advent-calendar/2011/acme/5>
+
+L<casual: CGI::Expand - フラットなハッシュをネストデータに変換 - Perl Advent Calendar Japan 2011 Casual Track|http://perl-users.jp/articles/advent-calendar/2011/casual/5>
+
+L<teng: #05 Teng::Row - Perl Advent Calendar Japan 2011 Teng Track|http://perl-users.jp/articles/advent-calendar/2011/teng/5>
+
+L<dbix: PerlのO/Rマッパーよくある機能一覧 - Perl Advent Calendar Japan 2011 Dbix Track|http://perl-users.jp/articles/advent-calendar/2011/dbix/5>
+
+L<anysan: 目標達成カウントダウンを華々しく - Perl Advent Calendar Japan 2011 Anysan Track|http://perl-users.jp/articles/advent-calendar/2011/anysan/5>
+
+L<hacker: Text::UnicodeTable::Simple - 全角文字を含むテキストテーブルを描く - Perl Advent Calendar Japan 2011 Hacker Track|http://perl-users.jp/articles/advent-calendar/2011/hacker/5>
+
+L<test: Perl から Hadoop と連携したテストをしてみる - Perl Advent Calendar Japan 2011 Test Track|http://perl-users.jp/articles/advent-calendar/2011/test/5>
+
+L<amon2: Amon2 と DotCloud - Perl Advent Calendar Japan 2011 Amon2 Track|http://perl-users.jp/articles/advent-calendar/2011/amon2/5>
+
+english: unavailable
+
+=head1 Python
+
+L<Ball Pythons: December 5 - Advent calendar - World of Ball Pythons|http://www.worldofballpythons.com/christmas/5/>
+
