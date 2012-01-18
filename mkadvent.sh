@@ -6,7 +6,7 @@ ADVCAL="/usr/bin/env advcal"
 PERL="/usr/bin/env perl"
 SCP="/usr/bin/env scp"
 
-YEAR=2011
+YEAR=$1
 OUTDIR=out/${YEAR}
 CONFIGDIR=config/${YEAR}
 ARTICLE_DIR=articles/post/${YEAR}
