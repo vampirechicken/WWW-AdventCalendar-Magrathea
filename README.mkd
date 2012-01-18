@@ -1,6 +1,6 @@
 
-WWW::AdventCalendar::Magrathea is a set of templates, perl programs and shell scripts that enable one to automate the content creation for 
-and advent calendar.  
+WWW::AdventCalendar::Magrathea is a set of templates, perl programs and shell scripts 
+that enable one to automate the content creation of an advent calendar.
 
 I created it to help automate the PerlAdventPlanet Advent Calendar.  I read a template of links, fetch the web page,
 and extract the title for use as the link's anchor text.
