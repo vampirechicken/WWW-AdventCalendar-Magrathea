@@ -64,7 +64,7 @@ sub initialize_year {
 sub make_dir {
   my $dir = shift;
   return if -e -d $dir;
-  make_path($dir, { mode => 0644 }) || die "could not create $dir: $!";
+  make_path($dir, { mode => 0755 }) || die "could not create $dir: $!";
 }
 
 sub make_prefile {
