@@ -7,12 +7,11 @@ and extract the title for use as the link's anchor text.
 
 
 TODO:
-1) Documentation
-  - how to install and configure
-  - how to run
-  - how to modify preprocessor templates to create a new planey
-2) Package it and put it on the CPAN
-3) Add year relinking logic so that when we add new year to the calendar, the adjacent index.html pages
-   are updated to link to the new years index.html
-4) Add logic so that the three steps of the mkadvent.sh can be run individually, and with the option to 
-   quit after each step
+1. Documentation
+  * how to install and configure
+  * how to run
+  * how to modify preprocessor templates to create a new planey
+2. Package it and put it on the CPAN
+3. Add year relinking logic so that when we add new year to the calendar, the adjacent index.html pages are updated to link to the new years index.html
+4. Add logic so that the three steps of the mkadvent.sh can be run individually, and with the option to quit after each step
+5. Track last-midified times/dependencies so that we can avoid processing unmodified day-pods.
