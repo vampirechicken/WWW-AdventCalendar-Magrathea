@@ -11,10 +11,8 @@ while [ -n "$1" ]; do
   OUTDIR=out/${YEAR}
   CONFIGDIR=config/${YEAR}
   ARTICLE_DIR=articles/post/${YEAR}
-  URI_BASE=theycomewithcheese.com/PerlAdventPlanet/${YEAR}
-  #URI=http://${URI_BASE}
 
-  HTML_ROOT=laj@vampirechicken.com:/home/laj/${URI_BASE}
+  HTML_ROOT=/home/len/PerlAdventPlanet/${YEAR}
 
   cd ${RUNDIR}
   if [ ! -d $OUTDIR ]; then
@@ -27,6 +25,7 @@ while [ -n "$1" ]; do
 
   ${PERL} preprocesspod.pl -v $YEAR
   ${ADVCAL} -c ${CONFIGDIR}/advent.ini --article-dir ${ARTICLE_DIR} --out ${OUTDIR}
-  ${SCP} out/${YEAR}/* ${HTML_ROOT}
+  mkdir -p ${HTML_ROOT}
+  cp -r out/${YEAR}/* ${HTML_ROOT}
   shift
 done
