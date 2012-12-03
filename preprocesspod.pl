@@ -130,6 +130,7 @@ sub preprocess {
 
     if ( $response->{content} =~ m!<title>(?<title>.*)</title>!s ) {
         $label .= ": $+{title}";
+	$label =~ s/&laquo;/--/mg;
         $label =~ s/[|]/-/mg;
         $label =~ s/\n/ /mg;
     }
