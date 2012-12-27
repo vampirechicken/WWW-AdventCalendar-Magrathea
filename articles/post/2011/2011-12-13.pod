@@ -1,0 +1,49 @@
+title: 2011-12-13
+author: len jaffe <lenjaffe@lenjaffe.com>
+topic: Perl Advent Planet
+
+=head1 Perl
+
+RJBS Hanukkah 2011: is available from L<12/21|http://lenjaffe.com/PerlAdventPlanet/2011/2011-12-21.html>-L<12/28|http://lenjaffe.com/PerlAdventPlanet/2011/2011-12-28.html>
+
+L<Perl:  Perl Advent Calendar 2011 -  The new /r flag  |http://perladvent.org/2011/2011-12-13.html>
+
+L<Catalyst: Catalyst Advent Calendar - Day 31|http://www.catalystframework.org/calendar/2011/13>
+
+L<Dancer:  Serving Files with Dancer::Plugin::DirectoryView and Dancer::Plugin::Auth::Htpasswd - PerlDancer Advent Calendar|http://advent.perldancer.org/2011/13>
+
+L<Perl 6: 2011  December  13 -- Perl 6 Advent Calendar|http://perl6advent.wordpress.com/2011/12/13/>
+
+=head2 Perl Advent Calendar Japan:
+
+L<acme: の　　　　　（Acme::No） - Perl Advent Calendar Japan 2011 Acme Track|http://perl-users.jp/articles/advent-calendar/2011/acme/13>
+
+L<casual: Net::Google::Analyticsを使ってGoogle Analyticsのデータを引っ張る - Perl Advent Calendar Japan 2011 Casual Track|http://perl-users.jp/articles/advent-calendar/2011/casual/13>
+
+L<teng: #13 schema meta data api - Perl Advent Calendar Japan 2011 Teng Track|http://perl-users.jp/articles/advent-calendar/2011/teng/13>
+
+L<dbix: DBI::Profileでお手軽プロファイリング - Perl Advent Calendar Japan 2011 Dbix Track|http://perl-users.jp/articles/advent-calendar/2011/dbix/13>
+
+anysan: is unavailable.
+
+L<hacker: Skype::AnyでSkype botを作る - Perl Advent Calendar Japan 2011 Hacker Track|http://perl-users.jp/articles/advent-calendar/2011/hacker/13>
+
+L<test: perl ♡ tests - Perl Advent Calendar Japan 2011 Test Track|http://perl-users.jp/articles/advent-calendar/2011/test/13>
+
+amon2: is unavailable.
+
+english: is unavailable.
+
+=head1 Python
+
+Ball Pythons: is unavailable.
+
+=head1 PHP
+
+The PHP advent uses slugged titles for their URIs, so we can't acdcess them by daqy of month llike everybody else.
+You can find the PHP Advent Calendar at L<PHP Advent|http://phpadvent.org/2011>
+
+=head1 SysAdvent
+ 
+Advent Calendar for System Administrators - uses slugs, not numbers - find the home page at L<SysAdvent|http://sysadvent.blogspot.com>
+

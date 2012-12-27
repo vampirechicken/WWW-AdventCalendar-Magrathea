@@ -1,0 +1,54 @@
+title: 2010-12-17
+author: len jaffe <lenjaffe@lenjaffe.com>
+topic: Perl Advent Planet
+
+=head1 Perl
+
+L<Perl: 2010 Perl Advent Calendar: Oh Voronoi night&hellip;|http://perladvent.org/2010/17/>
+
+L<Catalyst: Catalyst Advent Calendar|http://www.catalystframework.org/calendar/2010/17>
+
+L<Dancer:  Authentication with Twitter OAuth - PerlDancer Advent Calendar|http://advent.perldancer.org/2010/17>
+
+L<Perl 6: 2010  December  17 &laquo; Perl 6 Advent Calendar|http://perl6advent.wordpress.com/2010/12/17/>
+
+L<Ricardo Signes:  RJBS Advent Calendar 2010 -  When in doubt, add more globals.  |http://advent.rjbs.manxome.org/2010/2010-12-17.html>
+
+=head2 Perl Advent Calendar Japan:
+
+L<Perl6:  - JPerl Advent Calendar 2010 Perl6 Track|http://perl-users.jp/articles/advent-calendar/2010/perl6/17>
+
+L<Symbolic Programming: Borland C++ 5.5 Compilerで学ぶWin32記号プログラミング - JPerl Advent Calendar 2010 Sym Track|http://perl-users.jp/articles/advent-calendar/2010/sym/17>
+
+L<Meta Advent Calendar:  - JPerl Advent Calendar 2010 Meta_adcal Track|http://perl-users.jp/articles/advent-calendar/2010/meta_adcal/17>
+
+L<Win32: Cygwin Perlに関する小ネタ - JPerl Advent Calendar 2010 Win32 Track|http://perl-users.jp/articles/advent-calendar/2010/win32/17>
+
+L<Acme: Acme::BrainfucktoryでBrainf*ckをもっと簡単に - JPerl Advent Calendar 2010 Acme Track|http://perl-users.jp/articles/advent-calendar/2010/acme/17>
+
+L<English: Smart::Args - smart argument validation - JPerl Advent Calendar 2010 English Track|http://perl-users.jp/articles/advent-calendar/2010/english/17>
+
+L<Casual: Perl で Amazon S3 をあつかう Net::Amazon::S3 - JPerl Advent Calendar 2010 Casual Track|http://perl-users.jp/articles/advent-calendar/2010/casual/17>
+
+L<Hacker: アレしたあとにコレしたい！ - JPerl Advent Calendar 2010 Hacker Track|http://perl-users.jp/articles/advent-calendar/2010/hacker/17>
+
+teng: is unavailable.
+
+=head1 Entrepreneurship Advent
+
+24 Ways to Start: is unavailable.
+
+=head1 PHP
+
+The PHP advent uses slugged titles for their URIs, so we can't acdcess them by day of month llike everybody else.
+You can find the PHP Advent Calendar here
+L<PHPadvent: PHP Advent 2010|http://www.phpadvent.org/2010>
+
+=head1 HTML5 Adventure Calendar
+
+HTML5: is unavailable.
+
+=head1 SysAdvent
+ 
+L<SysAdvent: sysadvent|http://sysadvent.blogspot.com>
+

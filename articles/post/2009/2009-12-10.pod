@@ -1,0 +1,42 @@
+title: 2009-12-10
+author: len jaffe <lenjaffe@lenjaffe.com>
+topic: Perl Advent Planet
+
+=head1 Perl
+
+Perl: is unavailable.
+
+L<Catalyst: Catalyst Advent Calendar - Day 10|http://www.catalystframework.org/calendar/2009/10>
+
+L<Plack: Plack Advent Calendar: December 2009|http://advent.plackperl.org/2009/12/>
+
+L<Dancer: PerlDancer Advent Calendar|http://advent.perldancer.org/2009/10>
+
+L<Perl 6: 2009  December  10 &laquo; Perl 6 Advent Calendar|http://perl6advent.wordpress.com/2009/12/10/>
+
+L<Ricardo Signes:  RJBS Advent Calendar 2009 -  MIME, Dreaming of a White Christmas  |http://advent.rjbs.manxome.org/2009/2009-12-10.html>
+
+=head2 Perl Advent Calendar Japan:
+
+Casual: is unavailable.
+
+Hacker: is unavailable.
+
+dbix-skinny: is unavailable.
+
+data-model: is unavailable.
+
+=head1 PHP
+
+The PHP advent uses slugged titles for their URIs, so we can't acdcess them by day of month llike everybody else.
+You can find the PHP Advent Calendar here
+L<PHPadvent: PHP Advent 2009|http://www.phpadvent.org/2009>
+
+=head1 SysAdvent
+ 
+L<SysAdvent: sysadvent|http://sysadvent.blogspot.com>
+ 
+=head1 Plone (Japan)
+
+L<Plone User Group Japan: Ploneのプロダクトの日本語化方法 &mdash; www.shigeo.net - 本多重夫|http://plone.jp/documentation/advent-calendar/2009/10>
+

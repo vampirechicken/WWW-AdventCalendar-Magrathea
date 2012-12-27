@@ -1,0 +1,1552 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Perl Advent Planet 2012</title><id>http://www.lenjaffe.com/PerlAdventPlanet/2012/</id><link href="http://www.lenjaffe.com/PerlAdventPlanet/2012/atom.xml" rel="self"/><updated>2012-12-27T00:29:34-05:00</updated><author><name>Len Jaffe</name></author><generator uri="http://search.cpan.org/dist/XML-Atom-SimpleFeed/" version="0.86">XML::Atom::SimpleFeed</generator><entry><title>2012-12-25</title><link href="http://www.lenjaffe.com/PerlAdventPlanet/2012/2012-12-25.html"/><id>http://www.lenjaffe.com/PerlAdventPlanet/2012/2012-12-25.html</id><summary type="html">&lt;div class=&#39;pod&#39;&gt;&lt;h2 id=&#34;Perl&#34;&gt;Perl&lt;/h2&gt;
+
+&lt;h3 id=&#34;Perl-Advent&#34;&gt;Perl Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perladvent.org/2012/2012-12-25.html&#34;&gt;Perl: Perl Advent Calendar 2012 - So long until next year! &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Catalyst-Advent&#34;&gt;Catalyst Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.catalystframework.org/calendar/2012/25&#34;&gt;Catalyst: Catalyst Advent Calendar - Day 25&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Dancer-Advent&#34;&gt;Dancer Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perldancer.org/2012/25&#34;&gt;Dancer: PerlDancer Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;OX&#34;&gt;OX&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://iinteractive.github.com/OX/advent/2012-12-25.html&#34;&gt;OX: OX Advent Calendar - Thanks! &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-6-Advent&#34;&gt;Perl 6 Advent&lt;/h3&gt;
+
+&lt;p&gt;Perl 6: appears to be unavailable on 2012-12-25 - &lt;a href=&#34;http://perl6advent.wordpress.com/2012/12/25/&#34;&gt;Perl 6: Page not found -- Perl 6 Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-Advent-Japan:&#34;&gt;Perl Advent Japan:&lt;/h3&gt;
+
+&lt;p&gt;Hacker Track: appears to be unavailable on 2012-12-25 - &lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2012/hacker/25&#34;&gt;Hacker Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Casual Track: appears to be unavailable on 2012-12-25 - &lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2012/casual/25&#34;&gt;Casual Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Seoul.pm-Perl-Advent-Calendar-2012&#34;&gt;Seoul.pm Perl Advent Calendar 2012&lt;/h3&gt;
+
+&lt;p&gt;Seoul.pm: appears to be unavailable on 2012-12-25 - &lt;a href=&#34;http://advent.perl.kr/2012/2012-12-25.html&#34;&gt;Seoul.pm: 404 Not Found&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;Not-Perl&#34;&gt;Not Perl&lt;/h2&gt;
+
+&lt;h3 id=&#34;Ruby&#34;&gt;Ruby&lt;/h3&gt;
+
+&lt;p&gt;12 Gems of Christmas: is available from &lt;a href=&#34;http://lenjaffe.com/PerlAdventPlanet/2012/2012-12-01.html&#34;&gt;12/01&lt;/a&gt;-&lt;a href=&#34;http://lenjaffe.com/PerlAdventPlanet/2012/2012-12-12.html&#34;&gt;12/12&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://qiita.com/advent-calendar/2012/ruby&#34;&gt;Qiita Ruby Advent 2012: Ruby Advent Calendar 2012 - Qiita&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Python&#34;&gt;Python&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.worldofballpythons.com/christmas/&#34;&gt;Python: Advent calendar - World of Ball Pythons&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The main advent page loads but the individual days are broken.&lt;/p&gt;
+
+&lt;h3 id=&#34;PHP-WEBadvent&#34;&gt;PHP / WEBadvent&lt;/h3&gt;
+
+&lt;p&gt;The PHP advent changed its name to &lt;a href=&#34;http://webadvent.org/2012&#34;&gt; WEBadvent: Web Advent 2012&lt;/a&gt; like the PHPadvents before it, it uses slugs instead of day numbers. This is a link to the 2012 landing page.&lt;/p&gt;
+
+&lt;h3 id=&#34;SysAdvent&#34;&gt;SysAdvent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sysadvent.blogspot.com&#34;&gt;SysAdvent: sysadvent&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Java&#34;&gt;Java&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.javaadvent.com&#34;&gt;Java Advent:: Java Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Ways-Advent&#34;&gt;24Ways Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://24ways.org/2012/&#34;&gt;24 Ways to impress your friends: 24 ways: 2012&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</summary><updated>2012-12-25T00:00:00-05:00</updated><category term="Perl Advent Calendars"/><author><name>len jaffe</name></author></entry><entry><title>2012-12-24</title><link href="http://www.lenjaffe.com/PerlAdventPlanet/2012/2012-12-24.html"/><id>http://www.lenjaffe.com/PerlAdventPlanet/2012/2012-12-24.html</id><summary type="html">&lt;div class=&#39;pod&#39;&gt;&lt;h2 id=&#34;Perl&#34;&gt;Perl&lt;/h2&gt;
+
+&lt;h3 id=&#34;Perl-Advent&#34;&gt;Perl Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perladvent.org/2012/2012-12-24.html&#34;&gt;Perl: Perl Advent Calendar 2012 - Have REST-ful Holidays &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Catalyst-Advent&#34;&gt;Catalyst Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.catalystframework.org/calendar/2012/24&#34;&gt;Catalyst: Catalyst Advent Calendar - Day 24&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Dancer-Advent&#34;&gt;Dancer Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perldancer.org/2012/24&#34;&gt;Dancer: Twas the Release Before Christmas - PerlDancer Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;OX&#34;&gt;OX&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://iinteractive.github.com/OX/advent/2012-12-24.html&#34;&gt;OX: OX Advent Calendar - Wrapping things up &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-6-Advent&#34;&gt;Perl 6 Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl6advent.wordpress.com/2012/12/24/&#34;&gt;Perl 6: 2012 December 24 -- Perl 6 Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-Advent-Japan:&#34;&gt;Perl Advent Japan:&lt;/h3&gt;
+
+&lt;p&gt;Hacker Track: appears to be unavailable on 2012-12-24 - &lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2012/hacker/24&#34;&gt;Hacker Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Casual Track: appears to be unavailable on 2012-12-24 - &lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2012/casual/24&#34;&gt;Casual Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Seoul.pm-Perl-Advent-Calendar-2012&#34;&gt;Seoul.pm Perl Advent Calendar 2012&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perl.kr/2012/2012-12-24.html&#34;&gt;Seoul.pm: &#38;#xC2A4;&#38;#xBB3C;&#38;#xB124;&#38;#xBC88;&#38;#xC9F8; &#38;#xB0A0;: &#38;#xC694;&#38;#xC998;&#38;#xC740; ZooKeeper&#38;#xB85C; &#38;#xCEE4;&#38;#xD53C;&#38;#xC20D;&#38;#xC744; &#38;#xCC28;&#38;#xB9AC;&#38;#xB354;&#38;#xB77C; - Seoul.pm &#38;#xD384; &#38;#xD06C;&#38;#xB9AC;&#38;#xC2A4;&#38;#xB9C8;&#38;#xC2A4; &#38;#xB2EC;&#38;#xB825; #2012&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;Not-Perl&#34;&gt;Not Perl&lt;/h2&gt;
+
+&lt;h3 id=&#34;Ruby&#34;&gt;Ruby&lt;/h3&gt;
+
+&lt;p&gt;12 Gems of Christmas: is available from &lt;a href=&#34;http://lenjaffe.com/PerlAdventPlanet/2012/2012-12-01.html&#34;&gt;12/01&lt;/a&gt;-&lt;a href=&#34;http://lenjaffe.com/PerlAdventPlanet/2012/2012-12-12.html&#34;&gt;12/12&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://qiita.com/advent-calendar/2012/ruby&#34;&gt;Qiita Ruby Advent 2012: Ruby Advent Calendar 2012 - Qiita&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Python&#34;&gt;Python&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.worldofballpythons.com/christmas/&#34;&gt;Python: Advent calendar - World of Ball Pythons&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The main advent page loads but the individual days are broken.&lt;/p&gt;
+
+&lt;h3 id=&#34;PHP-WEBadvent&#34;&gt;PHP / WEBadvent&lt;/h3&gt;
+
+&lt;p&gt;The PHP advent changed its name to &lt;a href=&#34;http://webadvent.org/2012&#34;&gt; WEBadvent: Web Advent 2012&lt;/a&gt; like the PHPadvents before it, it uses slugs instead of day numbers. This is a link to the 2012 landing page.&lt;/p&gt;
+
+&lt;h3 id=&#34;SysAdvent&#34;&gt;SysAdvent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sysadvent.blogspot.com&#34;&gt;SysAdvent: sysadvent&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Java&#34;&gt;Java&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.javaadvent.com&#34;&gt;Java Advent:: Java Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Ways-Advent&#34;&gt;24Ways Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://24ways.org/2012/&#34;&gt;24 Ways to impress your friends: 24 ways: 2012&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</summary><updated>2012-12-24T00:00:00-05:00</updated><category term="Perl Advent Calendars"/><author><name>len jaffe</name></author></entry><entry><title>2012-12-23</title><link href="http://www.lenjaffe.com/PerlAdventPlanet/2012/2012-12-23.html"/><id>http://www.lenjaffe.com/PerlAdventPlanet/2012/2012-12-23.html</id><summary type="html">&lt;div class=&#39;pod&#39;&gt;&lt;h2 id=&#34;Perl&#34;&gt;Perl&lt;/h2&gt;
+
+&lt;h3 id=&#34;Perl-Advent&#34;&gt;Perl Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perladvent.org/2012/2012-12-23.html&#34;&gt;Perl: Perl Advent Calendar 2012 - Give and Receive the Right Number of Gifts &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Catalyst-Advent&#34;&gt;Catalyst Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.catalystframework.org/calendar/2012/23&#34;&gt;Catalyst: Catalyst Advent Calendar - Day 23&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Dancer-Advent&#34;&gt;Dancer Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perldancer.org/2012/23&#34;&gt;Dancer: Dancer::Plugin::Adapter - PerlDancer Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;OX&#34;&gt;OX&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://iinteractive.github.com/OX/advent/2012-12-23.html&#34;&gt;OX: OX Advent Calendar - A form2email gateway in OX &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-6-Advent&#34;&gt;Perl 6 Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl6advent.wordpress.com/2012/12/23/&#34;&gt;Perl 6: 2012 December 23 -- Perl 6 Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-Advent-Japan:&#34;&gt;Perl Advent Japan:&lt;/h3&gt;
+
+&lt;p&gt;Hacker Track: appears to be unavailable on 2012-12-23 - &lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2012/hacker/23&#34;&gt;Hacker Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Casual Track: appears to be unavailable on 2012-12-23 - &lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2012/casual/23&#34;&gt;Casual Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Seoul.pm-Perl-Advent-Calendar-2012&#34;&gt;Seoul.pm Perl Advent Calendar 2012&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perl.kr/2012/2012-12-23.html&#34;&gt;Seoul.pm: &#38;#xC2A4;&#38;#xBB3C;&#38;#xC138;&#38;#xBC88;&#38;#xC9F8; &#38;#xB0A0;: &#38;#xD754;&#38;#xD55C; &#38;#xAC1C;&#38;#xBC1C; &#38;#xC774;&#38;#xC57C;&#38;#xAE30; - Seoul.pm &#38;#xD384; &#38;#xD06C;&#38;#xB9AC;&#38;#xC2A4;&#38;#xB9C8;&#38;#xC2A4; &#38;#xB2EC;&#38;#xB825; #2012&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;Not-Perl&#34;&gt;Not Perl&lt;/h2&gt;
+
+&lt;h3 id=&#34;Ruby&#34;&gt;Ruby&lt;/h3&gt;
+
+&lt;p&gt;12 Gems of Christmas: is available from &lt;a href=&#34;http://lenjaffe.com/PerlAdventPlanet/2012/2012-12-01.html&#34;&gt;12/01&lt;/a&gt;-&lt;a href=&#34;http://lenjaffe.com/PerlAdventPlanet/2012/2012-12-12.html&#34;&gt;12/12&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://qiita.com/advent-calendar/2012/ruby&#34;&gt;Qiita Ruby Advent 2012: Ruby Advent Calendar 2012 - Qiita&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Python&#34;&gt;Python&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.worldofballpythons.com/christmas/&#34;&gt;Python: Advent calendar - World of Ball Pythons&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The main advent page loads but the individual days are broken.&lt;/p&gt;
+
+&lt;h3 id=&#34;PHP-WEBadvent&#34;&gt;PHP / WEBadvent&lt;/h3&gt;
+
+&lt;p&gt;The PHP advent changed its name to &lt;a href=&#34;http://webadvent.org/2012&#34;&gt; WEBadvent: Web Advent 2012&lt;/a&gt; like the PHPadvents before it, it uses slugs instead of day numbers. This is a link to the 2012 landing page.&lt;/p&gt;
+
+&lt;h3 id=&#34;SysAdvent&#34;&gt;SysAdvent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sysadvent.blogspot.com&#34;&gt;SysAdvent: sysadvent&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Java&#34;&gt;Java&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.javaadvent.com&#34;&gt;Java Advent:: Java Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Ways-Advent&#34;&gt;24Ways Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://24ways.org/2012/&#34;&gt;24 Ways to impress your friends: 24 ways: 2012&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</summary><updated>2012-12-23T00:00:00-05:00</updated><category term="Perl Advent Calendars"/><author><name>len jaffe</name></author></entry><entry><title>2012-12-22</title><link href="http://www.lenjaffe.com/PerlAdventPlanet/2012/2012-12-22.html"/><id>http://www.lenjaffe.com/PerlAdventPlanet/2012/2012-12-22.html</id><summary type="html">&lt;div class=&#39;pod&#39;&gt;&lt;h2 id=&#34;Perl&#34;&gt;Perl&lt;/h2&gt;
+
+&lt;h3 id=&#34;Perl-Advent&#34;&gt;Perl Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perladvent.org/2012/2012-12-22.html&#34;&gt;Perl: Perl Advent Calendar 2012 - Generate static web sites using your favorite Perl framework &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Catalyst-Advent&#34;&gt;Catalyst Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.catalystframework.org/calendar/2012/22&#34;&gt;Catalyst: Catalyst Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Dancer-Advent&#34;&gt;Dancer Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perldancer.org/2012/22&#34;&gt;Dancer: Tutorial: Shrinkr, an URL shortener - PerlDancer Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;OX&#34;&gt;OX&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://iinteractive.github.com/OX/advent/2012-12-22.html&#34;&gt;OX: OX Advent Calendar - Authentication III: Return Of The Middleware &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-6-Advent&#34;&gt;Perl 6 Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl6advent.wordpress.com/2012/12/22/&#34;&gt;Perl 6: 2012 December 22 -- Perl 6 Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-Advent-Japan:&#34;&gt;Perl Advent Japan:&lt;/h3&gt;
+
+&lt;p&gt;Hacker Track: appears to be unavailable on 2012-12-22 - &lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2012/hacker/22&#34;&gt;Hacker Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Casual Track: appears to be unavailable on 2012-12-22 - &lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2012/casual/22&#34;&gt;Casual Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Seoul.pm-Perl-Advent-Calendar-2012&#34;&gt;Seoul.pm Perl Advent Calendar 2012&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perl.kr/2012/2012-12-22.html&#34;&gt;Seoul.pm: &#38;#xC2A4;&#38;#xBB3C;&#38;#xB450;&#38;#xBC88;&#38;#xC9F8; &#38;#xB0A0;: &#38;#xBCF4;&#38;#xBA74;&#38;#xC11C; &#38;#xC791;&#38;#xC131;&#38;#xD558;&#38;#xB294; &#38;#xB9C8;&#38;#xD06C;&#38;#xB2E4;&#38;#xC6B4; &#38;#xD3B8;&#38;#xC9D1;&#38;#xAE30; - Seoul.pm &#38;#xD384; &#38;#xD06C;&#38;#xB9AC;&#38;#xC2A4;&#38;#xB9C8;&#38;#xC2A4; &#38;#xB2EC;&#38;#xB825; #2012&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;Not-Perl&#34;&gt;Not Perl&lt;/h2&gt;
+
+&lt;h3 id=&#34;Ruby&#34;&gt;Ruby&lt;/h3&gt;
+
+&lt;p&gt;12 Gems of Christmas: is available from &lt;a href=&#34;http://lenjaffe.com/PerlAdventPlanet/2012/2012-12-01.html&#34;&gt;12/01&lt;/a&gt;-&lt;a href=&#34;http://lenjaffe.com/PerlAdventPlanet/2012/2012-12-12.html&#34;&gt;12/12&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://qiita.com/advent-calendar/2012/ruby&#34;&gt;Qiita Ruby Advent 2012: Ruby Advent Calendar 2012 - Qiita&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Python&#34;&gt;Python&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.worldofballpythons.com/christmas/&#34;&gt;Python: Advent calendar - World of Ball Pythons&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The main advent page loads but the individual days are broken.&lt;/p&gt;
+
+&lt;h3 id=&#34;PHP-WEBadvent&#34;&gt;PHP / WEBadvent&lt;/h3&gt;
+
+&lt;p&gt;The PHP advent changed its name to &lt;a href=&#34;http://webadvent.org/2012&#34;&gt; WEBadvent: Web Advent 2012&lt;/a&gt; like the PHPadvents before it, it uses slugs instead of day numbers. This is a link to the 2012 landing page.&lt;/p&gt;
+
+&lt;h3 id=&#34;SysAdvent&#34;&gt;SysAdvent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sysadvent.blogspot.com&#34;&gt;SysAdvent: sysadvent&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Java&#34;&gt;Java&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.javaadvent.com&#34;&gt;Java Advent:: Java Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Ways-Advent&#34;&gt;24Ways Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://24ways.org/2012/&#34;&gt;24 Ways to impress your friends: 24 ways: 2012&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</summary><updated>2012-12-22T00:00:00-05:00</updated><category term="Perl Advent Calendars"/><author><name>len jaffe</name></author></entry><entry><title>2012-12-21</title><link href="http://www.lenjaffe.com/PerlAdventPlanet/2012/2012-12-21.html"/><id>http://www.lenjaffe.com/PerlAdventPlanet/2012/2012-12-21.html</id><summary type="html">&lt;div class=&#39;pod&#39;&gt;&lt;h2 id=&#34;Perl&#34;&gt;Perl&lt;/h2&gt;
+
+&lt;h3 id=&#34;Perl-Advent&#34;&gt;Perl Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perladvent.org/2012/2012-12-21.html&#34;&gt;Perl: Perl Advent Calendar 2012 - Set-based DBIx::Class &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Catalyst-Advent&#34;&gt;Catalyst Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.catalystframework.org/calendar/2012/21&#34;&gt;Catalyst: Catalyst Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Dancer-Advent&#34;&gt;Dancer Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perldancer.org/2012/21&#34;&gt;Dancer: Writing a Quick NaNoWriMo Graphing Web Application with Dancer - PerlDancer Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;OX&#34;&gt;OX&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://iinteractive.github.com/OX/advent/2012-12-21.html&#34;&gt;OX: OX Advent Calendar - OX off the Web &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-6-Advent&#34;&gt;Perl 6 Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl6advent.wordpress.com/2012/12/21/&#34;&gt;Perl 6: 2012 December 21 -- Perl 6 Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-Advent-Japan:&#34;&gt;Perl Advent Japan:&lt;/h3&gt;
+
+&lt;p&gt;Hacker Track: appears to be unavailable on 2012-12-21 - &lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2012/hacker/21&#34;&gt;Hacker Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Casual Track: appears to be unavailable on 2012-12-21 - &lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2012/casual/21&#34;&gt;Casual Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Seoul.pm-Perl-Advent-Calendar-2012&#34;&gt;Seoul.pm Perl Advent Calendar 2012&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perl.kr/2012/2012-12-21.html&#34;&gt;Seoul.pm: &#38;#xC2A4;&#38;#xBB3C;&#38;#xD55C;&#38;#xBC88;&#38;#xC9F8; &#38;#xB0A0;: IRC &#38;#xB5A1;&#38;#xBC25; &#38;#xC544;&#38;#xCE74;&#38;#xC774;&#38;#xBE0C; &#38;#xB9CC;&#38;#xB4E4;&#38;#xAE30; - Seoul.pm &#38;#xD384; &#38;#xD06C;&#38;#xB9AC;&#38;#xC2A4;&#38;#xB9C8;&#38;#xC2A4; &#38;#xB2EC;&#38;#xB825; #2012&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;Not-Perl&#34;&gt;Not Perl&lt;/h2&gt;
+
+&lt;h3 id=&#34;Ruby&#34;&gt;Ruby&lt;/h3&gt;
+
+&lt;p&gt;12 Gems of Christmas: is available from &lt;a href=&#34;http://lenjaffe.com/PerlAdventPlanet/2012/2012-12-01.html&#34;&gt;12/01&lt;/a&gt;-&lt;a href=&#34;http://lenjaffe.com/PerlAdventPlanet/2012/2012-12-12.html&#34;&gt;12/12&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://qiita.com/advent-calendar/2012/ruby&#34;&gt;Qiita Ruby Advent 2012: Ruby Advent Calendar 2012 - Qiita&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Python&#34;&gt;Python&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.worldofballpythons.com/christmas/&#34;&gt;Python: Advent calendar - World of Ball Pythons&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The main advent page loads but the individual days are broken.&lt;/p&gt;
+
+&lt;h3 id=&#34;PHP-WEBadvent&#34;&gt;PHP / WEBadvent&lt;/h3&gt;
+
+&lt;p&gt;The PHP advent changed its name to &lt;a href=&#34;http://webadvent.org/2012&#34;&gt; WEBadvent: Web Advent 2012&lt;/a&gt; like the PHPadvents before it, it uses slugs instead of day numbers. This is a link to the 2012 landing page.&lt;/p&gt;
+
+&lt;h3 id=&#34;SysAdvent&#34;&gt;SysAdvent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sysadvent.blogspot.com&#34;&gt;SysAdvent: sysadvent&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Java&#34;&gt;Java&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.javaadvent.com&#34;&gt;Java Advent:: Java Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Ways-Advent&#34;&gt;24Ways Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://24ways.org/2012/&#34;&gt;24 Ways to impress your friends: 24 ways: 2012&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</summary><updated>2012-12-21T00:00:00-05:00</updated><category term="Perl Advent Calendars"/><author><name>len jaffe</name></author></entry><entry><title>2012-12-20</title><link href="http://www.lenjaffe.com/PerlAdventPlanet/2012/2012-12-20.html"/><id>http://www.lenjaffe.com/PerlAdventPlanet/2012/2012-12-20.html</id><summary type="html">&lt;div class=&#39;pod&#39;&gt;&lt;h2 id=&#34;Perl&#34;&gt;Perl&lt;/h2&gt;
+
+&lt;h3 id=&#34;Perl-Advent&#34;&gt;Perl Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perladvent.org/2012/2012-12-20.html&#34;&gt;Perl: Perl Advent Calendar 2012 - Better Testing &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Catalyst-Advent&#34;&gt;Catalyst Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.catalystframework.org/calendar/2012/20&#34;&gt;Catalyst: Catalyst Advent Calendar - Day 20&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Dancer-Advent&#34;&gt;Dancer Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perldancer.org/2012/20&#34;&gt;Dancer: Using DBIx::Class within a Dancer application - PerlDancer Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;OX&#34;&gt;OX&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://iinteractive.github.com/OX/advent/2012-12-20.html&#34;&gt;OX: OX Advent Calendar - Models and Views &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-6-Advent&#34;&gt;Perl 6 Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl6advent.wordpress.com/2012/12/20/&#34;&gt;Perl 6: 2012 December 20 -- Perl 6 Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-Advent-Japan:&#34;&gt;Perl Advent Japan:&lt;/h3&gt;
+
+&lt;p&gt;Hacker Track: appears to be unavailable on 2012-12-20 - &lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2012/hacker/20&#34;&gt;Hacker Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Casual Track: appears to be unavailable on 2012-12-20 - &lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2012/casual/20&#34;&gt;Casual Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Seoul.pm-Perl-Advent-Calendar-2012&#34;&gt;Seoul.pm Perl Advent Calendar 2012&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perl.kr/2012/2012-12-20.html&#34;&gt;Seoul.pm: &#38;#xC2A4;&#38;#xBB34;&#38;#xBC88;&#38;#xC9F8; &#38;#xB0A0;: Plack&#38;#xC73C;&#38;#xB85C; &#38;#xC6F9; &#38;#xC11C;&#38;#xBC84; &#38;#xC5C6;&#38;#xC774; CGI &#38;#xC2A4;&#38;#xD06C;&#38;#xB9BD;&#38;#xD2B8; &#38;#xC2E4;&#38;#xD589;&#38;#xD558;&#38;#xAE30; - Seoul.pm &#38;#xD384; &#38;#xD06C;&#38;#xB9AC;&#38;#xC2A4;&#38;#xB9C8;&#38;#xC2A4; &#38;#xB2EC;&#38;#xB825; #2012&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;Not-Perl&#34;&gt;Not Perl&lt;/h2&gt;
+
+&lt;h3 id=&#34;Ruby&#34;&gt;Ruby&lt;/h3&gt;
+
+&lt;p&gt;12 Gems of Christmas: is available from &lt;a href=&#34;http://lenjaffe.com/PerlAdventPlanet/2012/2012-12-01.html&#34;&gt;12/01&lt;/a&gt;-&lt;a href=&#34;http://lenjaffe.com/PerlAdventPlanet/2012/2012-12-12.html&#34;&gt;12/12&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://qiita.com/advent-calendar/2012/ruby&#34;&gt;Qiita Ruby Advent 2012: Ruby Advent Calendar 2012 - Qiita&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Python&#34;&gt;Python&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.worldofballpythons.com/christmas/&#34;&gt;Python: Advent calendar - World of Ball Pythons&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The main advent page loads but the individual days are broken.&lt;/p&gt;
+
+&lt;h3 id=&#34;PHP-WEBadvent&#34;&gt;PHP / WEBadvent&lt;/h3&gt;
+
+&lt;p&gt;The PHP advent changed its name to &lt;a href=&#34;http://webadvent.org/2012&#34;&gt; WEBadvent: Web Advent 2012&lt;/a&gt; like the PHPadvents before it, it uses slugs instead of day numbers. This is a link to the 2012 landing page.&lt;/p&gt;
+
+&lt;h3 id=&#34;SysAdvent&#34;&gt;SysAdvent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sysadvent.blogspot.com&#34;&gt;SysAdvent: sysadvent&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Java&#34;&gt;Java&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.javaadvent.com&#34;&gt;Java Advent:: Java Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Ways-Advent&#34;&gt;24Ways Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://24ways.org/2012/&#34;&gt;24 Ways to impress your friends: 24 ways: 2012&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</summary><updated>2012-12-20T00:00:00-05:00</updated><category term="Perl Advent Calendars"/><author><name>len jaffe</name></author></entry><entry><title>2012-12-19</title><link href="http://www.lenjaffe.com/PerlAdventPlanet/2012/2012-12-19.html"/><id>http://www.lenjaffe.com/PerlAdventPlanet/2012/2012-12-19.html</id><summary type="html">&lt;div class=&#39;pod&#39;&gt;&lt;h2 id=&#34;Perl&#34;&gt;Perl&lt;/h2&gt;
+
+&lt;h3 id=&#34;Perl-Advent&#34;&gt;Perl Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perladvent.org/2012/2012-12-19.html&#34;&gt;Perl: Perl Advent Calendar 2012 - A Cache Present &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Catalyst-Advent&#34;&gt;Catalyst Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.catalystframework.org/calendar/2012/19&#34;&gt;Catalyst: Catalyst Advent Calendar - Day 19&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Dancer-Advent&#34;&gt;Dancer Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perldancer.org/2012/19&#34;&gt;Dancer: Meet Dancer users - The Game Crafter - PerlDancer Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;OX&#34;&gt;OX&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://iinteractive.github.com/OX/advent/2012-12-19.html&#34;&gt;OX: OX Advent Calendar - Under the Hood &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-6-Advent&#34;&gt;Perl 6 Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl6advent.wordpress.com/2012/12/19/&#34;&gt;Perl 6: 2012 December 19 -- Perl 6 Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-Advent-Japan:&#34;&gt;Perl Advent Japan:&lt;/h3&gt;
+
+&lt;p&gt;Hacker Track: appears to be unavailable on 2012-12-19 - &lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2012/hacker/19&#34;&gt;Hacker Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Casual Track: appears to be unavailable on 2012-12-19 - &lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2012/casual/19&#34;&gt;Casual Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Seoul.pm-Perl-Advent-Calendar-2012&#34;&gt;Seoul.pm Perl Advent Calendar 2012&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perl.kr/2012/2012-12-19.html&#34;&gt;Seoul.pm: &#38;#xC5F4;&#38;#xC544;&#38;#xD649;&#38;#xBC88;&#38;#xC9F8; &#38;#xB0A0;: HTTP &#38;#xB2E4;&#38;#xC6B4;&#38;#xB85C;&#38;#xB4DC;&#38;#xC5D0; &#38;#xB0A0;&#38;#xAC1C;&#38;#xB97C; - Seoul.pm &#38;#xD384; &#38;#xD06C;&#38;#xB9AC;&#38;#xC2A4;&#38;#xB9C8;&#38;#xC2A4; &#38;#xB2EC;&#38;#xB825; #2012&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;Not-Perl&#34;&gt;Not Perl&lt;/h2&gt;
+
+&lt;h3 id=&#34;Ruby&#34;&gt;Ruby&lt;/h3&gt;
+
+&lt;p&gt;12 Gems of Christmas: is available from &lt;a href=&#34;http://lenjaffe.com/PerlAdventPlanet/2012/2012-12-01.html&#34;&gt;12/01&lt;/a&gt;-&lt;a href=&#34;http://lenjaffe.com/PerlAdventPlanet/2012/2012-12-12.html&#34;&gt;12/12&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://qiita.com/advent-calendar/2012/ruby&#34;&gt;Qiita Ruby Advent 2012: Ruby Advent Calendar 2012 - Qiita&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Python&#34;&gt;Python&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.worldofballpythons.com/christmas/&#34;&gt;Python: Advent calendar - World of Ball Pythons&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The main advent page loads but the individual days are broken.&lt;/p&gt;
+
+&lt;h3 id=&#34;PHP-WEBadvent&#34;&gt;PHP / WEBadvent&lt;/h3&gt;
+
+&lt;p&gt;The PHP advent changed its name to &lt;a href=&#34;http://webadvent.org/2012&#34;&gt; WEBadvent: Web Advent 2012&lt;/a&gt; like the PHPadvents before it, it uses slugs instead of day numbers. This is a link to the 2012 landing page.&lt;/p&gt;
+
+&lt;h3 id=&#34;SysAdvent&#34;&gt;SysAdvent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sysadvent.blogspot.com&#34;&gt;SysAdvent: sysadvent&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Java&#34;&gt;Java&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.javaadvent.com&#34;&gt;Java Advent:: Java Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Ways-Advent&#34;&gt;24Ways Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://24ways.org/2012/&#34;&gt;24 Ways to impress your friends: 24 ways: 2012&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</summary><updated>2012-12-19T00:00:00-05:00</updated><category term="Perl Advent Calendars"/><author><name>len jaffe</name></author></entry><entry><title>2012-12-18</title><link href="http://www.lenjaffe.com/PerlAdventPlanet/2012/2012-12-18.html"/><id>http://www.lenjaffe.com/PerlAdventPlanet/2012/2012-12-18.html</id><summary type="html">&lt;div class=&#39;pod&#39;&gt;&lt;h2 id=&#34;Perl&#34;&gt;Perl&lt;/h2&gt;
+
+&lt;h3 id=&#34;Perl-Advent&#34;&gt;Perl Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perladvent.org/2012/2012-12-18.html&#34;&gt;Perl: Perl Advent Calendar 2012 - Synchronous Operations are So Outdated &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Catalyst-Advent&#34;&gt;Catalyst Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.catalystframework.org/calendar/2012/18&#34;&gt;Catalyst: Catalyst Advent Calendar - Day 18&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Dancer-Advent&#34;&gt;Dancer Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perldancer.org/2012/18&#34;&gt;Dancer: Meet Dancer users - Crowdtilt - PerlDancer Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;OX&#34;&gt;OX&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://iinteractive.github.com/OX/advent/2012-12-18.html&#34;&gt;OX: OX Advent Calendar - Authentication And Authorization &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-6-Advent&#34;&gt;Perl 6 Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl6advent.wordpress.com/2012/12/18/&#34;&gt;Perl 6: 2012 December 18 -- Perl 6 Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-Advent-Japan:&#34;&gt;Perl Advent Japan:&lt;/h3&gt;
+
+&lt;p&gt;Hacker Track: appears to be unavailable on 2012-12-18 - &lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2012/hacker/18&#34;&gt;Hacker Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Casual Track: appears to be unavailable on 2012-12-18 - &lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2012/casual/18&#34;&gt;Casual Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Seoul.pm-Perl-Advent-Calendar-2012&#34;&gt;Seoul.pm Perl Advent Calendar 2012&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perl.kr/2012/2012-12-18.html&#34;&gt;Seoul.pm: &#38;#xC5F4;&#38;#xC5EC;&#38;#xB35F;&#38;#xBC88;&#38;#xC9F8; &#38;#xB0A0;: Urlader&#38;#xB85C; Perl &#38;#xC2A4;&#38;#xD06C;&#38;#xB9BD;&#38;#xD2B8;&#38;#xB97C; &#38;#xB2E8;&#38;#xC77C;&#38;#xC2E4;&#38;#xD589;&#38;#xD30C;&#38;#xC77C;&#38;#xB85C; &#38;#xB9CC;&#38;#xB4E4;&#38;#xAE30; (node.js,Python,Ruby&#38;#xB3C4; &#38;#xAC00;&#38;#xB2A5;) - Seoul.pm &#38;#xD384; &#38;#xD06C;&#38;#xB9AC;&#38;#xC2A4;&#38;#xB9C8;&#38;#xC2A4; &#38;#xB2EC;&#38;#xB825; #2012&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;Not-Perl&#34;&gt;Not Perl&lt;/h2&gt;
+
+&lt;h3 id=&#34;Ruby&#34;&gt;Ruby&lt;/h3&gt;
+
+&lt;p&gt;12 Gems of Christmas: is available from &lt;a href=&#34;http://lenjaffe.com/PerlAdventPlanet/2012/2012-12-01.html&#34;&gt;12/01&lt;/a&gt;-&lt;a href=&#34;http://lenjaffe.com/PerlAdventPlanet/2012/2012-12-12.html&#34;&gt;12/12&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://qiita.com/advent-calendar/2012/ruby&#34;&gt;Qiita Ruby Advent 2012: Ruby Advent Calendar 2012 - Qiita&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Python&#34;&gt;Python&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.worldofballpythons.com/christmas/&#34;&gt;Python: Advent calendar - World of Ball Pythons&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The main advent page loads but the individual days are broken.&lt;/p&gt;
+
+&lt;h3 id=&#34;PHP-WEBadvent&#34;&gt;PHP / WEBadvent&lt;/h3&gt;
+
+&lt;p&gt;The PHP advent changed its name to &lt;a href=&#34;http://webadvent.org/2012&#34;&gt; WEBadvent: Web Advent 2012&lt;/a&gt; like the PHPadvents before it, it uses slugs instead of day numbers. This is a link to the 2012 landing page.&lt;/p&gt;
+
+&lt;h3 id=&#34;SysAdvent&#34;&gt;SysAdvent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sysadvent.blogspot.com&#34;&gt;SysAdvent: sysadvent&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Java&#34;&gt;Java&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.javaadvent.com&#34;&gt;Java Advent:: Java Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Ways-Advent&#34;&gt;24Ways Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://24ways.org/2012/&#34;&gt;24 Ways to impress your friends: 24 ways: 2012&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</summary><updated>2012-12-18T00:00:00-05:00</updated><category term="Perl Advent Calendars"/><author><name>len jaffe</name></author></entry><entry><title>2012-12-17</title><link href="http://www.lenjaffe.com/PerlAdventPlanet/2012/2012-12-17.html"/><id>http://www.lenjaffe.com/PerlAdventPlanet/2012/2012-12-17.html</id><summary type="html">&lt;div class=&#39;pod&#39;&gt;&lt;h2 id=&#34;Perl&#34;&gt;Perl&lt;/h2&gt;
+
+&lt;h3 id=&#34;Perl-Advent&#34;&gt;Perl Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perladvent.org/2012/2012-12-17.html&#34;&gt;Perl: Perl Advent Calendar 2012 - Santa Has Dependencies Too &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Catalyst-Advent&#34;&gt;Catalyst Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.catalystframework.org/calendar/2012/17&#34;&gt;Catalyst: Catalyst Advent Calendar - Day 17&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Dancer-Advent&#34;&gt;Dancer Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perldancer.org/2012/17&#34;&gt;Dancer: Create your own Dancer 2 DSL - PerlDancer Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;OX&#34;&gt;OX&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://iinteractive.github.com/OX/advent/2012-12-17.html&#34;&gt;OX: OX Advent Calendar - Custom Route Builders &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-6-Advent&#34;&gt;Perl 6 Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl6advent.wordpress.com/2012/12/17/&#34;&gt;Perl 6: 2012 December 17 -- Perl 6 Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-Advent-Japan:&#34;&gt;Perl Advent Japan:&lt;/h3&gt;
+
+&lt;p&gt;Hacker Track: appears to be unavailable on 2012-12-17 - &lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2012/hacker/17&#34;&gt;Hacker Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Casual Track: appears to be unavailable on 2012-12-17 - &lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2012/casual/17&#34;&gt;Casual Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Seoul.pm-Perl-Advent-Calendar-2012&#34;&gt;Seoul.pm Perl Advent Calendar 2012&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perl.kr/2012/2012-12-17.html&#34;&gt;Seoul.pm: &#38;#xC5F4;&#38;#xC77C;&#38;#xACF1;&#38;#xBC88;&#38;#xC9F8; &#38;#xB0A0;: RUDY Slowloris - Seoul.pm &#38;#xD384; &#38;#xD06C;&#38;#xB9AC;&#38;#xC2A4;&#38;#xB9C8;&#38;#xC2A4; &#38;#xB2EC;&#38;#xB825; #2012&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;Not-Perl&#34;&gt;Not Perl&lt;/h2&gt;
+
+&lt;h3 id=&#34;Ruby&#34;&gt;Ruby&lt;/h3&gt;
+
+&lt;p&gt;12 Gems of Christmas: is available from &lt;a href=&#34;http://lenjaffe.com/PerlAdventPlanet/2012/2012-12-01.html&#34;&gt;12/01&lt;/a&gt;-&lt;a href=&#34;http://lenjaffe.com/PerlAdventPlanet/2012/2012-12-12.html&#34;&gt;12/12&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://qiita.com/advent-calendar/2012/ruby&#34;&gt;Qiita Ruby Advent 2012: Ruby Advent Calendar 2012 - Qiita&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Python&#34;&gt;Python&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.worldofballpythons.com/christmas/&#34;&gt;Python: Advent calendar - World of Ball Pythons&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The main advent page loads but the individual days are broken.&lt;/p&gt;
+
+&lt;h3 id=&#34;PHP-WEBadvent&#34;&gt;PHP / WEBadvent&lt;/h3&gt;
+
+&lt;p&gt;The PHP advent changed its name to &lt;a href=&#34;http://webadvent.org/2012&#34;&gt; WEBadvent: Web Advent 2012&lt;/a&gt; like the PHPadvents before it, it uses slugs instead of day numbers. This is a link to the 2012 landing page.&lt;/p&gt;
+
+&lt;h3 id=&#34;SysAdvent&#34;&gt;SysAdvent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sysadvent.blogspot.com&#34;&gt;SysAdvent: sysadvent&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Java&#34;&gt;Java&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.javaadvent.com&#34;&gt;Java Advent:: Java Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Ways-Advent&#34;&gt;24Ways Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://24ways.org/2012/&#34;&gt;24 Ways to impress your friends: 24 ways: 2012&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</summary><updated>2012-12-17T00:00:00-05:00</updated><category term="Perl Advent Calendars"/><author><name>len jaffe</name></author></entry><entry><title>2012-12-16</title><link href="http://www.lenjaffe.com/PerlAdventPlanet/2012/2012-12-16.html"/><id>http://www.lenjaffe.com/PerlAdventPlanet/2012/2012-12-16.html</id><summary type="html">&lt;div class=&#39;pod&#39;&gt;&lt;h2 id=&#34;Perl&#34;&gt;Perl&lt;/h2&gt;
+
+&lt;h3 id=&#34;Perl-Advent&#34;&gt;Perl Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perladvent.org/2012/2012-12-16.html&#34;&gt;Perl: Perl Advent Calendar 2012 - Creating Your Own Perl &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Catalyst-Advent&#34;&gt;Catalyst Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.catalystframework.org/calendar/2012/16&#34;&gt;Catalyst: Catalyst Advent Calendar - Day 16&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Dancer-Advent&#34;&gt;Dancer Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perldancer.org/2012/16&#34;&gt;Dancer: Redesigning Dancer::Plugin::Auth::Extensible - PerlDancer Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;OX&#34;&gt;OX&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://iinteractive.github.com/OX/advent/2012-12-16.html&#34;&gt;OX: OX Advent Calendar - Configuration with OX &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-6-Advent&#34;&gt;Perl 6 Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl6advent.wordpress.com/2012/12/16/&#34;&gt;Perl 6: 2012 December 16 -- Perl 6 Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-Advent-Japan:&#34;&gt;Perl Advent Japan:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2012/hacker/16&#34;&gt;Hacker Track: HTML&#38;#x306E;&#38;#x30D0;&#38;#x30EA;&#38;#x30C7;&#38;#x30FC;&#38;#x30B7;&#38;#x30E7;&#38;#x30F3;&#38;#x3092;&#38;#x3088;&#38;#x3057;&#38;#x306A;&#38;#x306B;&#38;#x3084;&#38;#x308A;&#38;#x305F;&#38;#x304F;&#38;#x3066;HTML::Lint::Pluggable&#38;#x66F8;&#38;#x3044;&#38;#x305F; - Perl Advent Calendar Japan 2012 Hacker Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2012/casual/16&#34;&gt;Casual Track: Scalar::Util::blessed&#38;#x3067;bless&#38;#x3055;&#38;#x308C;&#38;#x3061;&#38;#x3083;&#38;#x3063;&#38;#x305F;&#38;#x5224;&#38;#x5B9A;&#38;#x3059;&#38;#x308B;&#38;#x3088;&#38;#xFF01; - Perl Advent Calendar Japan 2012 Casual Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Seoul.pm-Perl-Advent-Calendar-2012&#34;&gt;Seoul.pm Perl Advent Calendar 2012&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perl.kr/2012/2012-12-16.html&#34;&gt;Seoul.pm: &#38;#xC5F4;&#38;#xC5EC;&#38;#xC12F;&#38;#xBC88;&#38;#xC9F8; &#38;#xB0A0;: Perl and Gearman - Seoul.pm &#38;#xD384; &#38;#xD06C;&#38;#xB9AC;&#38;#xC2A4;&#38;#xB9C8;&#38;#xC2A4; &#38;#xB2EC;&#38;#xB825; #2012&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;Not-Perl&#34;&gt;Not Perl&lt;/h2&gt;
+
+&lt;h3 id=&#34;Ruby&#34;&gt;Ruby&lt;/h3&gt;
+
+&lt;p&gt;12 Gems of Christmas: is available from &lt;a href=&#34;http://lenjaffe.com/PerlAdventPlanet/2012/2012-12-01.html&#34;&gt;12/01&lt;/a&gt;-&lt;a href=&#34;http://lenjaffe.com/PerlAdventPlanet/2012/2012-12-12.html&#34;&gt;12/12&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://qiita.com/advent-calendar/2012/ruby&#34;&gt;Qiita Ruby Advent 2012: Ruby Advent Calendar 2012 - Qiita&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Python&#34;&gt;Python&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.worldofballpythons.com/christmas/&#34;&gt;Python: Advent calendar - World of Ball Pythons&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The main advent page loads but the individual days are broken.&lt;/p&gt;
+
+&lt;h3 id=&#34;PHP-WEBadvent&#34;&gt;PHP / WEBadvent&lt;/h3&gt;
+
+&lt;p&gt;The PHP advent changed its name to &lt;a href=&#34;http://webadvent.org/2012&#34;&gt; WEBadvent: Web Advent 2012&lt;/a&gt; like the PHPadvents before it, it uses slugs instead of day numbers. This is a link to the 2012 landing page.&lt;/p&gt;
+
+&lt;h3 id=&#34;SysAdvent&#34;&gt;SysAdvent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sysadvent.blogspot.com&#34;&gt;SysAdvent: sysadvent&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Java&#34;&gt;Java&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.javaadvent.com&#34;&gt;Java Advent:: Java Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Ways-Advent&#34;&gt;24Ways Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://24ways.org/2012/&#34;&gt;24 Ways to impress your friends: 24 ways: 2012&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</summary><updated>2012-12-16T00:00:00-05:00</updated><category term="Perl Advent Calendars"/><author><name>len jaffe</name></author></entry><entry><title>2012-12-15</title><link href="http://www.lenjaffe.com/PerlAdventPlanet/2012/2012-12-15.html"/><id>http://www.lenjaffe.com/PerlAdventPlanet/2012/2012-12-15.html</id><summary type="html">&lt;div class=&#39;pod&#39;&gt;&lt;h2 id=&#34;Perl&#34;&gt;Perl&lt;/h2&gt;
+
+&lt;h3 id=&#34;Perl-Advent&#34;&gt;Perl Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perladvent.org/2012/2012-12-15.html&#34;&gt;Perl: Perl Advent Calendar 2012 - Gift Wrapping, part II: Locking the Room &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Catalyst-Advent&#34;&gt;Catalyst Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.catalystframework.org/calendar/2012/15&#34;&gt;Catalyst: Catalyst Advent Calendar - Day 15&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Dancer-Advent&#34;&gt;Dancer Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perldancer.org/2012/15&#34;&gt;Dancer: Dancer As A Persistent Interpreter Node - PerlDancer Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;OX&#34;&gt;OX&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://iinteractive.github.com/OX/advent/2012-12-15.html&#34;&gt;OX: OX Advent Calendar - Options For Simple Authentication &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-6-Advent&#34;&gt;Perl 6 Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl6advent.wordpress.com/2012/12/15/&#34;&gt;Perl 6: 2012 December 15 -- Perl 6 Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-Advent-Japan:&#34;&gt;Perl Advent Japan:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2012/hacker/15&#34;&gt;Hacker Track: integer&#38;#x3067;&#38;#x3061;&#38;#x3087;&#38;#x3063;&#38;#x3061;&#38;#x3085;&#38;#x901F;&#38;#x304F;&#38;#x3059;&#38;#x308B;&#38;#x304A;&#38;#x8A71; - Perl Advent Calendar Japan 2012 Hacker Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2012/casual/15&#34;&gt;Casual Track: Text::Xslate TTerse &#38;#x306E;&#38;#x6DF1;&#38;#x6DF5;&#38;#x306A;&#38;#x308B;&#38;#x7F60; - Perl Advent Calendar Japan 2012 Casual Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Seoul.pm-Perl-Advent-Calendar-2012&#34;&gt;Seoul.pm Perl Advent Calendar 2012&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perl.kr/2012/2012-12-15.html&#34;&gt;Seoul.pm: &#38;#xC5F4;&#38;#xB2E4;&#38;#xC12F;&#38;#xBC88;&#38;#xC9F8; &#38;#xB0A0;: &#38;#xC790;&#38;#xB791;&#38;#xC2A4;&#38;#xB7EC;&#38;#xC6B4; &#38;#xC6B0;&#38;#xB9AC; &#38;#xD68C;&#38;#xC0AC;&#38;#xC758; &#38;#xC228;&#38;#xC740; &#38;#xC77C;&#38;#xAFBC; &#38;#xB9CC;&#38;#xB4E4;&#38;#xAE30; - Seoul.pm &#38;#xD384; &#38;#xD06C;&#38;#xB9AC;&#38;#xC2A4;&#38;#xB9C8;&#38;#xC2A4; &#38;#xB2EC;&#38;#xB825; #2012&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;Not-Perl&#34;&gt;Not Perl&lt;/h2&gt;
+
+&lt;h3 id=&#34;Ruby&#34;&gt;Ruby&lt;/h3&gt;
+
+&lt;p&gt;12 Gems of Christmas: is available from &lt;a href=&#34;http://lenjaffe.com/PerlAdventPlanet/2012/2012-12-01.html&#34;&gt;12/01&lt;/a&gt;-&lt;a href=&#34;http://lenjaffe.com/PerlAdventPlanet/2012/2012-12-12.html&#34;&gt;12/12&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://qiita.com/advent-calendar/2012/ruby&#34;&gt;Qiita Ruby Advent 2012: Ruby Advent Calendar 2012 - Qiita&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Python&#34;&gt;Python&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.worldofballpythons.com/christmas/&#34;&gt;Python: Advent calendar - World of Ball Pythons&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The main advent page loads but the individual days are broken.&lt;/p&gt;
+
+&lt;h3 id=&#34;PHP-WEBadvent&#34;&gt;PHP / WEBadvent&lt;/h3&gt;
+
+&lt;p&gt;The PHP advent changed its name to &lt;a href=&#34;http://webadvent.org/2012&#34;&gt; WEBadvent: Web Advent 2012&lt;/a&gt; like the PHPadvents before it, it uses slugs instead of day numbers. This is a link to the 2012 landing page.&lt;/p&gt;
+
+&lt;h3 id=&#34;SysAdvent&#34;&gt;SysAdvent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sysadvent.blogspot.com&#34;&gt;SysAdvent: sysadvent&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Java&#34;&gt;Java&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.javaadvent.com&#34;&gt;Java Advent:: Java Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Ways-Advent&#34;&gt;24Ways Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://24ways.org/2012/&#34;&gt;24 Ways to impress your friends: 24 ways: 2012&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</summary><updated>2012-12-15T00:00:00-05:00</updated><category term="Perl Advent Calendars"/><author><name>len jaffe</name></author></entry><entry><title>2012-12-14</title><link href="http://www.lenjaffe.com/PerlAdventPlanet/2012/2012-12-14.html"/><id>http://www.lenjaffe.com/PerlAdventPlanet/2012/2012-12-14.html</id><summary type="html">&lt;div class=&#39;pod&#39;&gt;&lt;h2 id=&#34;Perl&#34;&gt;Perl&lt;/h2&gt;
+
+&lt;h3 id=&#34;Perl-Advent&#34;&gt;Perl Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perladvent.org/2012/2012-12-14.html&#34;&gt;Perl: Perl Advent Calendar 2012 - Self-contained applications &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Catalyst-Advent&#34;&gt;Catalyst Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.catalystframework.org/calendar/2012/14&#34;&gt;Catalyst: Catalyst Advent Calendar - Day 14&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Dancer-Advent&#34;&gt;Dancer Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perldancer.org/2012/14&#34;&gt;Dancer: Building a Search Web App with Dancer and Sphinx - PerlDancer Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;OX&#34;&gt;OX&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://iinteractive.github.com/OX/advent/2012-12-14.html&#34;&gt;OX: OX Advent Calendar - More Bread::Board &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-6-Advent&#34;&gt;Perl 6 Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl6advent.wordpress.com/2012/12/14/&#34;&gt;Perl 6: 2012 December 14 -- Perl 6 Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-Advent-Japan:&#34;&gt;Perl Advent Japan:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2012/hacker/14&#34;&gt;Hacker Track: Plack::App::Gateway - &#38;#x30B3;&#38;#x30F3;&#38;#x30C6;&#38;#x30F3;&#38;#x30C4;&#38;#x3092;&#38;#x304A;&#38;#x597D;&#38;#x307F;&#38;#x306B;&#38;#x30B2;&#38;#x30FC;&#38;#x30C8;&#38;#x3046;&#38;#x3047;&#38;#x3044;&#38;#x3046;&#38;#x3047;&#38;#x3044;&#38;#x3046;&#38;#x3047;&#38;#x3044;&#38;#xFF01;&#38;#xFF01; - Perl Advent Calendar Japan 2012 Hacker Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2012/casual/14&#34;&gt;Casual Track: Web &#38;#x30A2;&#38;#x30D7;&#38;#x30EA;&#38;#x30B1;&#38;#x30FC;&#38;#x30B7;&#38;#x30E7;&#38;#x30F3;&#38;#x306E;&#38;#x30C7;&#38;#x30D7;&#38;#x30ED;&#38;#x30A4;&#38;#x306B;&#38;#x3064;&#38;#x3044;&#38;#x3066;&#38;#x306E;&#38;#x8003;&#38;#x5BDF; - Perl Advent Calendar Japan 2012 Casual Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Seoul.pm-Perl-Advent-Calendar-2012&#34;&gt;Seoul.pm Perl Advent Calendar 2012&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perl.kr/2012/2012-12-14.html&#34;&gt;Seoul.pm: &#38;#xC5F4;&#38;#xB124;&#38;#xBC88;&#38;#xC9F8; &#38;#xB0A0;: &#38;#xB3D9;&#38;#xC544;&#38;#xC2DC;&#38;#xC544; &#38;#xC5B8;&#38;#xC5B4;&#38;#xC758; &#38;#xB85C;&#38;#xB9C8;&#38;#xC790; &#38;#xBCC0;&#38;#xD658;&#38;#xC5D0; &#38;#xB3C4;&#38;#xC804;&#38;#xD574;&#38;#xBCF4;&#38;#xC790;! - Seoul.pm &#38;#xD384; &#38;#xD06C;&#38;#xB9AC;&#38;#xC2A4;&#38;#xB9C8;&#38;#xC2A4; &#38;#xB2EC;&#38;#xB825; #2012&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;Not-Perl&#34;&gt;Not Perl&lt;/h2&gt;
+
+&lt;h3 id=&#34;Ruby&#34;&gt;Ruby&lt;/h3&gt;
+
+&lt;p&gt;12 Gems of Christmas: is available from &lt;a href=&#34;http://lenjaffe.com/PerlAdventPlanet/2012/2012-12-01.html&#34;&gt;12/01&lt;/a&gt;-&lt;a href=&#34;http://lenjaffe.com/PerlAdventPlanet/2012/2012-12-12.html&#34;&gt;12/12&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://qiita.com/advent-calendar/2012/ruby&#34;&gt;Qiita Ruby Advent 2012: Ruby Advent Calendar 2012 - Qiita&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Python&#34;&gt;Python&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.worldofballpythons.com/christmas/&#34;&gt;Python: Advent calendar - World of Ball Pythons&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The main advent page loads but the individual days are broken.&lt;/p&gt;
+
+&lt;h3 id=&#34;PHP-WEBadvent&#34;&gt;PHP / WEBadvent&lt;/h3&gt;
+
+&lt;p&gt;The PHP advent changed its name to &lt;a href=&#34;http://webadvent.org/2012&#34;&gt; WEBadvent: Web Advent 2012&lt;/a&gt; like the PHPadvents before it, it uses slugs instead of day numbers. This is a link to the 2012 landing page.&lt;/p&gt;
+
+&lt;h3 id=&#34;SysAdvent&#34;&gt;SysAdvent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sysadvent.blogspot.com&#34;&gt;SysAdvent: sysadvent&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Java&#34;&gt;Java&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.javaadvent.com&#34;&gt;Java Advent:: Java Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Ways-Advent&#34;&gt;24Ways Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://24ways.org/2012/&#34;&gt;24 Ways to impress your friends: 24 ways: 2012&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</summary><updated>2012-12-14T00:00:00-05:00</updated><category term="Perl Advent Calendars"/><author><name>len jaffe</name></author></entry><entry><title>2012-12-13</title><link href="http://www.lenjaffe.com/PerlAdventPlanet/2012/2012-12-13.html"/><id>http://www.lenjaffe.com/PerlAdventPlanet/2012/2012-12-13.html</id><summary type="html">&lt;div class=&#39;pod&#39;&gt;&lt;h2 id=&#34;Perl&#34;&gt;Perl&lt;/h2&gt;
+
+&lt;h3 id=&#34;Perl-Advent&#34;&gt;Perl Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perladvent.org/2012/2012-12-13.html&#34;&gt;Perl: Perl Advent Calendar 2012 - Take a little REST &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Catalyst-Advent&#34;&gt;Catalyst Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.catalystframework.org/calendar/2012/13&#34;&gt;Catalyst: Catalyst Advent Calendar - Day 13&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Dancer-Advent&#34;&gt;Dancer Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perldancer.org/2012/13&#34;&gt;Dancer: The Gift Of Auto-Completion - PerlDancer Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;OX&#34;&gt;OX&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://iinteractive.github.com/OX/advent/2012-12-13.html&#34;&gt;OX: OX Advent Calendar - Roles and Inheritance &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-6-Advent&#34;&gt;Perl 6 Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl6advent.wordpress.com/2012/12/13/&#34;&gt;Perl 6: 2012 December 13 -- Perl 6 Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-Advent-Japan:&#34;&gt;Perl Advent Japan:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2012/hacker/13&#34;&gt;Hacker Track: Script::Ichigeki - &#38;#x76F8;&#38;#x624B;&#38;#x306F;&#38;#x6B7B;&#38;#x306C; - Perl Advent Calendar Japan 2012 Hacker Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2012/casual/13&#34;&gt;Casual Track: vim &#38;#x3067; Perl &#38;#x3092;&#38;#x66F8;&#38;#x304F;&#38;#x3068;&#38;#x304D;&#38;#x306E;&#38;#x305F;&#38;#x3081;&#38;#x306E; tips - Perl Advent Calendar Japan 2012 Casual Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Seoul.pm-Perl-Advent-Calendar-2012&#34;&gt;Seoul.pm Perl Advent Calendar 2012&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perl.kr/2012/2012-12-13.html&#34;&gt;Seoul.pm: &#38;#xC5F4;&#38;#xC138;&#38;#xBC88;&#38;#xC9F8; &#38;#xB0A0;: &#38;#xB3C4;&#38;#xAD6C;&#38;#xB97C; &#38;#xB9CC;&#38;#xB4E4;&#38;#xACE0; &#38;#xBC30;&#38;#xD3EC;&#38;#xD558;&#38;#xC790; - Seoul.pm &#38;#xD384; &#38;#xD06C;&#38;#xB9AC;&#38;#xC2A4;&#38;#xB9C8;&#38;#xC2A4; &#38;#xB2EC;&#38;#xB825; #2012&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;Not-Perl&#34;&gt;Not Perl&lt;/h2&gt;
+
+&lt;h3 id=&#34;Ruby&#34;&gt;Ruby&lt;/h3&gt;
+
+&lt;p&gt;12 Gems of Christmas: is available from &lt;a href=&#34;http://lenjaffe.com/PerlAdventPlanet/2012/2012-12-01.html&#34;&gt;12/01&lt;/a&gt;-&lt;a href=&#34;http://lenjaffe.com/PerlAdventPlanet/2012/2012-12-12.html&#34;&gt;12/12&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://qiita.com/advent-calendar/2012/ruby&#34;&gt;Qiita Ruby Advent 2012: Ruby Advent Calendar 2012 - Qiita&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Python&#34;&gt;Python&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.worldofballpythons.com/christmas/&#34;&gt;Python: Advent calendar - World of Ball Pythons&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The main advent page loads but the individual days are broken.&lt;/p&gt;
+
+&lt;h3 id=&#34;PHP-WEBadvent&#34;&gt;PHP / WEBadvent&lt;/h3&gt;
+
+&lt;p&gt;The PHP advent changed its name to &lt;a href=&#34;http://webadvent.org/2012&#34;&gt; WEBadvent: Web Advent 2012&lt;/a&gt; like the PHPadvents before it, it uses slugs instead of day numbers. This is a link to the 2012 landing page.&lt;/p&gt;
+
+&lt;h3 id=&#34;SysAdvent&#34;&gt;SysAdvent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sysadvent.blogspot.com&#34;&gt;SysAdvent: sysadvent&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Java&#34;&gt;Java&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.javaadvent.com&#34;&gt;Java Advent:: Java Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Ways-Advent&#34;&gt;24Ways Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://24ways.org/2012/&#34;&gt;24 Ways to impress your friends: 24 ways: 2012&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</summary><updated>2012-12-13T00:00:00-05:00</updated><category term="Perl Advent Calendars"/><author><name>len jaffe</name></author></entry><entry><title>2012-12-12</title><link href="http://www.lenjaffe.com/PerlAdventPlanet/2012/2012-12-12.html"/><id>http://www.lenjaffe.com/PerlAdventPlanet/2012/2012-12-12.html</id><summary type="html">&lt;div class=&#39;pod&#39;&gt;&lt;h2 id=&#34;Perl&#34;&gt;Perl&lt;/h2&gt;
+
+&lt;h3 id=&#34;Perl-Advent&#34;&gt;Perl Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perladvent.org/2012/2012-12-12.html&#34;&gt;Perl: Perl Advent Calendar 2012 - Testing networking client code using Test::LWP::UserAgent &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Catalyst-Advent&#34;&gt;Catalyst Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.catalystframework.org/calendar/2012/12&#34;&gt;Catalyst: Catalyst Advent Calendar - Day 12&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Dancer-Advent&#34;&gt;Dancer Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perldancer.org/2012/12&#34;&gt;Dancer: Pluggable Route Handlers for Dancer 2 - PerlDancer Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;OX&#34;&gt;OX&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://iinteractive.github.com/OX/advent/2012-12-12.html&#34;&gt;OX: OX Advent Calendar - Back To Basics &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-6-Advent&#34;&gt;Perl 6 Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl6advent.wordpress.com/2012/12/12/&#34;&gt;Perl 6: 2012 December 12 -- Perl 6 Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-Advent-Japan:&#34;&gt;Perl Advent Japan:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2012/hacker/12&#34;&gt;Hacker Track: &#38;#x6700;&#38;#x5F37;&#38;#x306E;&#38;#x30B1;&#38;#x30F3;&#38;#x30AA;&#38;#x30FC;&#38;#x30EB;&#38;#x3092;&#38;#x6C42;&#38;#x3081;&#38;#x3066; - Parse::JapanesePostalCode - Perl Advent Calendar Japan 2012 Hacker Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2012/casual/12&#34;&gt;Casual Track: Resque &#38;#x3067;&#38;#x5B66;&#38;#x3076;&#38;#x30B8;&#38;#x30E7;&#38;#x30D6;&#38;#x30AD;&#38;#x30E5;&#38;#x30FC;&#38;#x30A4;&#38;#x30F3;&#38;#x30B0; - Perl Advent Calendar Japan 2012 Casual Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Seoul.pm-Perl-Advent-Calendar-2012&#34;&gt;Seoul.pm Perl Advent Calendar 2012&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perl.kr/2012/2012-12-12.html&#34;&gt;Seoul.pm: &#38;#xC5F4;&#38;#xB450;&#38;#xBC88;&#38;#xC9F8; &#38;#xB0A0;: MySQL&#38;#xC744; NoSQL&#38;#xB85C; &#38;#xC0AC;&#38;#xC6A9;&#38;#xD558;&#38;#xAE30; - Seoul.pm &#38;#xD384; &#38;#xD06C;&#38;#xB9AC;&#38;#xC2A4;&#38;#xB9C8;&#38;#xC2A4; &#38;#xB2EC;&#38;#xB825; #2012&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;Not-Perl&#34;&gt;Not Perl&lt;/h2&gt;
+
+&lt;h3 id=&#34;Ruby&#34;&gt;Ruby&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.mikeperham.com/2012/12/12/&#34;&gt;12 Gems of Christmas: 12 - December - 2012 - Mike Perham&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://qiita.com/advent-calendar/2012/ruby&#34;&gt;Qiita Ruby Advent 2012: Ruby Advent Calendar 2012 - Qiita&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Python&#34;&gt;Python&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.worldofballpythons.com/christmas/&#34;&gt;Python: Advent calendar - World of Ball Pythons&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The main advent page loads but the individual days are broken.&lt;/p&gt;
+
+&lt;h3 id=&#34;PHP-WEBadvent&#34;&gt;PHP / WEBadvent&lt;/h3&gt;
+
+&lt;p&gt;The PHP advent changed its name to &lt;a href=&#34;http://webadvent.org/2012&#34;&gt; WEBadvent: Web Advent 2012&lt;/a&gt; like the PHPadvents before it, it uses slugs instead of day numbers. This is a link to the 2012 landing page.&lt;/p&gt;
+
+&lt;h3 id=&#34;SysAdvent&#34;&gt;SysAdvent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sysadvent.blogspot.com&#34;&gt;SysAdvent: sysadvent&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Java&#34;&gt;Java&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.javaadvent.com&#34;&gt;Java Advent:: Java Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Ways-Advent&#34;&gt;24Ways Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://24ways.org/2012/&#34;&gt;24 Ways to impress your friends: 24 ways: 2012&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</summary><updated>2012-12-12T00:00:00-05:00</updated><category term="Perl Advent Calendars"/><author><name>len jaffe</name></author></entry><entry><title>2012-12-11</title><link href="http://www.lenjaffe.com/PerlAdventPlanet/2012/2012-12-11.html"/><id>http://www.lenjaffe.com/PerlAdventPlanet/2012/2012-12-11.html</id><summary type="html">&lt;div class=&#39;pod&#39;&gt;&lt;h2 id=&#34;Perl&#34;&gt;Perl&lt;/h2&gt;
+
+&lt;h3 id=&#34;Perl-Advent&#34;&gt;Perl Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perladvent.org/2012/2012-12-11.html&#34;&gt;Perl: Perl Advent Calendar 2012 - Making a list and checking it twice &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Catalyst-Advent&#34;&gt;Catalyst Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.catalystframework.org/calendar/2012/11&#34;&gt;Catalyst: Catalyst Advent Calendar - Day 11&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Dancer-Advent&#34;&gt;Dancer Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perldancer.org/2012/11&#34;&gt;Dancer: Simple, but more flexible, CRUD - PerlDancer Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;OX&#34;&gt;OX&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://iinteractive.github.com/OX/advent/2012-12-11.html&#34;&gt;OX: OX Advent Calendar - Deployment &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-6-Advent&#34;&gt;Perl 6 Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl6advent.wordpress.com/2012/12/11/&#34;&gt;Perl 6: 2012 December 11 -- Perl 6 Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-Advent-Japan:&#34;&gt;Perl Advent Japan:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2012/hacker/11&#34;&gt;Hacker Track: &#38;#x3059;&#38;#x3079;&#38;#x3066;&#38;#x306E;&#38;#x30C7;&#38;#x30FC;&#38;#x30BF;&#38;#x30D9;&#38;#x30FC;&#38;#x30B9;&#38;#x63A5;&#38;#x7D9A;&#38;#x3092;&#38;#x5207;&#38;#x65AD;&#38;#x3059;&#38;#x308B; - DBIx::DisconnectAll - Perl Advent Calendar Japan 2012 Hacker Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2012/casual/11&#34;&gt;Casual Track: PDL&#38;#x3067;&#38;#x6570;&#38;#x5024;&#38;#x8A08;&#38;#x7B97; - Perl Advent Calendar Japan 2012 Casual Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Seoul.pm-Perl-Advent-Calendar-2012&#34;&gt;Seoul.pm Perl Advent Calendar 2012&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perl.kr/2012/2012-12-11.html&#34;&gt;Seoul.pm: &#38;#xC5F4;&#38;#xD55C;&#38;#xBC88;&#38;#xC9F8; &#38;#xB0A0;: &#38;#xB0B4;&#38;#xAC90; &#38;#xB108;&#38;#xBB34; &#38;#xC5B4;&#38;#xB824;&#38;#xC6B4; &#38;#xC2AC;&#38;#xB77C;&#38;#xC774;&#38;#xB4DC; - Seoul.pm &#38;#xD384; &#38;#xD06C;&#38;#xB9AC;&#38;#xC2A4;&#38;#xB9C8;&#38;#xC2A4; &#38;#xB2EC;&#38;#xB825; #2012&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;Not-Perl&#34;&gt;Not Perl&lt;/h2&gt;
+
+&lt;h3 id=&#34;Ruby&#34;&gt;Ruby&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.mikeperham.com/2012/12/11/&#34;&gt;12 Gems of Christmas: 11 - December - 2012 - Mike Perham&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://qiita.com/advent-calendar/2012/ruby&#34;&gt;Qiita Ruby Advent 2012: Ruby Advent Calendar 2012 - Qiita&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Python&#34;&gt;Python&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.worldofballpythons.com/christmas/&#34;&gt;Python: Advent calendar - World of Ball Pythons&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The main advent page loads but the individual days are broken.&lt;/p&gt;
+
+&lt;h3 id=&#34;PHP-WEBadvent&#34;&gt;PHP / WEBadvent&lt;/h3&gt;
+
+&lt;p&gt;The PHP advent changed its name to &lt;a href=&#34;http://webadvent.org/2012&#34;&gt; WEBadvent: Web Advent 2012&lt;/a&gt; like the PHPadvents before it, it uses slugs instead of day numbers. This is a link to the 2012 landing page.&lt;/p&gt;
+
+&lt;h3 id=&#34;SysAdvent&#34;&gt;SysAdvent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sysadvent.blogspot.com&#34;&gt;SysAdvent: sysadvent&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Java&#34;&gt;Java&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.javaadvent.com&#34;&gt;Java Advent:: Java Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Ways-Advent&#34;&gt;24Ways Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://24ways.org/2012/&#34;&gt;24 Ways to impress your friends: 24 ways: 2012&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</summary><updated>2012-12-11T00:00:00-05:00</updated><category term="Perl Advent Calendars"/><author><name>len jaffe</name></author></entry><entry><title>2012-12-10</title><link href="http://www.lenjaffe.com/PerlAdventPlanet/2012/2012-12-10.html"/><id>http://www.lenjaffe.com/PerlAdventPlanet/2012/2012-12-10.html</id><summary type="html">&lt;div class=&#39;pod&#39;&gt;&lt;h2 id=&#34;Perl&#34;&gt;Perl&lt;/h2&gt;
+
+&lt;h3 id=&#34;Perl-Advent&#34;&gt;Perl Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perladvent.org/2012/2012-12-10.html&#34;&gt;Perl: Perl Advent Calendar 2012 - The Greatest Tradition of All &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Catalyst-Advent&#34;&gt;Catalyst Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.catalystframework.org/calendar/2012/10&#34;&gt;Catalyst: Catalyst Advent Calendar - Day 10&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Dancer-Advent&#34;&gt;Dancer Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perldancer.org/2012/10&#34;&gt;Dancer: Dancecard - PerlDancer Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;OX&#34;&gt;OX&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://iinteractive.github.com/OX/advent/2012-12-10.html&#34;&gt;OX: OX Advent Calendar - Exceptions &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-6-Advent&#34;&gt;Perl 6 Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl6advent.wordpress.com/2012/12/10/&#34;&gt;Perl 6: 2012 December 10 -- Perl 6 Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-Advent-Japan:&#34;&gt;Perl Advent Japan:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2012/hacker/10&#34;&gt;Hacker Track: CSS::LESS::Filter &#38;#x3067; Twitter Bootstrap &#38;#x3092;&#38;#x3044;&#38;#x3044;&#38;#x611F;&#38;#x3058;&#38;#x306B;&#38;#x6539;&#38;#x9020;&#38;#x3057;&#38;#x3088;&#38;#x3046; - Perl Advent Calendar Japan 2012 Hacker Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2012/casual/10&#34;&gt;Casual Track: PHP&#38;#x306E;&#38;#x30A2;&#38;#x30D7;&#38;#x30EA;&#38;#x3060;&#38;#x3051;&#38;#x3069;perl&#38;#x3067;&#38;#x30C6;&#38;#x30B9;&#38;#x30C8;&#38;#x3059;&#38;#x308B;&#38;#x3093;&#38;#x3060;&#38;#x305C;&#38;#xFF1F;&#38;#xFF08;&#38;#x30EF;&#38;#x30A4;&#38;#x30EB;&#38;#x30C9;&#38;#x3060;ry - Perl Advent Calendar Japan 2012 Casual Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Seoul.pm-Perl-Advent-Calendar-2012&#34;&gt;Seoul.pm Perl Advent Calendar 2012&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perl.kr/2012/2012-12-10.html&#34;&gt;Seoul.pm: &#38;#xC5F4;&#38;#xBC88;&#38;#xC9F8; &#38;#xB0A0;: LWP &#38;#xBAA8;&#38;#xB4C8;&#38;#xB85C; &#38;#xC6F9; &#38;#xB370;&#38;#xC774;&#38;#xD130;&#38;#xB97C; &#38;#xAE01;&#38;#xC5B4;&#38;#xC624;&#38;#xC790; - Seoul.pm &#38;#xD384; &#38;#xD06C;&#38;#xB9AC;&#38;#xC2A4;&#38;#xB9C8;&#38;#xC2A4; &#38;#xB2EC;&#38;#xB825; #2012&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;Not-Perl&#34;&gt;Not Perl&lt;/h2&gt;
+
+&lt;h3 id=&#34;Ruby&#34;&gt;Ruby&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.mikeperham.com/2012/12/10/&#34;&gt;12 Gems of Christmas: 10 - December - 2012 - Mike Perham&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://qiita.com/advent-calendar/2012/ruby&#34;&gt;Qiita Ruby Advent 2012: Ruby Advent Calendar 2012 - Qiita&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Python&#34;&gt;Python&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.worldofballpythons.com/christmas/&#34;&gt;Python: Advent calendar - World of Ball Pythons&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The main advent page loads but the individual days are broken.&lt;/p&gt;
+
+&lt;h3 id=&#34;PHP-WEBadvent&#34;&gt;PHP / WEBadvent&lt;/h3&gt;
+
+&lt;p&gt;The PHP advent changed its name to &lt;a href=&#34;http://webadvent.org/2012&#34;&gt; WEBadvent: Web Advent 2012&lt;/a&gt; like the PHPadvents before it, it uses slugs instead of day numbers. This is a link to the 2012 landing page.&lt;/p&gt;
+
+&lt;h3 id=&#34;SysAdvent&#34;&gt;SysAdvent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sysadvent.blogspot.com&#34;&gt;SysAdvent: sysadvent&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Java&#34;&gt;Java&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.javaadvent.com&#34;&gt;Java Advent:: Java Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Ways-Advent&#34;&gt;24Ways Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://24ways.org/2012/&#34;&gt;24 Ways to impress your friends: 24 ways: 2012&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</summary><updated>2012-12-10T00:00:00-05:00</updated><category term="Perl Advent Calendars"/><author><name>len jaffe</name></author></entry><entry><title>2012-12-09</title><link href="http://www.lenjaffe.com/PerlAdventPlanet/2012/2012-12-09.html"/><id>http://www.lenjaffe.com/PerlAdventPlanet/2012/2012-12-09.html</id><summary type="html">&lt;div class=&#39;pod&#39;&gt;&lt;h2 id=&#34;Perl&#34;&gt;Perl&lt;/h2&gt;
+
+&lt;h3 id=&#34;Perl-Advent&#34;&gt;Perl Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perladvent.org/2012/2012-12-09.html&#34;&gt;Perl: Perl Advent Calendar 2012 - Fixing the regexep code block facility &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Catalyst-Advent&#34;&gt;Catalyst Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.catalystframework.org/calendar/2012/9&#34;&gt;Catalyst: Catalyst Advent Calendar - Day 9&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Dancer-Advent&#34;&gt;Dancer Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perldancer.org/2012/9&#34;&gt;Dancer: Dancer training at LPW2012 - PerlDancer Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;OX&#34;&gt;OX&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://iinteractive.github.com/OX/advent/2012-12-09.html&#34;&gt;OX: OX Advent Calendar - uri_for &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-6-Advent&#34;&gt;Perl 6 Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl6advent.wordpress.com/2012/12/9/&#34;&gt;Perl 6: 2012 December 09 -- Perl 6 Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-Advent-Japan:&#34;&gt;Perl Advent Japan:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2012/hacker/9&#34;&gt;Hacker Track: Scope::Guard&#38;#x7B49;&#38;#x3067;&#38;#x30EA;&#38;#x30BD;&#38;#x30FC;&#38;#x30B9;&#38;#x89E3;&#38;#x653E;&#38;#x3092;&#38;#x5B9F;&#38;#x88C5;&#38;#x3059;&#38;#x308B;&#38;#x969B;&#38;#x306B;&#38;#x77E5;&#38;#x3063;&#38;#x3066;&#38;#x304A;&#38;#x304D;&#38;#x305F;&#38;#x3044;&#38;#x3053;&#38;#x3068; - Perl Advent Calendar Japan 2012 Hacker Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2012/casual/9&#34;&gt;Casual Track: CPAN Author &#38;#x306B;&#38;#x306A;&#38;#x308A;&#38;#x307E;&#38;#x3057;&#38;#x305F; - Dist::Zilla &#38;#x306E;&#38;#x3054;&#38;#x7D39;&#38;#x4ECB; - Perl Advent Calendar Japan 2012 Casual Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Seoul.pm-Perl-Advent-Calendar-2012&#34;&gt;Seoul.pm Perl Advent Calendar 2012&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perl.kr/2012/2012-12-09.html&#34;&gt;Seoul.pm: &#38;#xC544;&#38;#xD649;&#38;#xC9F8; &#38;#xB0A0;: &#38;#xB354; &#38;#xB098;&#38;#xC740; Perl &#38;#xAC1C;&#38;#xBC1C;&#38;#xD658;&#38;#xACBD;&#38;#xC744; &#38;#xC704;&#38;#xD558;&#38;#xC5EC; for Vim - Seoul.pm &#38;#xD384; &#38;#xD06C;&#38;#xB9AC;&#38;#xC2A4;&#38;#xB9C8;&#38;#xC2A4; &#38;#xB2EC;&#38;#xB825; #2012&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;Not-Perl&#34;&gt;Not Perl&lt;/h2&gt;
+
+&lt;h3 id=&#34;Ruby&#34;&gt;Ruby&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.mikeperham.com/2012/12/09/&#34;&gt;12 Gems of Christmas: 09 - December - 2012 - Mike Perham&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://qiita.com/advent-calendar/2012/ruby&#34;&gt;Qiita Ruby Advent 2012: Ruby Advent Calendar 2012 - Qiita&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Python&#34;&gt;Python&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.worldofballpythons.com/christmas/&#34;&gt;Python: Advent calendar - World of Ball Pythons&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The main advent page loads but the individual days are broken.&lt;/p&gt;
+
+&lt;h3 id=&#34;PHP-WEBadvent&#34;&gt;PHP / WEBadvent&lt;/h3&gt;
+
+&lt;p&gt;The PHP advent changed its name to &lt;a href=&#34;http://webadvent.org/2012&#34;&gt; WEBadvent: Web Advent 2012&lt;/a&gt; like the PHPadvents before it, it uses slugs instead of day numbers. This is a link to the 2012 landing page.&lt;/p&gt;
+
+&lt;h3 id=&#34;SysAdvent&#34;&gt;SysAdvent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sysadvent.blogspot.com&#34;&gt;SysAdvent: sysadvent&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Java&#34;&gt;Java&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.javaadvent.com&#34;&gt;Java Advent:: Java Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Ways-Advent&#34;&gt;24Ways Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://24ways.org/2012/&#34;&gt;24 Ways to impress your friends: 24 ways: 2012&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</summary><updated>2012-12-09T00:00:00-05:00</updated><category term="Perl Advent Calendars"/><author><name>len jaffe</name></author></entry><entry><title>2012-12-08</title><link href="http://www.lenjaffe.com/PerlAdventPlanet/2012/2012-12-08.html"/><id>http://www.lenjaffe.com/PerlAdventPlanet/2012/2012-12-08.html</id><summary type="html">&lt;div class=&#39;pod&#39;&gt;&lt;h2 id=&#34;Perl&#34;&gt;Perl&lt;/h2&gt;
+
+&lt;h3 id=&#34;Perl-Advent&#34;&gt;Perl Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perladvent.org/2012/2012-12-08.html&#34;&gt;Perl: Perl Advent Calendar 2012 - Atomic Gift Wrapping &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Catalyst-Advent&#34;&gt;Catalyst Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.catalystframework.org/calendar/2012/8&#34;&gt;Catalyst: Catalyst Advent Calendar - Day 8&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Dancer-Advent&#34;&gt;Dancer Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perldancer.org/2012/8&#34;&gt;Dancer: Porting Dancer Template Modules to Dancer 2 - PerlDancer Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;OX&#34;&gt;OX&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://iinteractive.github.com/OX/advent/2012-12-08.html&#34;&gt;OX: OX Advent Calendar - OX::Request and OX::Response &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-6-Advent&#34;&gt;Perl 6 Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl6advent.wordpress.com/2012/12/8/&#34;&gt;Perl 6: 2012 December 08 -- Perl 6 Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-Advent-Japan:&#34;&gt;Perl Advent Japan:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2012/hacker/8&#34;&gt;Hacker Track: Module::AnyEvent::Helper::Filter &#38;#x3068; filtered &#38;#x306E;&#38;#x3054;&#38;#x7D39;&#38;#x4ECB; - Perl Advent Calendar Japan 2012 Hacker Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2012/casual/8&#34;&gt;Casual Track: &#38;#x3053;&#38;#x3093;&#38;#x306A;&#38;#x30DE;&#38;#x30B8;&#38;#x30C3;&#38;#x30AF;&#38;#x77E5;&#38;#x3089;&#38;#x306A;&#38;#x304B;&#38;#x3063;&#38;#x305F;&#38;#x3002; - Perl Advent Calendar Japan 2012 Casual Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Seoul.pm-Perl-Advent-Calendar-2012&#34;&gt;Seoul.pm Perl Advent Calendar 2012&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perl.kr/2012/2012-12-08.html&#34;&gt;Seoul.pm: &#38;#xC5EC;&#38;#xB35F;&#38;#xC9F8; &#38;#xB0A0;: STF or &#38;quot;Stepover Toehold Facelock&#38;quot; or &#38;quot;STorage Farm&#38;quot; - Seoul.pm &#38;#xD384; &#38;#xD06C;&#38;#xB9AC;&#38;#xC2A4;&#38;#xB9C8;&#38;#xC2A4; &#38;#xB2EC;&#38;#xB825; #2012&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;Not-Perl&#34;&gt;Not Perl&lt;/h2&gt;
+
+&lt;h3 id=&#34;Ruby&#34;&gt;Ruby&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.mikeperham.com/2012/12/08/&#34;&gt;12 Gems of Christmas: 08 - December - 2012 - Mike Perham&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://qiita.com/advent-calendar/2012/ruby&#34;&gt;Qiita Ruby Advent 2012: Ruby Advent Calendar 2012 - Qiita&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Python&#34;&gt;Python&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.worldofballpythons.com/christmas/&#34;&gt;Python: Advent calendar - World of Ball Pythons&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The main advent page loads but the individual days are broken.&lt;/p&gt;
+
+&lt;h3 id=&#34;PHP-WEBadvent&#34;&gt;PHP / WEBadvent&lt;/h3&gt;
+
+&lt;p&gt;The PHP advent changed its name to &lt;a href=&#34;http://webadvent.org/2012&#34;&gt; WEBadvent: Web Advent 2012&lt;/a&gt; like the PHPadvents before it, it uses slugs instead of day numbers. This is a link to the 2012 landing page.&lt;/p&gt;
+
+&lt;h3 id=&#34;SysAdvent&#34;&gt;SysAdvent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sysadvent.blogspot.com&#34;&gt;SysAdvent: sysadvent&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Java&#34;&gt;Java&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.javaadvent.com&#34;&gt;Java Advent:: Java Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Ways-Advent&#34;&gt;24Ways Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://24ways.org/2012/&#34;&gt;24 Ways to impress your friends: 24 ways: 2012&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</summary><updated>2012-12-08T00:00:00-05:00</updated><category term="Perl Advent Calendars"/><author><name>len jaffe</name></author></entry><entry><title>2012-12-07</title><link href="http://www.lenjaffe.com/PerlAdventPlanet/2012/2012-12-07.html"/><id>http://www.lenjaffe.com/PerlAdventPlanet/2012/2012-12-07.html</id><summary type="html">&lt;div class=&#39;pod&#39;&gt;&lt;h2 id=&#34;Perl&#34;&gt;Perl&lt;/h2&gt;
+
+&lt;h3 id=&#34;Perl-Advent&#34;&gt;Perl Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perladvent.org/2012/2012-12-07.html&#34;&gt;Perl: Perl Advent Calendar 2012 - Is your code&#38;amp;hellip; Safe? &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Catalyst-Advent&#34;&gt;Catalyst Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.catalystframework.org/calendar/2012/7&#34;&gt;Catalyst: Catalyst Advent Calendar - Day 7&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Dancer-Advent&#34;&gt;Dancer Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perldancer.org/2012/7&#34;&gt;Dancer: A first app with Dancer 2 - PerlDancer Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;OX&#34;&gt;OX&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://iinteractive.github.com/OX/advent/2012-12-07.html&#34;&gt;OX: OX Advent Calendar - PSGI &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-6-Advent&#34;&gt;Perl 6 Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl6advent.wordpress.com/2012/12/7/&#34;&gt;Perl 6: 2012 December 07 -- Perl 6 Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-Advent-Japan:&#34;&gt;Perl Advent Japan:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2012/hacker/7&#34;&gt;Hacker Track: App::YG - &#38;#x30ED;&#38;#x30B0;&#38;#x3092;&#38;#x3046;&#38;#x309B;&#38;#x3041;&#38;#x30FC;&#38;#x3066;&#38;#x3043;&#38;#x304B;&#38;#x308B;&#38;#x3071;&#38;#x307F;&#38;#x3085;&#38;#x3071;&#38;#x307F;&#38;#x3085;&#38;#x3057;&#38;#x3061;&#38;#x3083;&#38;#x3046;&#38;#xFF01;&#38;#xFF01; - Perl Advent Calendar Japan 2012 Hacker Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2012/casual/7&#34;&gt;Casual Track: Mojolicious::Lite &#38;#x3092;&#38;#x4F7F;&#38;#x3063;&#38;#x3066;&#38;#x4E00;&#38;#x4EBA;&#38;#x307C;&#38;#x3063;&#38;#x3061;SNS&#38;#x300C;AloneSNS&#38;#x300D;&#38;#x3092;&#38;#x4F5C;&#38;#x308B;&#38;#x3002; - Perl Advent Calendar Japan 2012 Casual Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Seoul.pm-Perl-Advent-Calendar-2012&#34;&gt;Seoul.pm Perl Advent Calendar 2012&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perl.kr/2012/2012-12-07.html&#34;&gt;Seoul.pm: &#38;#xC77C;&#38;#xACF1;&#38;#xC9F8; &#38;#xB0A0;: M3U Copier for Win32 (&#38;#xBD80;&#38;#xC81C;: &#38;#xC720;&#38;#xB2C8;&#38;#xCF54;&#38;#xB4DC; &#38;#xD30C;&#38;#xC77C;&#38;#xBA85;&#38;#xACFC;&#38;#xC758; &#38;#xC804;&#38;#xC7C1;) - Seoul.pm &#38;#xD384; &#38;#xD06C;&#38;#xB9AC;&#38;#xC2A4;&#38;#xB9C8;&#38;#xC2A4; &#38;#xB2EC;&#38;#xB825; #2012&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;Not-Perl&#34;&gt;Not Perl&lt;/h2&gt;
+
+&lt;h3 id=&#34;Ruby&#34;&gt;Ruby&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.mikeperham.com/2012/12/07/&#34;&gt;12 Gems of Christmas: 07 - December - 2012 - Mike Perham&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://qiita.com/advent-calendar/2012/ruby&#34;&gt;Qiita Ruby Advent 2012: Ruby Advent Calendar 2012 - Qiita&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Python&#34;&gt;Python&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.worldofballpythons.com/christmas/&#34;&gt;Python: Advent calendar - World of Ball Pythons&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The main advent page loads but the individual days are broken.&lt;/p&gt;
+
+&lt;h3 id=&#34;PHP-WEBadvent&#34;&gt;PHP / WEBadvent&lt;/h3&gt;
+
+&lt;p&gt;The PHP advent changed its name to &lt;a href=&#34;http://webadvent.org/2012&#34;&gt; WEBadvent: Web Advent 2012&lt;/a&gt; like the PHPadvents before it, it uses slugs instead of day numbers. This is a link to the 2012 landing page.&lt;/p&gt;
+
+&lt;h3 id=&#34;SysAdvent&#34;&gt;SysAdvent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sysadvent.blogspot.com&#34;&gt;SysAdvent: sysadvent&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Java&#34;&gt;Java&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.javaadvent.com&#34;&gt;Java Advent:: Java Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Ways-Advent&#34;&gt;24Ways Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://24ways.org/2012/&#34;&gt;24 Ways to impress your friends: 24 ways: 2012&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</summary><updated>2012-12-07T00:00:00-05:00</updated><category term="Perl Advent Calendars"/><author><name>len jaffe</name></author></entry><entry><title>2012-12-06</title><link href="http://www.lenjaffe.com/PerlAdventPlanet/2012/2012-12-06.html"/><id>http://www.lenjaffe.com/PerlAdventPlanet/2012/2012-12-06.html</id><summary type="html">&lt;div class=&#39;pod&#39;&gt;&lt;h2 id=&#34;Perl&#34;&gt;Perl&lt;/h2&gt;
+
+&lt;h3 id=&#34;Perl-Advent&#34;&gt;Perl Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perladvent.org/2012/2012-12-06.html&#34;&gt;Perl: Perl Advent Calendar 2012 - Checking Out Your Data Structures &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Catalyst-Advent&#34;&gt;Catalyst Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.catalystframework.org/calendar/2012/6&#34;&gt;Catalyst: Catalyst Advent Calendar - Day 6&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Dancer-Advent&#34;&gt;Dancer Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perldancer.org/2012/6&#34;&gt;Dancer: The Errors of Our Way - PerlDancer Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;OX&#34;&gt;OX&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://iinteractive.github.com/OX/advent/2012-12-06.html&#34;&gt;OX: OX Advent Calendar - Mounts &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-6-Advent&#34;&gt;Perl 6 Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl6advent.wordpress.com/2012/12/6/&#34;&gt;Perl 6: 2012 December 06 -- Perl 6 Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-Advent-Japan:&#34;&gt;Perl Advent Japan:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2012/hacker/6&#34;&gt;Hacker Track: Net::APNs::Extended - &#38;#x3042;&#38;#x306A;&#38;#x305F;&#38;#x306B;&#38;#x901A;&#38;#x77E5;&#38;#x3092;&#38;#x9001;&#38;#x308A;&#38;#x305F;&#38;#x3044; - Perl Advent Calendar Japan 2012 Hacker Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2012/casual/6&#34;&gt;Casual Track: CPAN&#38;#x306A;&#38;#x306B;&#38;#x3053;&#38;#x308C;&#38;#x30E2;&#38;#x30B8;&#38;#x30E5;&#38;#x30FC;&#38;#x30EB;&#38;#x96C6; - Perl Advent Calendar Japan 2012 Casual Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Seoul.pm-Perl-Advent-Calendar-2012&#34;&gt;Seoul.pm Perl Advent Calendar 2012&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perl.kr/2012/2012-12-06.html&#34;&gt;Seoul.pm: &#38;#xC5EC;&#38;#xC12F;&#38;#xC9F8; &#38;#xB0A0;: Using C from Perl - Seoul.pm &#38;#xD384; &#38;#xD06C;&#38;#xB9AC;&#38;#xC2A4;&#38;#xB9C8;&#38;#xC2A4; &#38;#xB2EC;&#38;#xB825; #2012&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;Not-Perl&#34;&gt;Not Perl&lt;/h2&gt;
+
+&lt;h3 id=&#34;Ruby&#34;&gt;Ruby&lt;/h3&gt;
+
+&lt;p&gt;12 Gems of Christmas: appears to be unavailable on 2012-12-06 - &lt;a href=&#34;http://www.mikeperham.com/2012/12/06/&#34;&gt;12 Gems of Christmas: Page not found - Mike Perham&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://qiita.com/advent-calendar/2012/ruby&#34;&gt;Qiita Ruby Advent 2012: Ruby Advent Calendar 2012 - Qiita&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Python&#34;&gt;Python&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.worldofballpythons.com/christmas/&#34;&gt;Python: Advent calendar - World of Ball Pythons&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The main advent page loads but the individual days are broken.&lt;/p&gt;
+
+&lt;h3 id=&#34;PHP-WEBadvent&#34;&gt;PHP / WEBadvent&lt;/h3&gt;
+
+&lt;p&gt;The PHP advent changed its name to &lt;a href=&#34;http://webadvent.org/2012&#34;&gt; WEBadvent: Web Advent 2012&lt;/a&gt; like the PHPadvents before it, it uses slugs instead of day numbers. This is a link to the 2012 landing page.&lt;/p&gt;
+
+&lt;h3 id=&#34;SysAdvent&#34;&gt;SysAdvent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sysadvent.blogspot.com&#34;&gt;SysAdvent: sysadvent&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Java&#34;&gt;Java&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.javaadvent.com&#34;&gt;Java Advent:: Java Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Ways-Advent&#34;&gt;24Ways Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://24ways.org/2012/&#34;&gt;24 Ways to impress your friends: 24 ways: 2012&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</summary><updated>2012-12-06T00:00:00-05:00</updated><category term="Perl Advent Calendars"/><author><name>len jaffe</name></author></entry><entry><title>2012-12-05</title><link href="http://www.lenjaffe.com/PerlAdventPlanet/2012/2012-12-05.html"/><id>http://www.lenjaffe.com/PerlAdventPlanet/2012/2012-12-05.html</id><summary type="html">&lt;div class=&#39;pod&#39;&gt;&lt;h2 id=&#34;Perl&#34;&gt;Perl&lt;/h2&gt;
+
+&lt;h3 id=&#34;Perl-Advent&#34;&gt;Perl Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perladvent.org/2012/2012-12-05.html&#34;&gt;Perl: Perl Advent Calendar 2012 - Reindeer Games &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Catalyst-Advent&#34;&gt;Catalyst Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.catalystframework.org/calendar/2012/5&#34;&gt;Catalyst: Catalyst Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Dancer-Advent&#34;&gt;Dancer Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perldancer.org/2012/5&#34;&gt;Dancer: Dancer::Session::Redis - Writing a session engine for Dancer 2 - PerlDancer Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;OX&#34;&gt;OX&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://iinteractive.github.com/OX/advent/2012-12-05.html&#34;&gt;OX: OX Advent Calendar - Middleware &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-6-Advent&#34;&gt;Perl 6 Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl6advent.wordpress.com/2012/12/5/&#34;&gt;Perl 6: 2012 December 05 -- Perl 6 Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-Advent-Japan:&#34;&gt;Perl Advent Japan:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2012/hacker/5&#34;&gt;Hacker Track: AxsLog - Yet Another AccessLog middleware - Perl Advent Calendar Japan 2012 Hacker Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2012/casual/5&#34;&gt;Casual Track: Dropbox&#38;#x4E0A;&#38;#x306E;Markdown&#38;#x30C6;&#38;#x30AD;&#38;#x30B9;&#38;#x30C8;&#38;#x3092;&#38;#x30D7;&#38;#x30EC;&#38;#x30D3;&#38;#x30E5;&#38;#x30FC;&#38;#x3057;&#38;#x3061;&#38;#x3083;&#38;#x3048;&#38;#xFF01; - Perl Advent Calendar Japan 2012 Casual Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Seoul.pm-Perl-Advent-Calendar-2012&#34;&gt;Seoul.pm Perl Advent Calendar 2012&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perl.kr/2012/2012-12-05.html&#34;&gt;Seoul.pm: &#38;#xB2E4;&#38;#xC12F;&#38;#xC9F8; &#38;#xB0A0;: &#38;#xD384;&#38;#xC740; &#38;#xD30C;&#38;#xC2F1;&#38;#xD560; &#38;#xC218; &#38;#xC5C6;&#38;#xB2E4;: &#38;#xD615;&#38;#xC2DD;&#38;#xC801;&#38;#xC778; &#38;#xC99D;&#38;#xBA85; - Seoul.pm &#38;#xD384; &#38;#xD06C;&#38;#xB9AC;&#38;#xC2A4;&#38;#xB9C8;&#38;#xC2A4; &#38;#xB2EC;&#38;#xB825; #2012&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;Not-Perl&#34;&gt;Not Perl&lt;/h2&gt;
+
+&lt;h3 id=&#34;Ruby&#34;&gt;Ruby&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.mikeperham.com/2012/12/05/&#34;&gt;12 Gems of Christmas: 05 - December - 2012 - Mike Perham&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://qiita.com/advent-calendar/2012/ruby&#34;&gt;Qiita Ruby Advent 2012: Ruby Advent Calendar 2012 - Qiita&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Python&#34;&gt;Python&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.worldofballpythons.com/christmas/&#34;&gt;Python: Advent calendar - World of Ball Pythons&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The main advent page loads but the individual days are broken.&lt;/p&gt;
+
+&lt;h3 id=&#34;PHP-WEBadvent&#34;&gt;PHP / WEBadvent&lt;/h3&gt;
+
+&lt;p&gt;The PHP advent changed its name to &lt;a href=&#34;http://webadvent.org/2012&#34;&gt; WEBadvent: Web Advent 2012&lt;/a&gt; like the PHPadvents before it, it uses slugs instead of day numbers. This is a link to the 2012 landing page.&lt;/p&gt;
+
+&lt;h3 id=&#34;SysAdvent&#34;&gt;SysAdvent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sysadvent.blogspot.com&#34;&gt;SysAdvent: sysadvent&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Java&#34;&gt;Java&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.javaadvent.com&#34;&gt;Java Advent:: Java Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Ways-Advent&#34;&gt;24Ways Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://24ways.org/2012/&#34;&gt;24 Ways to impress your friends: 24 ways: 2012&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</summary><updated>2012-12-05T00:00:00-05:00</updated><category term="Perl Advent Calendars"/><author><name>len jaffe</name></author></entry><entry><title>2012-12-04</title><link href="http://www.lenjaffe.com/PerlAdventPlanet/2012/2012-12-04.html"/><id>http://www.lenjaffe.com/PerlAdventPlanet/2012/2012-12-04.html</id><summary type="html">&lt;div class=&#39;pod&#39;&gt;&lt;h2 id=&#34;Perl&#34;&gt;Perl&lt;/h2&gt;
+
+&lt;h3 id=&#34;Perl-Advent&#34;&gt;Perl Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perladvent.org/2012/2012-12-04.html&#34;&gt;Perl: Perl Advent Calendar 2012 - Which Library Broke? &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Catalyst-Advent&#34;&gt;Catalyst Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.catalystframework.org/calendar/2012/4&#34;&gt;Catalyst: Catalyst Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Dancer-Advent&#34;&gt;Dancer Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perldancer.org/2012/4&#34;&gt;Dancer: Dancer 2, what about using it? Now! - PerlDancer Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;OX&#34;&gt;OX&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://iinteractive.github.com/OX/advent/2012-12-04.html&#34;&gt;OX: OX Advent Calendar - Bread::Board &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-6-Advent&#34;&gt;Perl 6 Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl6advent.wordpress.com/2012/12/4/&#34;&gt;Perl 6: 2012 December 04 -- Perl 6 Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-Advent-Japan:&#34;&gt;Perl Advent Japan:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2012/hacker/4&#34;&gt;Hacker Track: Karas - &#38;#x6F06;&#38;#x9ED2;&#38;#x306E;&#38;#x7FFC; - Perl Advent Calendar Japan 2012 Hacker Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2012/casual/4&#34;&gt;Casual Track: &#38;#x5098;&#38;#x3092;&#38;#x3082;&#38;#x3063;&#38;#x3066;&#38;#x3044;&#38;#x304F;&#38;#x304B;&#38;#x3069;&#38;#x3046;&#38;#x304B;&#38;#x3092;&#38;#x77E5;&#38;#x3089;&#38;#x305B;&#38;#x308B;&#38;#x30B7;&#38;#x30A7;&#38;#x30EB;&#38;#x30B9;&#38;#x30AF;&#38;#x30EA;&#38;#x30D7;&#38;#x30C8; - Perl Advent Calendar Japan 2012 Casual Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Seoul.pm-Perl-Advent-Calendar-2012&#34;&gt;Seoul.pm Perl Advent Calendar 2012&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perl.kr/2012/2012-12-04.html&#34;&gt;Seoul.pm: &#38;#xB137;&#38;#xC9F8; &#38;#xB0A0;: &#38;#xCD08;&#38;#xC2EC;&#38;#xC790;&#38;#xB97C; &#38;#xC704;&#38;#xD574; &#38;#xB0A8;&#38;#xAE34; &#38;#xCD08;&#38;#xBCF4;&#38;#xC758; &#38;#xBE44;&#38;#xB9DD;&#38;#xB85D; - Dancer, DBI, DBD::MySQL - Seoul.pm &#38;#xD384; &#38;#xD06C;&#38;#xB9AC;&#38;#xC2A4;&#38;#xB9C8;&#38;#xC2A4; &#38;#xB2EC;&#38;#xB825; #2012&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;Not-Perl&#34;&gt;Not Perl&lt;/h2&gt;
+
+&lt;h3 id=&#34;Ruby&#34;&gt;Ruby&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.mikeperham.com/2012/12/04/&#34;&gt;12 Gems of Christmas: 04 - December - 2012 - Mike Perham&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://qiita.com/advent-calendar/2012/ruby&#34;&gt;Qiita Ruby Advent 2012: Ruby Advent Calendar 2012 - Qiita&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Python&#34;&gt;Python&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.worldofballpythons.com/christmas/&#34;&gt;Python: Advent calendar - World of Ball Pythons&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The main advent page loads but the individual days are broken.&lt;/p&gt;
+
+&lt;h3 id=&#34;PHP-WEBadvent&#34;&gt;PHP / WEBadvent&lt;/h3&gt;
+
+&lt;p&gt;The PHP advent changed its name to &lt;a href=&#34;http://webadvent.org/2012&#34;&gt; WEBadvent: Web Advent 2012&lt;/a&gt; like the PHPadvents before it, it uses slugs instead of day numbers. This is a link to the 2012 landing page.&lt;/p&gt;
+
+&lt;h3 id=&#34;SysAdvent&#34;&gt;SysAdvent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sysadvent.blogspot.com&#34;&gt;SysAdvent: sysadvent&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Java&#34;&gt;Java&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.javaadvent.com&#34;&gt;Java Advent:: Java Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Ways-Advent&#34;&gt;24Ways Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://24ways.org/2012/&#34;&gt;24 Ways to impress your friends: 24 ways: 2012&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</summary><updated>2012-12-04T00:00:00-05:00</updated><category term="Perl Advent Calendars"/><author><name>len jaffe</name></author></entry><entry><title>2012-12-03</title><link href="http://www.lenjaffe.com/PerlAdventPlanet/2012/2012-12-03.html"/><id>http://www.lenjaffe.com/PerlAdventPlanet/2012/2012-12-03.html</id><summary type="html">&lt;div class=&#39;pod&#39;&gt;&lt;h2 id=&#34;Perl&#34;&gt;Perl&lt;/h2&gt;
+
+&lt;h3 id=&#34;Perl-Advent&#34;&gt;Perl Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perladvent.org/2012/2012-12-03.html&#34;&gt;Perl: Perl Advent Calendar 2012 - Sleigh Upgrade &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Catalyst-Advent&#34;&gt;Catalyst Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.catalystframework.org/calendar/2012/3&#34;&gt;Catalyst: Catalyst Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Dancer-Advent&#34;&gt;Dancer Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perldancer.org/2012/3&#34;&gt;Dancer: Dancer deployment: Apache&#38;#39;s mod_proxy and Nginx - PerlDancer Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;OX&#34;&gt;OX&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://iinteractive.github.com/OX/advent/2012-12-03.html&#34;&gt;OX: OX Advent Calendar - Routes and Path::Router &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-6-Advent&#34;&gt;Perl 6 Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl6advent.wordpress.com/2012/12/3/&#34;&gt;Perl 6: 2012 December 03 -- Perl 6 Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-Advent-Japan:&#34;&gt;Perl Advent Japan:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2012/hacker/3&#34;&gt;Hacker Track: @__gfx__ &#38;#x306F;&#38;#x75C5;&#38;#x6B20;&#38;#x3067;&#38;#x3059;&#38;#x3002; - Perl Advent Calendar Japan 2012 Hacker Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2012/casual/3&#34;&gt;Casual Track: &#38;#x30AB;&#38;#x30B8;&#38;#x30E5;&#38;#x30A2;&#38;#x30EB;&#38;#x306B;&#38;#x30C7;&#38;#x30FC;&#38;#x30BF;&#38;#x3092;&#38;#x78BA;&#38;#x7387;&#38;#x3068;&#38;#x304B;&#38;#x512A;&#38;#x5148;&#38;#x5EA6;&#38;#x3067;&#38;#x51E6;&#38;#x7406;&#38;#x3059;&#38;#x308B; - Perl Advent Calendar Japan 2012 Casual Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Seoul.pm-Perl-Advent-Calendar-2012&#34;&gt;Seoul.pm Perl Advent Calendar 2012&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perl.kr/2012/2012-12-03.html&#34;&gt;Seoul.pm: &#38;#xC14B;&#38;#xC9F8; &#38;#xB0A0;: &#38;#xB0B4;&#38;#xAC90; &#38;#xB108;&#38;#xBB34; &#38;#xAC00;&#38;#xBCBC;&#38;#xC6B4; &#38;#xC7A1;&#38;#xD050; - Seoul.pm &#38;#xD384; &#38;#xD06C;&#38;#xB9AC;&#38;#xC2A4;&#38;#xB9C8;&#38;#xC2A4; &#38;#xB2EC;&#38;#xB825; #2012&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;Not-Perl&#34;&gt;Not Perl&lt;/h2&gt;
+
+&lt;h3 id=&#34;Ruby&#34;&gt;Ruby&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.mikeperham.com/2012/12/03/&#34;&gt;12 Gems of Christmas: 03 - December - 2012 - Mike Perham&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://qiita.com/advent-calendar/2012/ruby&#34;&gt;Qiita Ruby Advent 2012: Ruby Advent Calendar 2012 - Qiita&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Python&#34;&gt;Python&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.worldofballpythons.com/christmas/&#34;&gt;Python: Advent calendar - World of Ball Pythons&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The main advent page loads but the individual days are broken.&lt;/p&gt;
+
+&lt;h3 id=&#34;PHP-WEBadvent&#34;&gt;PHP / WEBadvent&lt;/h3&gt;
+
+&lt;p&gt;The PHP advent changed its name to &lt;a href=&#34;http://webadvent.org/2012&#34;&gt; WEBadvent: Web Advent 2012&lt;/a&gt; like the PHPadvents before it, it uses slugs instead of day numbers. This is a link to the 2012 landing page.&lt;/p&gt;
+
+&lt;h3 id=&#34;SysAdvent&#34;&gt;SysAdvent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sysadvent.blogspot.com&#34;&gt;SysAdvent: sysadvent&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Java&#34;&gt;Java&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.javaadvent.com&#34;&gt;Java Advent:: Java Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Ways-Advent&#34;&gt;24Ways Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://24ways.org/2012/&#34;&gt;24 Ways to impress your friends: 24 ways: 2012&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</summary><updated>2012-12-03T00:00:00-05:00</updated><category term="Perl Advent Calendars"/><author><name>len jaffe</name></author></entry><entry><title>2012-12-02</title><link href="http://www.lenjaffe.com/PerlAdventPlanet/2012/2012-12-02.html"/><id>http://www.lenjaffe.com/PerlAdventPlanet/2012/2012-12-02.html</id><summary type="html">&lt;div class=&#39;pod&#39;&gt;&lt;h2 id=&#34;Perl&#34;&gt;Perl&lt;/h2&gt;
+
+&lt;h3 id=&#34;Perl-Advent&#34;&gt;Perl Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perladvent.org/2012/2012-12-02.html&#34;&gt;Perl: Perl Advent Calendar 2012 - My Favorite Pies &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Catalyst-Advent&#34;&gt;Catalyst Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.catalystframework.org/calendar/2012/2&#34;&gt;Catalyst: Catalyst Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Dancer-Advent&#34;&gt;Dancer Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perldancer.org/2012/2&#34;&gt;Dancer: New user authentication and authorisation framework - PerlDancer Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;OX&#34;&gt;OX&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://iinteractive.github.com/OX/advent/2012-12-02.html&#34;&gt;OX: OX Advent Calendar - Route Builders and Actions &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-6-Advent&#34;&gt;Perl 6 Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl6advent.wordpress.com/2012/12/2/&#34;&gt;Perl 6: 2012 December 02 -- Perl 6 Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-Advent-Japan:&#34;&gt;Perl Advent Japan:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2012/hacker/2&#34;&gt;Hacker Track: Smart::Options - &#38;#x3082;&#38;#x3063;&#38;#x3068;&#38;#x624B;&#38;#x8EFD;&#38;#x306B;&#38;#x30B3;&#38;#x30DE;&#38;#x30F3;&#38;#x30C9;&#38;#x30E9;&#38;#x30A4;&#38;#x30F3;&#38;#x5F15;&#38;#x6570;&#38;#x89E3;&#38;#x6790; - Perl Advent Calendar Japan 2012 Hacker Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2012/casual/2&#34;&gt;Casual Track: List::Compare&#38;#x3067;&#38;#x4E8C;&#38;#x3064;&#38;#x306E;&#38;#x914D;&#38;#x5217;&#38;#x306E;&#38;#x96C6;&#38;#x5408;&#38;#x3092;&#38;#x6271;&#38;#x3046;&#38;#x306E;&#38;#x5DFB; - Perl Advent Calendar Japan 2012 Casual Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Seoul.pm-Perl-Advent-Calendar-2012&#34;&gt;Seoul.pm Perl Advent Calendar 2012&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perl.kr/2012/2012-12-02.html&#34;&gt;Seoul.pm: &#38;#xB458;&#38;#xC9F8; &#38;#xB0A0;: Perl Hubot - Seoul.pm &#38;#xD384; &#38;#xD06C;&#38;#xB9AC;&#38;#xC2A4;&#38;#xB9C8;&#38;#xC2A4; &#38;#xB2EC;&#38;#xB825; #2012&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;Not-Perl&#34;&gt;Not Perl&lt;/h2&gt;
+
+&lt;h3 id=&#34;Ruby&#34;&gt;Ruby&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.mikeperham.com/2012/12/02/&#34;&gt;12 Gems of Christmas: 02 - December - 2012 - Mike Perham&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://qiita.com/advent-calendar/2012/ruby&#34;&gt;Qiita Ruby Advent 2012: Ruby Advent Calendar 2012 - Qiita&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Python&#34;&gt;Python&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.worldofballpythons.com/christmas/&#34;&gt;Python: Advent calendar - World of Ball Pythons&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The main advent page loads but the individual days are broken.&lt;/p&gt;
+
+&lt;h3 id=&#34;PHP-WEBadvent&#34;&gt;PHP / WEBadvent&lt;/h3&gt;
+
+&lt;p&gt;The PHP advent changed its name to &lt;a href=&#34;http://webadvent.org/2012&#34;&gt; WEBadvent: Web Advent 2012&lt;/a&gt; like the PHPadvents before it, it uses slugs instead of day numbers. This is a link to the 2012 landing page.&lt;/p&gt;
+
+&lt;h3 id=&#34;SysAdvent&#34;&gt;SysAdvent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sysadvent.blogspot.com&#34;&gt;SysAdvent: sysadvent&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Java&#34;&gt;Java&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.javaadvent.com&#34;&gt;Java Advent:: Java Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Ways-Advent&#34;&gt;24Ways Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://24ways.org/2012/&#34;&gt;24 Ways to impress your friends: 24 ways: 2012&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</summary><updated>2012-12-02T00:00:00-05:00</updated><category term="Perl Advent Calendars"/><author><name>len jaffe</name></author></entry><entry><title>2012-12-01</title><link href="http://www.lenjaffe.com/PerlAdventPlanet/2012/2012-12-01.html"/><id>http://www.lenjaffe.com/PerlAdventPlanet/2012/2012-12-01.html</id><summary type="html">&lt;div class=&#39;pod&#39;&gt;&lt;h2 id=&#34;Perl&#34;&gt;Perl&lt;/h2&gt;
+
+&lt;h3 id=&#34;Perl-Advent&#34;&gt;Perl Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perladvent.org/2012/2012-12-01.html&#34;&gt;Perl: Perl Advent Calendar 2012 - Sweet Path::Class is Coming to Town &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Catalyst-Advent&#34;&gt;Catalyst Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.catalystframework.org/calendar/2012/1&#34;&gt;Catalyst: Catalyst Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Dancer-Advent&#34;&gt;Dancer Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perldancer.org/2012/1&#34;&gt;Dancer: Another year of Dancing... - PerlDancer Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;OX&#34;&gt;OX&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://iinteractive.github.com/OX/advent/2012-12-01.html&#34;&gt;OX: OX Advent Calendar - Introduction to OX &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-6-Advent&#34;&gt;Perl 6 Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl6advent.wordpress.com/2012/12/1/&#34;&gt;Perl 6: 2012 December 01 -- Perl 6 Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-Advent-Japan:&#34;&gt;Perl Advent Japan:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2012/hacker/1&#34;&gt;Hacker Track: Graphviz::DSL - &#38;#x300C;&#38;#x9006;&#38;#x306B;&#38;#x8003;&#38;#x3048;&#38;#x308B;&#38;#x3060;, DOT&#38;#x30D5;&#38;#x30A1;&#38;#x30A4;&#38;#x30EB;&#38;#x3063;&#38;#x307D;&#38;#x304F;&#38;#x66F8;&#38;#x3044;&#38;#x3061;&#38;#x3083;&#38;#x3063;&#38;#x3066;&#38;#x3082;&#38;#x3044;&#38;#x3044;&#38;#x3055;&#38;#x3068;&#38;#x300D; - Perl Advent Calendar Japan 2012 Hacker Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2012/casual/1&#34;&gt;Casual Track: Perl&#38;#x3067;&#38;#x30A2;&#38;#x30D7;&#38;#x30EA;&#38;#x30B1;&#38;#x30FC;&#38;#x30B7;&#38;#x30E7;&#38;#x30F3;&#38;#x3092;&#38;#x3055;&#38;#x3055;&#38;#x3063;&#38;#x3068;&#38;#x66F8;&#38;#x304F;&#38;#x306E;&#38;#x306B;&#38;#x5F79;&#38;#x7ACB;&#38;#x3064;Tips - Perl Advent Calendar Japan 2012 Casual Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Seoul.pm-Perl-Advent-Calendar-2012&#34;&gt;Seoul.pm Perl Advent Calendar 2012&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perl.kr/2012/2012-12-01.html&#34;&gt;Seoul.pm: &#38;#xCCAB;&#38;#xC9F8; &#38;#xB0A0;: &#38;#xC708;&#38;#xB3C4;&#38;#xC6B0;7 &#38;#xB85C;&#38;#xADF8;&#38;#xC628; &#38;#xC774;&#38;#xBBF8;&#38;#xC9C0; &#38;#xC790;&#38;#xB3D9; &#38;#xBCC0;&#38;#xACBD; &#38;#xD504;&#38;#xB85C;&#38;#xADF8;&#38;#xB7A8; - Seoul.pm &#38;#xD384; &#38;#xD06C;&#38;#xB9AC;&#38;#xC2A4;&#38;#xB9C8;&#38;#xC2A4; &#38;#xB2EC;&#38;#xB825; #2012&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;Not-Perl&#34;&gt;Not Perl&lt;/h2&gt;
+
+&lt;h3 id=&#34;Ruby&#34;&gt;Ruby&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.mikeperham.com/2012/12/01/&#34;&gt;12 Gems of Christmas: 01 - December - 2012 - Mike Perham&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://qiita.com/advent-calendar/2012/ruby&#34;&gt;Qiita Ruby Advent 2012: Ruby Advent Calendar 2012 - Qiita&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Python&#34;&gt;Python&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.worldofballpythons.com/christmas/&#34;&gt;Python: Advent calendar - World of Ball Pythons&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The main advent page loads but the individual days are broken.&lt;/p&gt;
+
+&lt;h3 id=&#34;PHP-WEBadvent&#34;&gt;PHP / WEBadvent&lt;/h3&gt;
+
+&lt;p&gt;The PHP advent changed its name to &lt;a href=&#34;http://webadvent.org/2012&#34;&gt; WEBadvent: Web Advent 2012&lt;/a&gt; like the PHPadvents before it, it uses slugs instead of day numbers. This is a link to the 2012 landing page.&lt;/p&gt;
+
+&lt;h3 id=&#34;SysAdvent&#34;&gt;SysAdvent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sysadvent.blogspot.com&#34;&gt;SysAdvent: sysadvent&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Java&#34;&gt;Java&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.javaadvent.com&#34;&gt;Java Advent:: Java Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Ways-Advent&#34;&gt;24Ways Advent&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://24ways.org/2012/&#34;&gt;24 Ways to impress your friends: 24 ways: 2012&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</summary><updated>2012-12-01T00:00:00-05:00</updated><category term="Perl Advent Calendars"/><author><name>len jaffe</name></author></entry></feed>

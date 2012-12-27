@@ -1,0 +1,42 @@
+title: 2009-12-11
+author: len jaffe <lenjaffe@lenjaffe.com>
+topic: Perl Advent Planet
+
+=head1 Perl
+
+L<Perl|http://perladvent.org/2009/11/>
+
+L<Catalyst|http://www.catalystframework.org/calendar/2009/11>
+
+L<Plack|http://advent.plackperl.org/2009/12/>
+
+L<Dancer|http://advent.perldancer.org/2009/11>
+
+L<Perl 6|http://perl6advent.wordpress.com/2009/12/11/>
+
+L<Ricardo Signes|http://advent.rjbs.manxome.org/2009/2009-12-11.html>
+
+=head2 Perl Advent Calendar Japan:
+
+L<Casual|http://perl-users.jp/articles/advent-calendar/2009/casual/11>
+
+L<Hacker|http://perl-users.jp/articles/advent-calendar/2009/hacker/11>
+
+L<dbix-skinny|http://perl-users.jp/articles/advent-calendar/2009/dbix-skinny/11>
+
+L<data-model|http://perl-users.jp/articles/advent-calendar/2009/data-model/11>
+
+=head1 PHP
+
+The PHP advent uses slugged titles for their URIs, so we can't acdcess them by day of month llike everybody else.
+You can find the PHP Advent Calendar here
+L<PHPadvent|http://www.phpadvent.org/2009>
+
+=head1 SysAdvent
+ 
+Advent Calendar for System Administrators - uses slugs, not numbers - find the home page at L<SysAdvent|http://sysadvent.blogspot.com>
+ 
+=head1 Plone (Japan)
+
+L<Plone User Group Japan|http://plone.jp/documentation/advent-calendar/2009/11>
+

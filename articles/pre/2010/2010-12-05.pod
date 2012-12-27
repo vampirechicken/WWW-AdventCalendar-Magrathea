@@ -1,0 +1,54 @@
+title: 2010-12-05
+author: len jaffe <lenjaffe@lenjaffe.com>
+topic: Perl Advent Planet
+
+=head1 Perl
+
+L<Perl|http://perladvent.org/2010/5/>
+
+L<Catalyst|http://www.catalystframework.org/calendar/2010/5>
+
+L<Dancer|http://advent.perldancer.org/2010/5>
+
+L<Perl 6|http://perl6advent.wordpress.com/2010/12/5/>
+
+L<Ricardo Signes|http://advent.rjbs.manxome.org/2010/2010-12-05.html>
+
+=head2 Perl Advent Calendar Japan:
+
+L<Perl6|http://perl-users.jp/articles/advent-calendar/2010/perl6/5>
+
+L<Symbolic Programming|http://perl-users.jp/articles/advent-calendar/2010/sym/5>
+
+L<Meta Advent Calendar|http://perl-users.jp/articles/advent-calendar/2010/meta_adcal/5>
+
+L<Win32|http://perl-users.jp/articles/advent-calendar/2010/win32/5>
+
+L<Acme|http://perl-users.jp/articles/advent-calendar/2010/acme/5>
+
+L<English|http://perl-users.jp/articles/advent-calendar/2010/english/5>
+
+L<Casual|http://perl-users.jp/articles/advent-calendar/2010/casual/5>
+
+L<Hacker|http://perl-users.jp/articles/advent-calendar/2010/hacker/5>
+
+L<teng|http://perl-users.jp/articles/advent-calendar/2010/teng/5>
+
+=head1 Entrepreneurship Advent
+
+L<24 Ways to Start|http://www.24waystostart.com/2010/12/05/>
+
+=head1 PHP
+
+The PHP advent uses slugged titles for their URIs, so we can't acdcess them by day of month llike everybody else.
+You can find the PHP Advent Calendar here
+L<PHPadvent|http://www.phpadvent.org/2010>
+
+=head1 HTML5 Adventure Calendar
+
+The individual days are popups/divs, so you can't get to them but from the main page at L<HTML5|http://www.html5adventure.com>
+
+=head1 SysAdvent
+ 
+Advent Calendar for System Administrators - uses slugs, not numbers - find the home page at L<SysAdvent|http://sysadvent.blogspot.com>
+

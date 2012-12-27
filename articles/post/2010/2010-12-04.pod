@@ -1,0 +1,54 @@
+title: 2010-12-04
+author: len jaffe <lenjaffe@lenjaffe.com>
+topic: Perl Advent Planet
+
+=head1 Perl
+
+L<Perl: 2010 Perl Advent Calendar: Debuggin' blinken strings|http://perladvent.org/2010/4/>
+
+L<Catalyst: Catalyst Advent Calendar|http://www.catalystframework.org/calendar/2010/4>
+
+L<Dancer:  Database connections with Dancer::Plugin::Database - PerlDancer Advent Calendar|http://advent.perldancer.org/2010/4>
+
+L<Perl 6: 2010  December  04 &laquo; Perl 6 Advent Calendar|http://perl6advent.wordpress.com/2010/12/4/>
+
+L<Ricardo Signes:  RJBS Advent Calendar 2010 -  83% of Advent Remaining  |http://advent.rjbs.manxome.org/2010/2010-12-04.html>
+
+=head2 Perl Advent Calendar Japan:
+
+L<Perl6: モジュールを使ってみよう - JPerl Advent Calendar 2010 Perl6 Track|http://perl-users.jp/articles/advent-calendar/2010/perl6/4>
+
+L<Symbolic Programming: Ruby1.8で学ぶ、簡単?!記号プログラミング - JPerl Advent Calendar 2010 Sym Track|http://perl-users.jp/articles/advent-calendar/2010/sym/4>
+
+L<Meta Advent Calendar: 見た目重要 - JPerl Advent Calendar 2010 Meta_adcal Track|http://perl-users.jp/articles/advent-calendar/2010/meta_adcal/4>
+
+L<Win32: system 使用時にプログラムの終了を待たずに制御を返す方法 - JPerl Advent Calendar 2010 Win32 Track|http://perl-users.jp/articles/advent-calendar/2010/win32/4>
+
+L<Acme: Acme::Porn::JP - JPerl Advent Calendar 2010 Acme Track|http://perl-users.jp/articles/advent-calendar/2010/acme/4>
+
+L<English: Writing a prefork server / daemon using Parallel::Prefork - JPerl Advent Calendar 2010 English Track|http://perl-users.jp/articles/advent-calendar/2010/english/4>
+
+L<Casual: 続・Encodeでラクラク日本語処理 - JPerl Advent Calendar 2010 Casual Track|http://perl-users.jp/articles/advent-calendar/2010/casual/4>
+
+L<Hacker: Module::Install::TestTarget で let&apos;s `make love` - JPerl Advent Calendar 2010 Hacker Track|http://perl-users.jp/articles/advent-calendar/2010/hacker/4>
+
+teng: is unavailable.
+
+=head1 Entrepreneurship Advent
+
+24 Ways to Start: is unavailable.
+
+=head1 PHP
+
+The PHP advent uses slugged titles for their URIs, so we can't acdcess them by day of month llike everybody else.
+You can find the PHP Advent Calendar here
+L<PHPadvent: PHP Advent 2010|http://www.phpadvent.org/2010>
+
+=head1 HTML5 Adventure Calendar
+
+HTML5: is unavailable.
+
+=head1 SysAdvent
+ 
+L<SysAdvent: sysadvent|http://sysadvent.blogspot.com>
+
