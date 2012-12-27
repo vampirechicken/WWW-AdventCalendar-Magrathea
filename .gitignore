@@ -1,1 +1,5 @@
 *.log
+articles/post/*
+articles/pre/*
+out/*
+config/*

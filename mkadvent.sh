@@ -34,6 +34,7 @@ while [ -n "$1" ]; do
   mkdir -p ${HTML_ROOT}
   cp -r out/${YEAR}/* ${HTML_ROOT}
 
+  mkdir -p ${REPO}
   cd ${REPO}
   git checkout development
   cp ${HTML_ROOT}/* ${REPO}
