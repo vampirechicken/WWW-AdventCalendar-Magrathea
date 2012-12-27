@@ -41,6 +41,7 @@ while [ -n "$1" ]; do
   git add .
   git status
   git commit -m "ran $YEAR"
+  cd ..
   git checkout master
   git merge --no-ff development
   git push
