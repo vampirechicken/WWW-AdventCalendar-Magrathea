@@ -1,0 +1,49 @@
+title: 2011-12-03
+author: len jaffe <lenjaffe@lenjaffe.com>
+topic: Perl Advent Planet
+
+=head1 Perl
+
+RJBS Hanukkah 2011: is available from L<12/21|http://lenjaffe.com/PerlAdventPlanet/2011/2011-12-21.html>-L<12/28|http://lenjaffe.com/PerlAdventPlanet/2011/2011-12-28.html>
+
+L<Perl:  Perl Advent Calendar 2011 -  Keep it Clean  |http://perladvent.org/2011/2011-12-03.html>
+
+L<Catalyst: Catalyst Advent Calendar - Day 3|http://www.catalystframework.org/calendar/2011/3>
+
+L<Dancer:  Self-Contained Dancer Application - PerlDancer Advent Calendar|http://advent.perldancer.org/2011/3>
+
+L<Perl 6: 2011  December  03 -- Perl 6 Advent Calendar|http://perl6advent.wordpress.com/2011/12/3/>
+
+=head2 Perl Advent Calendar Japan:
+
+L<acme: Acme::AirRead - perl初心者が初心を一歩抜け出すために - Perl Advent Calendar Japan 2011 Acme Track|http://perl-users.jp/articles/advent-calendar/2011/acme/3>
+
+L<casual: Crypt::SaltedHash - パスワードを安全に保存するための一手段 - Perl Advent Calendar Japan 2011 Casual Track|http://perl-users.jp/articles/advent-calendar/2011/casual/3>
+
+L<teng: #03 insert / fast_insert - Perl Advent Calendar Japan 2011 Teng Track|http://perl-users.jp/articles/advent-calendar/2011/teng/3>
+
+L<dbix: 自己参照の階層構造を持つテーブルをツリー形式にする DBIx::Tree - Perl Advent Calendar Japan 2011 Dbix Track|http://perl-users.jp/articles/advent-calendar/2011/dbix/3>
+
+L<anysan: AnySan with Twitter - Perl Advent Calendar Japan 2011 Anysan Track|http://perl-users.jp/articles/advent-calendar/2011/anysan/3>
+
+L<hacker: App::Rolling - 標準入力を世代管理されたファイルに書き出す - Perl Advent Calendar Japan 2011 Hacker Track|http://perl-users.jp/articles/advent-calendar/2011/hacker/3>
+
+L<test: ぼくのかんがえた最強のテスト分類 - Perl Advent Calendar Japan 2011 Test Track|http://perl-users.jp/articles/advent-calendar/2011/test/3>
+
+L<amon2: strftime.js - Perl Advent Calendar Japan 2011 Amon2 Track|http://perl-users.jp/articles/advent-calendar/2011/amon2/3>
+
+english: is unavailable.
+
+=head1 Python
+
+Ball Pythons: is unavailable.
+
+=head1 PHP
+
+The PHP advent uses slugged titles for their URIs, so we can't acdcess them by daqy of month llike everybody else.
+You can find the PHP Advent Calendar at L<PHP Advent|http://phpadvent.org/2011>
+
+=head1 SysAdvent
+ 
+Advent Calendar for System Administrators - uses slugs, not numbers - find the home page at L<SysAdvent|http://sysadvent.blogspot.com>
+

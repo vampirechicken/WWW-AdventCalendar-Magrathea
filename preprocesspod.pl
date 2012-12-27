@@ -11,6 +11,8 @@ use HTML::Template;
 use File::Path qw(make_path);
 use IO::Any;
 
+my $advent_planet_uri = 'http://lenjaffe.com/PerlAdventPlanet';
+
 my $verbose = 0;  # status messages to STDERR if $verbose == 1
 if ($ARGV[0] && $ARGV[0] eq '-v') {
   shift @ARGV;
@@ -24,18 +26,19 @@ die $usage unless $year;
 
 my $config = initialize_year($year);
 my $web    = HTTP::Tiny->new;
-foreach my $day ( 1..24 ) {
+foreach my $day ( 1..25 ) {
   $config->{article_tmpl}->param( DAY => $day );
 
   my $day02 = sprintf "%02d", $day;
   $config->{article_tmpl}->param( DAY02 => $day02 );
 
-  my $podname  = "$year-12-$day02.pod" ;
+  my $basename = "$year-12-$day02" ;
+  my $podname  = "${basename}.pod" ;
   my $prefile  = "$config->{pre_dir}/$podname";
   my $postfile = "$config->{post_dir}/$podname" ;
 
   make_prefile($prefile, $config, $verbose);
-  preprocess($prefile, $postfile, $verbose);
+  preprocess($day, $year, $prefile, $postfile, $verbose);
 }
 
 sub initialize_year {
@@ -99,11 +102,10 @@ sub initialize_template {
 
 
 sub preprocess {
-  my ($prefile, $postfile, $verbose) = @_;
+  my ($day, $year, $prefile, $postfile, $verbose) = @_;
 
   my $prefh = IO::Any->read($prefile);
-  unless ($prefh) {
-    warn "Could not open $prefile for reading: $!";
+  unless ($prefh) { warn "Could not open $prefile for reading: $!";
     return;
   }
 
@@ -114,18 +116,38 @@ sub preprocess {
   }
 
   say STDERR "Preprocessing $prefile:" if $verbose;
+  INPUTLINE:
   while (<$prefh>) {
-    unless (/L<(?<link>[^>]+)>/) {
+    unless ( /^\s*
+	         (?<day_range>
+		   (?<start_day>\d+)
+	           \s*-\s*
+	           (?<end_day>\d+)
+	           \s*
+	           :
+		 )?
+	         \s*
+	         L<(?<link>[^>]+)>
+	     /x ) {
        print $postfh $_;
-       next;
+       next INPUTLINE;
     }
     my ($label, $url) = split(/\|/, $+{link});
     say STDERR sprintf("\tprocessing %32s: %s", $label, $url) if $verbose;
 
+    if ($+{day_range}) {
+      if ( $+{start_day} > $day || $day > $+{end_day} ) {
+        say $postfh "${label}: is available from " . 
+	     sprintf("L<12/%02d|%s/%d/%d-12-%02d.html>", $+{start_day}, $advent_planet_uri, $year, $year, $+{start_day} )
+             . '-' .		     
+	     sprintf("L<12/%02d|%s/%d/%d-12-%02d.html>", $+{end_day}, $advent_planet_uri, $year, $year, $+{end_day} );
+        next INPUTLINE;
+      }
+    }
+
     my $response = $web->get($url);
     if ( $response->{status} != 200) {
-       say $postfh "${label}: is unavailable.";
-       next;
+       say $postfh "${label}: appears to be unavailable on ${year}-12-" . sprintf("%02d - ", $day);
     }
 
     if ( $response->{content} =~ m!<title>(?<title>.*)</title>!s ) {

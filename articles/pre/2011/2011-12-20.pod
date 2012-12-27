@@ -4,6 +4,8 @@ topic: Perl Advent Planet
 
 =head1 Perl
 
+21-28:L<RJBS Hanukkah 2011|http://xn--8dbbfrx.rjbs.manxome.org/2011/2011-12-20.html>
+
 L<Perl|http://perladvent.org/2011/2011-12-20.html>
 
 L<Catalyst|http://www.catalystframework.org/calendar/2011/20>
@@ -35,4 +37,13 @@ L<english|http://perl-users.jp/articles/advent-calendar/2011/english/20>
 =head1 Python
 
 L<Ball Pythons|http://www.worldofballpythons.com/christmas/20/>
+
+=head1 PHP
+
+The PHP advent uses slugged titles for their URIs, so we can't acdcess them by daqy of month llike everybody else.
+You can find the PHP Advent Calendar at L<PHP Advent|http://phpadvent.org/2011>
+
+=head1 SysAdvent
+ 
+Advent Calendar for System Administrators - uses slugs, not numbers - find the home page at L<SysAdvent|http://sysadvent.blogspot.com>
 

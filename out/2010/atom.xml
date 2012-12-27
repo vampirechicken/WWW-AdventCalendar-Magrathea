@@ -1,0 +1,1154 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Perl Advent Planet 2010</title><id>http://www.theycomewithcheese.com/PerlAdventPlanet/2010/</id><link href="http://www.theycomewithcheese.com/PerlAdventPlanet/2010/atom.xml" rel="self"/><updated>2012-01-19T00:34:43-05:00</updated><author><name>Len Jaffe</name></author><generator uri="http://search.cpan.org/dist/XML-Atom-SimpleFeed/" version="0.86">XML::Atom::SimpleFeed</generator><entry><title>2010-12-24</title><link href="http://www.theycomewithcheese.com/PerlAdventPlanet/2010/2010-12-24.html"/><id>http://www.theycomewithcheese.com/PerlAdventPlanet/2010/2010-12-24.html</id><summary type="html">&lt;div class=&#39;pod&#39;&gt;&lt;h2 id=&#34;Perl&#34;&gt;Perl&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perladvent.org/2010/24/&#34;&gt;Perl: 2010 Perl Advent Calendar: &#38;#39;Twas the night before diffmas&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.catalystframework.org/calendar/2010/24&#34;&gt;Catalyst: Catalyst Advent Calendar - Day 24&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perldancer.org/2010/24&#34;&gt;Dancer: How to contribute to Dancer - PerlDancer Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl6advent.wordpress.com/2010/12/24/&#34;&gt;Perl 6: 2010 December 24 &#38;amp;laquo; Perl 6 Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.rjbs.manxome.org/2010/2010-12-24.html&#34;&gt;Ricardo Signes: RJBS Advent Calendar 2010 - Rolling Your Own Method Dispatch &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-Advent-Calendar-Japan:&#34;&gt;Perl Advent Calendar Japan:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/perl6/24&#34;&gt;Perl6: - JPerl Advent Calendar 2010 Perl6 Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/sym/24&#34;&gt;Symbolic Programming: 6&#38;#x7A2E;&#38;#x985E;&#38;#x306E;&#38;#x8A18;&#38;#x53F7;&#38;#x3060;&#38;#x3051;&#38;#x3067;JavaScript&#38;#x3092;&#38;#x66F8;&#38;#x3053;&#38;#x3046; - JPerl Advent Calendar 2010 Sym Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/meta_adcal/24&#34;&gt;Meta Advent Calendar: - JPerl Advent Calendar 2010 Meta_adcal Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/win32/24&#34;&gt;Win32: Win32::Job&#38;#x3067;&#38;#x30B8;&#38;#x30E7;&#38;#x30D6;&#38;#x7BA1;&#38;#x7406; - JPerl Advent Calendar 2010 Win32 Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/acme/24&#34;&gt;Acme: dan.pm &#38;#x306B;&#38;#x8FEB;&#38;#x308B; - JPerl Advent Calendar 2010 Acme Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/english/24&#34;&gt;English: Encode::UTF8Mac makes you happy while handling file names on MacOSX. - JPerl Advent Calendar 2010 English Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/casual/24&#34;&gt;Casual: Smart::Args &#38;#x3067;&#38;#x30D0;&#38;#x30EA;&#38;#x30C7;&#38;#x30FC;&#38;#x30B7;&#38;#x30E7;&#38;#x30F3;&#38;#x3059;&#38;#x308B;&#38;#x3002;&#38;#x307E;&#38;#x305F;&#38;#x306F;&#38;#x30D0;&#38;#x30EA;&#38;#x30C7;&#38;#x30FC;&#38;#x30BF;&#38;#x30FC;&#38;#x3068;&#38;#x3057;&#38;#x3066;&#38;#x5FC5;&#38;#x8981;&#38;#x306A;&#38;#x4E8B; - JPerl Advent Calendar 2010 Casual Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/hacker/24&#34;&gt;Hacker: Devel::KYTProf&#38;#x3067;&#38;#x7A7A;&#38;#x6C17;&#38;#x8AAD;&#38;#x3093;&#38;#x3060;&#38;#x30D7;&#38;#x30ED;&#38;#x30D5;&#38;#x30A1;&#38;#x30A4;&#38;#x30EA;&#38;#x30F3;&#38;#x30B0;&#38;#x3059;&#38;#x308B; - JPerl Advent Calendar 2010 Hacker Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;teng: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;Entrepreneurship-Advent&#34;&gt;Entrepreneurship Advent&lt;/h2&gt;
+
+&lt;p&gt;24 Ways to Start: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;PHP&#34;&gt;PHP&lt;/h2&gt;
+
+&lt;p&gt;The PHP advent uses slugged titles for their URIs, so we can&#38;#39;t acdcess them by day of month llike everybody else. You can find the PHP Advent Calendar here &lt;a href=&#34;http://www.phpadvent.org/2010&#34;&gt;PHPadvent: PHP Advent 2010&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;HTML5-Adventure-Calendar&#34;&gt;HTML5 Adventure Calendar&lt;/h2&gt;
+
+&lt;p&gt;HTML5: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;SysAdvent&#34;&gt;SysAdvent&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sysadvent.blogspot.com&#34;&gt;SysAdvent: sysadvent&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</summary><updated>2010-12-24T00:00:00-05:00</updated><category term="Perl Advent Calendars"/><author><name>len jaffe</name></author></entry><entry><title>2010-12-23</title><link href="http://www.theycomewithcheese.com/PerlAdventPlanet/2010/2010-12-23.html"/><id>http://www.theycomewithcheese.com/PerlAdventPlanet/2010/2010-12-23.html</id><summary type="html">&lt;div class=&#39;pod&#39;&gt;&lt;h2 id=&#34;Perl&#34;&gt;Perl&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perladvent.org/2010/23/&#34;&gt;Perl: 2010 Perl Advent Calendar: You&#38;#39;ll never find my Christmas&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.catalystframework.org/calendar/2010/23&#34;&gt;Catalyst: Catalyst Advent Calendar - Day 23&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perldancer.org/2010/23&#34;&gt;Dancer: Dancer&#38;#39;s ecosystem - PerlDancer Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl6advent.wordpress.com/2010/12/23/&#34;&gt;Perl 6: 2010 December 23 &#38;amp;laquo; Perl 6 Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.rjbs.manxome.org/2010/2010-12-23.html&#34;&gt;Ricardo Signes: RJBS Advent Calendar 2010 - Rolling Your Own Composition &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-Advent-Calendar-Japan:&#34;&gt;Perl Advent Calendar Japan:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/perl6/23&#34;&gt;Perl6: - JPerl Advent Calendar 2010 Perl6 Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/sym/23&#34;&gt;Symbolic Programming: Python SyntaxError Programming &#38;#x3092;&#38;#x89E3;&#38;#x6790;&#38;#x3057;&#38;#x3066;&#38;#x307F;&#38;#x305F; - JPerl Advent Calendar 2010 Sym Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/meta_adcal/23&#34;&gt;Meta Advent Calendar: - JPerl Advent Calendar 2010 Meta_adcal Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/win32/23&#34;&gt;Win32: Encode::EUCJPMS&#38;#x3067;&#38;#x697D;&#38;#x3005;&#38;#x65E5;&#38;#x672C;&#38;#x8A9E;&#38;#x51E6;&#38;#x7406;(&#38;#x305F;&#38;#x3060;&#38;#x3057;Windows&#38;#x306B;&#38;#x9650;&#38;#x308B;) - JPerl Advent Calendar 2010 Win32 Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/acme/23&#34;&gt;Acme: PerlIO::via &#38;#x3067;&#38;#x904A;&#38;#x3076; - JPerl Advent Calendar 2010 Acme Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/english/23&#34;&gt;English: Test::SharedFork - testing with fork(2) - JPerl Advent Calendar 2010 English Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/casual/23&#34;&gt;Casual: &#38;#x4F7F;&#38;#x3063;&#38;#x3061;&#38;#x3083;&#38;#x3044;&#38;#x3051;&#38;#x306A;&#38;#x3044;&#38;#x6A19;&#38;#x6E96;&#38;#x30E2;&#38;#x30B8;&#38;#x30E5;&#38;#x30FC;&#38;#x30EB; - JPerl Advent Calendar 2010 Casual Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/hacker/23&#34;&gt;Hacker: YouTube &#38;#x306E;&#38;#x52D5;&#38;#x753B;&#38;#x3092;&#38;#x4FDD;&#38;#x5B58;&#38;#x3059;&#38;#x308B; - JPerl Advent Calendar 2010 Hacker Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;teng: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;Entrepreneurship-Advent&#34;&gt;Entrepreneurship Advent&lt;/h2&gt;
+
+&lt;p&gt;24 Ways to Start: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;PHP&#34;&gt;PHP&lt;/h2&gt;
+
+&lt;p&gt;The PHP advent uses slugged titles for their URIs, so we can&#38;#39;t acdcess them by day of month llike everybody else. You can find the PHP Advent Calendar here &lt;a href=&#34;http://www.phpadvent.org/2010&#34;&gt;PHPadvent: PHP Advent 2010&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;HTML5-Adventure-Calendar&#34;&gt;HTML5 Adventure Calendar&lt;/h2&gt;
+
+&lt;p&gt;HTML5: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;SysAdvent&#34;&gt;SysAdvent&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sysadvent.blogspot.com&#34;&gt;SysAdvent: sysadvent&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</summary><updated>2010-12-23T00:00:00-05:00</updated><category term="Perl Advent Calendars"/><author><name>len jaffe</name></author></entry><entry><title>2010-12-22</title><link href="http://www.theycomewithcheese.com/PerlAdventPlanet/2010/2010-12-22.html"/><id>http://www.theycomewithcheese.com/PerlAdventPlanet/2010/2010-12-22.html</id><summary type="html">&lt;div class=&#39;pod&#39;&gt;&lt;h2 id=&#34;Perl&#34;&gt;Perl&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perladvent.org/2010/22/&#34;&gt;Perl: 2010 Perl Advent Calendar: xikoh-tomos-luhag-hycun-kupul-rulal-rudap-vysem-tacut-savyr-luxox&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.catalystframework.org/calendar/2010/22&#34;&gt;Catalyst: Catalyst Advent Calendar - Day 22&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perldancer.org/2010/22&#34;&gt;Dancer: How to use Dancer with Plack middlewares - PerlDancer Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl6advent.wordpress.com/2010/12/22/&#34;&gt;Perl 6: 2010 December 22 &#38;amp;laquo; Perl 6 Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.rjbs.manxome.org/2010/2010-12-22.html&#34;&gt;Ricardo Signes: RJBS Advent Calendar 2010 - A Lousy Locker (...because Worse is Better!) &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-Advent-Calendar-Japan:&#34;&gt;Perl Advent Calendar Japan:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/perl6/22&#34;&gt;Perl6: - JPerl Advent Calendar 2010 Perl6 Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/sym/22&#34;&gt;Symbolic Programming: Visual C++&#38;#x3067;&#38;#x8A18;&#38;#x53F7;&#38;#x30D7;&#38;#x30ED;&#38;#x30B0;&#38;#x30E9;&#38;#x30DF;&#38;#x30F3;&#38;#x30B0; - JPerl Advent Calendar 2010 Sym Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/meta_adcal/22&#34;&gt;Meta Advent Calendar: - JPerl Advent Calendar 2010 Meta_adcal Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/win32/22&#34;&gt;Win32: Windows &#38;#x306E; STDIN &#38;#x3092;&#38;#x975E;&#38;#x540C;&#38;#x671F;&#38;#x3067;&#38;#x8AAD;&#38;#x307F;&#38;#x8FBC;&#38;#x3080;&#38;#x3002; - JPerl Advent Calendar 2010 Win32 Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/acme/22&#34;&gt;Acme: Acme&#38;#x3092;&#38;#x8D8A;&#38;#x3048;&#38;#x3066; - &#38;#x4F9D;&#38;#x5B58;&#38;#x3055;&#38;#x308C;&#38;#x308B;Acme - JPerl Advent Calendar 2010 Acme Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/english/22&#34;&gt;English: Image::Epeg - extreamly fast JPEG resizing - JPerl Advent Calendar 2010 English Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/casual/22&#34;&gt;Casual: forks&#38;#x3067;ithreads&#38;#x306B;&#38;#x601D;&#38;#x3044;&#38;#x3092;&#38;#x99B3;&#38;#x305B;&#38;#x3066;&#38;#x307F;&#38;#x308B; - JPerl Advent Calendar 2010 Casual Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/hacker/22&#34;&gt;Hacker: DBIx::TransactionManager&#38;#x3067;&#38;#x30CD;&#38;#x30B9;&#38;#x30C8;&#38;#x3057;&#38;#x305F;&#38;#x30C8;&#38;#x30E9;&#38;#x30F3;&#38;#x30B6;&#38;#x30AF;&#38;#x30B7;&#38;#x30E7;&#38;#x30F3;&#38;#x3092;&#38;#x7BA1;&#38;#x7406; - JPerl Advent Calendar 2010 Hacker Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;teng: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;Entrepreneurship-Advent&#34;&gt;Entrepreneurship Advent&lt;/h2&gt;
+
+&lt;p&gt;24 Ways to Start: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;PHP&#34;&gt;PHP&lt;/h2&gt;
+
+&lt;p&gt;The PHP advent uses slugged titles for their URIs, so we can&#38;#39;t acdcess them by day of month llike everybody else. You can find the PHP Advent Calendar here &lt;a href=&#34;http://www.phpadvent.org/2010&#34;&gt;PHPadvent: PHP Advent 2010&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;HTML5-Adventure-Calendar&#34;&gt;HTML5 Adventure Calendar&lt;/h2&gt;
+
+&lt;p&gt;HTML5: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;SysAdvent&#34;&gt;SysAdvent&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sysadvent.blogspot.com&#34;&gt;SysAdvent: sysadvent&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</summary><updated>2010-12-22T00:00:00-05:00</updated><category term="Perl Advent Calendars"/><author><name>len jaffe</name></author></entry><entry><title>2010-12-21</title><link href="http://www.theycomewithcheese.com/PerlAdventPlanet/2010/2010-12-21.html"/><id>http://www.theycomewithcheese.com/PerlAdventPlanet/2010/2010-12-21.html</id><summary type="html">&lt;div class=&#39;pod&#39;&gt;&lt;h2 id=&#34;Perl&#34;&gt;Perl&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perladvent.org/2010/21/&#34;&gt;Perl: 2010 Perl Advent Calendar: Robot Santa asks, &#38;quot;Is your code nice enough?&#38;quot;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.catalystframework.org/calendar/2010/21&#34;&gt;Catalyst: Catalyst Advent Calendar - Day 21&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perldancer.org/2010/21&#34;&gt;Dancer: Writing a new Dancer session backend - PerlDancer Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl6advent.wordpress.com/2010/12/21/&#34;&gt;Perl 6: 2010 December 21 &#38;amp;laquo; Perl 6 Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.rjbs.manxome.org/2010/2010-12-21.html&#34;&gt;Ricardo Signes: RJBS Advent Calendar 2010 - Testing with Classes, Roles, and Antlers &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-Advent-Calendar-Japan:&#34;&gt;Perl Advent Calendar Japan:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/perl6/21&#34;&gt;Perl6: - JPerl Advent Calendar 2010 Perl6 Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/sym/21&#34;&gt;Symbolic Programming: Linux/gcc&#38;#x3067;&#38;#x8A18;&#38;#x53F7;&#38;#x30D7;&#38;#x30ED;&#38;#x30B0;&#38;#x30E9;&#38;#x30DF;&#38;#x30F3;&#38;#x30B0; - JPerl Advent Calendar 2010 Sym Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/meta_adcal/21&#34;&gt;Meta Advent Calendar: - JPerl Advent Calendar 2010 Meta_adcal Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/win32/21&#34;&gt;Win32: Perl &#38;#x3067;&#38;#x304A;&#38;#x624B;&#38;#x8EFD; OpenGL - JPerl Advent Calendar 2010 Win32 Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/acme/21&#34;&gt;Acme: Text::MeCab&#38;#xFF08;&#38;#x65E5;&#38;#x672C;&#38;#x8A9E;&#38;#x5909;&#38;#x63DB;&#38;#x7CFB;Acme&#38;#x30E2;&#38;#x30B8;&#38;#x30E5;&#38;#x30FC;&#38;#x30EB;&#38;#x3092;&#38;#x652F;&#38;#x3048;&#38;#x308B;&#38;#x5049;&#38;#x5927;&#38;#x306A;&#38;#x30E2;&#38;#x30B8;&#38;#x30E5;&#38;#x30FC;&#38;#x30EB;&#38;#xFF09; - JPerl Advent Calendar 2010 Acme Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/english/21&#34;&gt;English: Python::Serialize::Pickle::InlinePython - JPerl Advent Calendar 2010 English Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/casual/21&#34;&gt;Casual: &#38;#x30E2;&#38;#x30B8;&#38;#x30E5;&#38;#x30FC;&#38;#x30EB;&#38;#x306E;&#38;#x30D0;&#38;#x30FC;&#38;#x30B8;&#38;#x30E7;&#38;#x30F3;&#38;#x3092;&#38;#x78BA;&#38;#x8A8D;&#38;#x3059;&#38;#x308B;&#38;#x3068;&#38;#x304D;&#38;#x3069;&#38;#x3046;&#38;#x3084;&#38;#x3063;&#38;#x3066;&#38;#x307E;&#38;#x3059;&#38;#x304B;&#38;#xFF1F; - JPerl Advent Calendar 2010 Casual Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/hacker/21&#34;&gt;Hacker: Text::Xslate&#38;#x3067;&#38;#x5B89;&#38;#x5168;&#38;#x306A;&#38;#x30C6;&#38;#x30F3;&#38;#x30D7;&#38;#x30EC;&#38;#x30FC;&#38;#x30C8;&#38;#x751F;&#38;#x6D3B;&#38;#x3092;&#38;#x9001;&#38;#x308D;&#38;#x3046;&#38;#xFF01; - JPerl Advent Calendar 2010 Hacker Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;teng: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;Entrepreneurship-Advent&#34;&gt;Entrepreneurship Advent&lt;/h2&gt;
+
+&lt;p&gt;24 Ways to Start: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;PHP&#34;&gt;PHP&lt;/h2&gt;
+
+&lt;p&gt;The PHP advent uses slugged titles for their URIs, so we can&#38;#39;t acdcess them by day of month llike everybody else. You can find the PHP Advent Calendar here &lt;a href=&#34;http://www.phpadvent.org/2010&#34;&gt;PHPadvent: PHP Advent 2010&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;HTML5-Adventure-Calendar&#34;&gt;HTML5 Adventure Calendar&lt;/h2&gt;
+
+&lt;p&gt;HTML5: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;SysAdvent&#34;&gt;SysAdvent&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sysadvent.blogspot.com&#34;&gt;SysAdvent: sysadvent&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</summary><updated>2010-12-21T00:00:00-05:00</updated><category term="Perl Advent Calendars"/><author><name>len jaffe</name></author></entry><entry><title>2010-12-20</title><link href="http://www.theycomewithcheese.com/PerlAdventPlanet/2010/2010-12-20.html"/><id>http://www.theycomewithcheese.com/PerlAdventPlanet/2010/2010-12-20.html</id><summary type="html">&lt;div class=&#39;pod&#39;&gt;&lt;h2 id=&#34;Perl&#34;&gt;Perl&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perladvent.org/2010/20/&#34;&gt;Perl: 2010 Perl Advent Calendar: Four Naughty Tweeting Birds&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.catalystframework.org/calendar/2010/20&#34;&gt;Catalyst: Catalyst Advent Calendar - Day 20&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perldancer.org/2010/20&#34;&gt;Dancer: Writing a new Dancer logger backend - PerlDancer Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl6advent.wordpress.com/2010/12/20/&#34;&gt;Perl 6: 2010 December 20 &#38;amp;laquo; Perl 6 Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.rjbs.manxome.org/2010/2010-12-20.html&#34;&gt;Ricardo Signes: RJBS Advent Calendar 2010 - Shuffle Smarter, Not Harder &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-Advent-Calendar-Japan:&#34;&gt;Perl Advent Calendar Japan:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/perl6/20&#34;&gt;Perl6: - JPerl Advent Calendar 2010 Perl6 Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/sym/20&#34;&gt;Symbolic Programming: &#38;#x306F;&#38;#x3058;&#38;#x3081;&#38;#x3066;&#38;#x306E;C&#38;#x8A00;&#38;#x8A9E;&#38;#x8A18;&#38;#x53F7;&#38;#x30D7;&#38;#x30ED;&#38;#x30B0;&#38;#x30E9;&#38;#x30DF;&#38;#x30F3;&#38;#x30B0; - JPerl Advent Calendar 2010 Sym Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/meta_adcal/20&#34;&gt;Meta Advent Calendar: - JPerl Advent Calendar 2010 Meta_adcal Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/win32/20&#34;&gt;Win32: Perl &#38;#x3067;&#38;#x96FB;&#38;#x5353;&#38;#x3092;&#38;#x4F5C;&#38;#x308B;(win32&#38;#x65C5;&#38;#x60C5;&#38;#x7DE8;) - JPerl Advent Calendar 2010 Win32 Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/acme/20&#34;&gt;Acme: Acme::HeptaSymbolize&#38;#x3067;7&#38;#x8A18;&#38;#x53F7;&#38;#x30D7;&#38;#x30ED;&#38;#x30B0;&#38;#x30E9;&#38;#x30DF;&#38;#x30F3;&#38;#x30B0; - JPerl Advent Calendar 2010 Acme Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/english/20&#34;&gt;English: DBIx::Kohada - yet another O/R Mapper - JPerl Advent Calendar 2010 English Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/casual/20&#34;&gt;Casual: prove&#38;#x3092;&#38;#x3046;&#38;#x307E;&#38;#x304F;&#38;#x4F7F;&#38;#x3063;&#38;#x3066;&#38;#x30C6;&#38;#x30B9;&#38;#x30C8;&#38;#x5B9F;&#38;#x884C;&#38;#x3092;&#38;#x52B9;&#38;#x7387;&#38;#x5316;&#38;#x3057;&#38;#x3088;&#38;#x3046; - JPerl Advent Calendar 2010 Casual Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/hacker/20&#34;&gt;Hacker: Image::LibRaw &#38;#x3067; raw &#38;#x753B;&#38;#x50CF;&#38;#x3092;&#38;#x64CD;&#38;#x4F5C;&#38;#x3059;&#38;#x308B; - JPerl Advent Calendar 2010 Hacker Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;teng: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;Entrepreneurship-Advent&#34;&gt;Entrepreneurship Advent&lt;/h2&gt;
+
+&lt;p&gt;24 Ways to Start: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;PHP&#34;&gt;PHP&lt;/h2&gt;
+
+&lt;p&gt;The PHP advent uses slugged titles for their URIs, so we can&#38;#39;t acdcess them by day of month llike everybody else. You can find the PHP Advent Calendar here &lt;a href=&#34;http://www.phpadvent.org/2010&#34;&gt;PHPadvent: PHP Advent 2010&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;HTML5-Adventure-Calendar&#34;&gt;HTML5 Adventure Calendar&lt;/h2&gt;
+
+&lt;p&gt;HTML5: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;SysAdvent&#34;&gt;SysAdvent&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sysadvent.blogspot.com&#34;&gt;SysAdvent: sysadvent&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</summary><updated>2010-12-20T00:00:00-05:00</updated><category term="Perl Advent Calendars"/><author><name>len jaffe</name></author></entry><entry><title>2010-12-19</title><link href="http://www.theycomewithcheese.com/PerlAdventPlanet/2010/2010-12-19.html"/><id>http://www.theycomewithcheese.com/PerlAdventPlanet/2010/2010-12-19.html</id><summary type="html">&lt;div class=&#39;pod&#39;&gt;&lt;h2 id=&#34;Perl&#34;&gt;Perl&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perladvent.org/2010/19/&#34;&gt;Perl: 2010 Perl Advent Calendar: So, umm, I told Santa what I wanted and he was totally, like, whatever&#38;amp;hellip;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.catalystframework.org/calendar/2010/19&#34;&gt;Catalyst: Catalyst Advent Calendar - Day 19&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perldancer.org/2010/19&#34;&gt;Dancer: Writing a new Dancer serializer backend - PerlDancer Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl6advent.wordpress.com/2010/12/19/&#34;&gt;Perl 6: 2010 December 19 &#38;amp;laquo; Perl 6 Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.rjbs.manxome.org/2010/2010-12-19.html&#34;&gt;Ricardo Signes: RJBS Advent Calendar 2010 - Exporting Globs for Fun and Profit &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-Advent-Calendar-Japan:&#34;&gt;Perl Advent Calendar Japan:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/perl6/19&#34;&gt;Perl6: - JPerl Advent Calendar 2010 Perl6 Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/sym/19&#34;&gt;Symbolic Programming: 1&#38;#x5206;&#38;#x3067;&#38;#x308F;&#38;#x304B;&#38;#x308B;&#38;#x8A18;&#38;#x53F7;&#38;#x3060;&#38;#x3051;&#38;#x306E;Erlang&#38;#x30D7;&#38;#x30ED;&#38;#x30B0;&#38;#x30E9;&#38;#x30DF;&#38;#x30F3;&#38;#x30B0; - JPerl Advent Calendar 2010 Sym Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/meta_adcal/19&#34;&gt;Meta Advent Calendar: - JPerl Advent Calendar 2010 Meta_adcal Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/win32/19&#34;&gt;Win32: Windows&#38;#x3067;Perl&#38;#x3092;&#38;#x30D3;&#38;#x30EB;&#38;#x30C9;&#38;#x3059;&#38;#x308B; - JPerl Advent Calendar 2010 Win32 Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/acme/19&#34;&gt;Acme: Acme&#38;#x306A;&#38;#x308B;&#38;#x30E2;&#38;#x30B8;&#38;#x30E5;&#38;#x30FC;&#38;#x30EB;&#38;#x3092;CPAN&#38;#x306B;&#38;#x6C42;&#38;#x3081;&#38;#x3066; - JPerl Advent Calendar 2010 Acme Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/english/19&#34;&gt;English: cpan-outdated - detect outdated CPAN modules in your environment - JPerl Advent Calendar 2010 English Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/casual/19&#34;&gt;Casual: WWW::Salesforce&#38;#x3067;Chatter&#38;#x306E;&#38;#x30BF;&#38;#x30A4;&#38;#x30E0;&#38;#x30E9;&#38;#x30A4;&#38;#x30F3;&#38;#x3092;&#38;#x53D6;&#38;#x5F97;&#38;#x3059;&#38;#x308B; - JPerl Advent Calendar 2010 Casual Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/hacker/19&#34;&gt;Hacker: &#38;#x3072;&#38;#x3089;&#38;#x304C;&#38;#x306A;&#38;#x3092;&#38;#x30AB;&#38;#x30BF;&#38;#x30AB;&#38;#x30CA;&#38;#x306B;&#38;#x5909;&#38;#x63DB;&#38;#x3057;&#38;#x305F;&#38;#x3044;&#38;#x3060;&#38;#x3063;&#38;#x3066;?&#38;#x305D;&#38;#x308C;&#38;#x306A;&#38;#x3089; Lingua::JA::Regular::Unicode - JPerl Advent Calendar 2010 Hacker Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;teng: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;Entrepreneurship-Advent&#34;&gt;Entrepreneurship Advent&lt;/h2&gt;
+
+&lt;p&gt;24 Ways to Start: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;PHP&#34;&gt;PHP&lt;/h2&gt;
+
+&lt;p&gt;The PHP advent uses slugged titles for their URIs, so we can&#38;#39;t acdcess them by day of month llike everybody else. You can find the PHP Advent Calendar here &lt;a href=&#34;http://www.phpadvent.org/2010&#34;&gt;PHPadvent: PHP Advent 2010&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;HTML5-Adventure-Calendar&#34;&gt;HTML5 Adventure Calendar&lt;/h2&gt;
+
+&lt;p&gt;HTML5: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;SysAdvent&#34;&gt;SysAdvent&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sysadvent.blogspot.com&#34;&gt;SysAdvent: sysadvent&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</summary><updated>2010-12-19T00:00:00-05:00</updated><category term="Perl Advent Calendars"/><author><name>len jaffe</name></author></entry><entry><title>2010-12-18</title><link href="http://www.theycomewithcheese.com/PerlAdventPlanet/2010/2010-12-18.html"/><id>http://www.theycomewithcheese.com/PerlAdventPlanet/2010/2010-12-18.html</id><summary type="html">&lt;div class=&#39;pod&#39;&gt;&lt;h2 id=&#34;Perl&#34;&gt;Perl&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perladvent.org/2010/18/&#34;&gt;Perl: 2010 Perl Advent Calendar: On the 2nd day of Xmas Santa hits the bar pretty hard!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.catalystframework.org/calendar/2010/18&#34;&gt;Catalyst: Catalyst Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perldancer.org/2010/18&#34;&gt;Dancer: Dive into Dancer&#38;#39;s internals - PerlDancer Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl6advent.wordpress.com/2010/12/18/&#34;&gt;Perl 6: 2010 December 18 &#38;amp;laquo; Perl 6 Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.rjbs.manxome.org/2010/2010-12-18.html&#34;&gt;Ricardo Signes: RJBS Advent Calendar 2010 - We&#38;amp;#39;ll Have a Blue Christmas Without del.icio.us &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-Advent-Calendar-Japan:&#34;&gt;Perl Advent Calendar Japan:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/perl6/18&#34;&gt;Perl6: - JPerl Advent Calendar 2010 Perl6 Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/sym/18&#34;&gt;Symbolic Programming: EBCDIC&#38;#x6587;&#38;#x5B57;&#38;#x30B3;&#38;#x30FC;&#38;#x30C9;&#38;#x3067;&#38;#x8A18;&#38;#x53F7;&#38;#x30D7;&#38;#x30ED;&#38;#x30B0;&#38;#x30E9;&#38;#x30E0;&#38;#x3092;&#38;#x96E3;&#38;#x8AAD;&#38;#x5316;&#38;#x3059;&#38;#x308B; - JPerl Advent Calendar 2010 Sym Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/meta_adcal/18&#34;&gt;Meta Advent Calendar: - JPerl Advent Calendar 2010 Meta_adcal Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/win32/18&#34;&gt;Win32: &#38;#x30D5;&#38;#x30A1;&#38;#x30A4;&#38;#x30EB;&#38;#x64CD;&#38;#x4F5C;&#38;#x306B;&#38;#x307E;&#38;#x3064;&#38;#x308F;&#38;#x308B;&#38;#x30A8;&#38;#x30C8;&#38;#x30BB;&#38;#x30C8;&#38;#x30E9; - JPerl Advent Calendar 2010 Win32 Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/acme/18&#34;&gt;Acme: Acme::CPANAuthors::British - JPerl Advent Calendar 2010 Acme Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/english/18&#34;&gt;English: Cache::KyotoTycoon - Client library for KyotoTycoon - JPerl Advent Calendar 2010 English Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/casual/18&#34;&gt;Casual: @INC &#38;#x306B;&#38;#x307F;&#38;#x308B; Perl &#38;#x306E;&#38;#x3084;&#38;#x308A;&#38;#x304B;&#38;#x305F;&#38;#x304C;&#38;#x3044;&#38;#x3063;&#38;#x3071;&#38;#x3044; - JPerl Advent Calendar 2010 Casual Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/hacker/18&#34;&gt;Hacker: Data::Recursive::Encode &#38;#x3067;&#38;#x518D;&#38;#x5E30;&#38;#x7684;&#38;#x306B; encode/decode &#38;#x3059;&#38;#x308B; - JPerl Advent Calendar 2010 Hacker Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;teng: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;Entrepreneurship-Advent&#34;&gt;Entrepreneurship Advent&lt;/h2&gt;
+
+&lt;p&gt;24 Ways to Start: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;PHP&#34;&gt;PHP&lt;/h2&gt;
+
+&lt;p&gt;The PHP advent uses slugged titles for their URIs, so we can&#38;#39;t acdcess them by day of month llike everybody else. You can find the PHP Advent Calendar here &lt;a href=&#34;http://www.phpadvent.org/2010&#34;&gt;PHPadvent: PHP Advent 2010&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;HTML5-Adventure-Calendar&#34;&gt;HTML5 Adventure Calendar&lt;/h2&gt;
+
+&lt;p&gt;HTML5: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;SysAdvent&#34;&gt;SysAdvent&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sysadvent.blogspot.com&#34;&gt;SysAdvent: sysadvent&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</summary><updated>2010-12-18T00:00:00-05:00</updated><category term="Perl Advent Calendars"/><author><name>len jaffe</name></author></entry><entry><title>2010-12-17</title><link href="http://www.theycomewithcheese.com/PerlAdventPlanet/2010/2010-12-17.html"/><id>http://www.theycomewithcheese.com/PerlAdventPlanet/2010/2010-12-17.html</id><summary type="html">&lt;div class=&#39;pod&#39;&gt;&lt;h2 id=&#34;Perl&#34;&gt;Perl&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perladvent.org/2010/17/&#34;&gt;Perl: 2010 Perl Advent Calendar: Oh Voronoi night&#38;amp;hellip;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.catalystframework.org/calendar/2010/17&#34;&gt;Catalyst: Catalyst Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perldancer.org/2010/17&#34;&gt;Dancer: Authentication with Twitter OAuth - PerlDancer Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl6advent.wordpress.com/2010/12/17/&#34;&gt;Perl 6: 2010 December 17 &#38;amp;laquo; Perl 6 Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.rjbs.manxome.org/2010/2010-12-17.html&#34;&gt;Ricardo Signes: RJBS Advent Calendar 2010 - When in doubt, add more globals. &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-Advent-Calendar-Japan:&#34;&gt;Perl Advent Calendar Japan:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/perl6/17&#34;&gt;Perl6: - JPerl Advent Calendar 2010 Perl6 Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/sym/17&#34;&gt;Symbolic Programming: Borland C++ 5.5 Compiler&#38;#x3067;&#38;#x5B66;&#38;#x3076;Win32&#38;#x8A18;&#38;#x53F7;&#38;#x30D7;&#38;#x30ED;&#38;#x30B0;&#38;#x30E9;&#38;#x30DF;&#38;#x30F3;&#38;#x30B0; - JPerl Advent Calendar 2010 Sym Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/meta_adcal/17&#34;&gt;Meta Advent Calendar: - JPerl Advent Calendar 2010 Meta_adcal Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/win32/17&#34;&gt;Win32: Cygwin Perl&#38;#x306B;&#38;#x95A2;&#38;#x3059;&#38;#x308B;&#38;#x5C0F;&#38;#x30CD;&#38;#x30BF; - JPerl Advent Calendar 2010 Win32 Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/acme/17&#34;&gt;Acme: Acme::Brainfucktory&#38;#x3067;Brainf*ck&#38;#x3092;&#38;#x3082;&#38;#x3063;&#38;#x3068;&#38;#x7C21;&#38;#x5358;&#38;#x306B; - JPerl Advent Calendar 2010 Acme Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/english/17&#34;&gt;English: Smart::Args - smart argument validation - JPerl Advent Calendar 2010 English Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/casual/17&#34;&gt;Casual: Perl &#38;#x3067; Amazon S3 &#38;#x3092;&#38;#x3042;&#38;#x3064;&#38;#x304B;&#38;#x3046; Net::Amazon::S3 - JPerl Advent Calendar 2010 Casual Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/hacker/17&#34;&gt;Hacker: &#38;#x30A2;&#38;#x30EC;&#38;#x3057;&#38;#x305F;&#38;#x3042;&#38;#x3068;&#38;#x306B;&#38;#x30B3;&#38;#x30EC;&#38;#x3057;&#38;#x305F;&#38;#x3044;&#38;#xFF01; - JPerl Advent Calendar 2010 Hacker Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;teng: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;Entrepreneurship-Advent&#34;&gt;Entrepreneurship Advent&lt;/h2&gt;
+
+&lt;p&gt;24 Ways to Start: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;PHP&#34;&gt;PHP&lt;/h2&gt;
+
+&lt;p&gt;The PHP advent uses slugged titles for their URIs, so we can&#38;#39;t acdcess them by day of month llike everybody else. You can find the PHP Advent Calendar here &lt;a href=&#34;http://www.phpadvent.org/2010&#34;&gt;PHPadvent: PHP Advent 2010&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;HTML5-Adventure-Calendar&#34;&gt;HTML5 Adventure Calendar&lt;/h2&gt;
+
+&lt;p&gt;HTML5: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;SysAdvent&#34;&gt;SysAdvent&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sysadvent.blogspot.com&#34;&gt;SysAdvent: sysadvent&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</summary><updated>2010-12-17T00:00:00-05:00</updated><category term="Perl Advent Calendars"/><author><name>len jaffe</name></author></entry><entry><title>2010-12-16</title><link href="http://www.theycomewithcheese.com/PerlAdventPlanet/2010/2010-12-16.html"/><id>http://www.theycomewithcheese.com/PerlAdventPlanet/2010/2010-12-16.html</id><summary type="html">&lt;div class=&#39;pod&#39;&gt;&lt;h2 id=&#34;Perl&#34;&gt;Perl&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perladvent.org/2010/16/&#34;&gt;Perl: 2010 Perl Advent Calendar: &#38;#39;Net stockings are barely servicable gift receptacles&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.catalystframework.org/calendar/2010/16&#34;&gt;Catalyst: Catalyst Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perldancer.org/2010/16&#34;&gt;Dancer: Use cool stuff to render a graph - PerlDancer Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl6advent.wordpress.com/2010/12/16/&#34;&gt;Perl 6: 2010 December 16 &#38;amp;laquo; Perl 6 Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.rjbs.manxome.org/2010/2010-12-16.html&#34;&gt;Ricardo Signes: RJBS Advent Calendar 2010 - Dealing with an Oversized Interface &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-Advent-Calendar-Japan:&#34;&gt;Perl Advent Calendar Japan:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/perl6/16&#34;&gt;Perl6: - JPerl Advent Calendar 2010 Perl6 Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/sym/16&#34;&gt;Symbolic Programming: &#38;#x306F;&#38;#x3058;&#38;#x3081;&#38;#x3066;&#38;#x306E;80386&#38;#x8A18;&#38;#x53F7;&#38;#x30D7;&#38;#x30ED;&#38;#x30B0;&#38;#x30E9;&#38;#x30DF;&#38;#x30F3;&#38;#x30B0; - JPerl Advent Calendar 2010 Sym Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/meta_adcal/16&#34;&gt;Meta Advent Calendar: - JPerl Advent Calendar 2010 Meta_adcal Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/win32/16&#34;&gt;Win32: &#38;#x30B9;&#38;#x30E9;&#38;#x30A4;&#38;#x30C9;&#38;#x306E;&#38;#x4E0B;&#38;#x6E96;&#38;#x5099;&#38;#x306B;Win32::PowerPoint&#38;#x3092;&#38;#x4F7F;&#38;#x3046; - JPerl Advent Calendar 2010 Win32 Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/acme/16&#34;&gt;Acme: Acme&#38;#x5408;&#38;#x4F53;&#38;#x3067;&#38;#x732B;-&#38;#x30C8;&#38;#x30FC;&#38;#x30B9;&#38;#x30C8;&#38;#x88C5;&#38;#x7F6E;&#38;#x3092;&#38;#x3064;&#38;#x304F;&#38;#x308B; - JPerl Advent Calendar 2010 Acme Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/english/16&#34;&gt;English: Net::DNS::Lite - a module for handling timeout of hostname lookups safely, and more - JPerl Advent Calendar 2010 English Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/casual/16&#34;&gt;Casual: HTML::Shakan&#38;#x3067;&#38;#x30D5;&#38;#x30A9;&#38;#x30FC;&#38;#x30E0;&#38;#x751F;&#38;#x6210;&#38;#x30FB;&#38;#x30D0;&#38;#x30EA;&#38;#x30C7;&#38;#x30FC;&#38;#x30B7;&#38;#x30E7;&#38;#x30F3;&#38;#x304B;&#38;#x3089;&#38;#x30E2;&#38;#x30C7;&#38;#x30EB;&#38;#x4F5C;&#38;#x6210;&#38;#x307E;&#38;#x3067; - JPerl Advent Calendar 2010 Casual Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/hacker/16&#34;&gt;Hacker: Email::MIME::MobileJP&#38;#x3067;&#38;#x6587;&#38;#x5B57;&#38;#x30B3;&#38;#x30FC;&#38;#x30C9;&#38;#x307E;&#38;#x308F;&#38;#x308A;&#38;#x306B;&#38;#x6C17;&#38;#x3092;&#38;#x3064;&#38;#x304B;&#38;#x308F;&#38;#x306A;&#38;#x3044;&#38;#x3067;&#38;#x30E1;&#38;#x30FC;&#38;#x30EB;&#38;#x306E;&#38;#x9001;&#38;#x53D7;&#38;#x4FE1;&#38;#x3092;&#38;#x304A;&#38;#x3053;&#38;#x306A;&#38;#x3046; - JPerl Advent Calendar 2010 Hacker Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;teng: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;Entrepreneurship-Advent&#34;&gt;Entrepreneurship Advent&lt;/h2&gt;
+
+&lt;p&gt;24 Ways to Start: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;PHP&#34;&gt;PHP&lt;/h2&gt;
+
+&lt;p&gt;The PHP advent uses slugged titles for their URIs, so we can&#38;#39;t acdcess them by day of month llike everybody else. You can find the PHP Advent Calendar here &lt;a href=&#34;http://www.phpadvent.org/2010&#34;&gt;PHPadvent: PHP Advent 2010&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;HTML5-Adventure-Calendar&#34;&gt;HTML5 Adventure Calendar&lt;/h2&gt;
+
+&lt;p&gt;HTML5: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;SysAdvent&#34;&gt;SysAdvent&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sysadvent.blogspot.com&#34;&gt;SysAdvent: sysadvent&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</summary><updated>2010-12-16T00:00:00-05:00</updated><category term="Perl Advent Calendars"/><author><name>len jaffe</name></author></entry><entry><title>2010-12-15</title><link href="http://www.theycomewithcheese.com/PerlAdventPlanet/2010/2010-12-15.html"/><id>http://www.theycomewithcheese.com/PerlAdventPlanet/2010/2010-12-15.html</id><summary type="html">&lt;div class=&#39;pod&#39;&gt;&lt;h2 id=&#34;Perl&#34;&gt;Perl&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perladvent.org/2010/15/&#34;&gt;Perl: 2010 Perl Advent Calendar: $HOME for the holidays&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.catalystframework.org/calendar/2010/15&#34;&gt;Catalyst: Catalyst Advent Calendar - Day 15&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perldancer.org/2010/15&#34;&gt;Dancer: Tutorial: Shrinkr, an URL shortener - PerlDancer Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl6advent.wordpress.com/2010/12/15/&#34;&gt;Perl 6: 2010 December 15 &#38;amp;laquo; Perl 6 Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.rjbs.manxome.org/2010/2010-12-15.html&#34;&gt;Ricardo Signes: RJBS Advent Calendar 2010 - Lovingly Mass-Produced HTML &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-Advent-Calendar-Japan:&#34;&gt;Perl Advent Calendar Japan:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/perl6/15&#34;&gt;Perl6: - JPerl Advent Calendar 2010 Perl6 Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/sym/15&#34;&gt;Symbolic Programming: &#38;#x8A18;&#38;#x53F7;&#38;#x3060;&#38;#x3051;&#38;#x306E;JavaScript&#38;#x30D7;&#38;#x30ED;&#38;#x30B0;&#38;#x30E9;&#38;#x30DF;&#38;#x30F3;&#38;#x30B0;&#38;#x306E;&#38;#x539F;&#38;#x7406; &#38;#x305D;&#38;#x306E;2 - JPerl Advent Calendar 2010 Sym Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/meta_adcal/15&#34;&gt;Meta Advent Calendar: - JPerl Advent Calendar 2010 Meta_adcal Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/win32/15&#34;&gt;Win32: Eject your optical drives! - JPerl Advent Calendar 2010 Win32 Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/acme/15&#34;&gt;Acme: &#38;#x6642;&#38;#x306B;&#38;#x306F;&#38;#x304A;&#38;#x4F3D;&#38;#x306E;&#38;#x8A71;&#38;#x3092; - Acme::Rumpelstiltskin - JPerl Advent Calendar 2010 Acme Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/english/15&#34;&gt;English: Sub::SingletonBuilder - a tiny module to create singletons - JPerl Advent Calendar 2010 English Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/casual/15&#34;&gt;Casual: Path::Class&#38;#x3067;&#38;#x7C21;&#38;#x5358;&#38;#x30D5;&#38;#x30A1;&#38;#x30A4;&#38;#x30EB;&#38;#x64CD;&#38;#x4F5C; - JPerl Advent Calendar 2010 Casual Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/hacker/15&#34;&gt;Hacker: Perl &#38;#x304B;&#38;#x3089; Growl &#38;#x3092;&#38;#x3061;&#38;#x3083;&#38;#x3093;&#38;#x3068;&#38;#x4F7F;&#38;#x304A;&#38;#x3046; - JPerl Advent Calendar 2010 Hacker Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;teng: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;Entrepreneurship-Advent&#34;&gt;Entrepreneurship Advent&lt;/h2&gt;
+
+&lt;p&gt;24 Ways to Start: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;PHP&#34;&gt;PHP&lt;/h2&gt;
+
+&lt;p&gt;The PHP advent uses slugged titles for their URIs, so we can&#38;#39;t acdcess them by day of month llike everybody else. You can find the PHP Advent Calendar here &lt;a href=&#34;http://www.phpadvent.org/2010&#34;&gt;PHPadvent: PHP Advent 2010&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;HTML5-Adventure-Calendar&#34;&gt;HTML5 Adventure Calendar&lt;/h2&gt;
+
+&lt;p&gt;HTML5: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;SysAdvent&#34;&gt;SysAdvent&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sysadvent.blogspot.com&#34;&gt;SysAdvent: sysadvent&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</summary><updated>2010-12-15T00:00:00-05:00</updated><category term="Perl Advent Calendars"/><author><name>len jaffe</name></author></entry><entry><title>2010-12-14</title><link href="http://www.theycomewithcheese.com/PerlAdventPlanet/2010/2010-12-14.html"/><id>http://www.theycomewithcheese.com/PerlAdventPlanet/2010/2010-12-14.html</id><summary type="html">&lt;div class=&#39;pod&#39;&gt;&lt;h2 id=&#34;Perl&#34;&gt;Perl&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perladvent.org/2010/14/&#34;&gt;Perl: 2010 Perl Advent Calendar: All I want for Christmas is something newer than 5.5.3&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.catalystframework.org/calendar/2010/14&#34;&gt;Catalyst: Catalyst Advent Calendar - Day 14&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perldancer.org/2010/14&#34;&gt;Dancer: Deployment of Dancer applications with Starman, Apache and mod_proxy - PerlDancer Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl6advent.wordpress.com/2010/12/14/&#34;&gt;Perl 6: 2010 December 14 &#38;amp;laquo; Perl 6 Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.rjbs.manxome.org/2010/2010-12-14.html&#34;&gt;Ricardo Signes: RJBS Advent Calendar 2010 - Wanted: Gift, Got: Gift &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-Advent-Calendar-Japan:&#34;&gt;Perl Advent Calendar Japan:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/perl6/14&#34;&gt;Perl6: - JPerl Advent Calendar 2010 Perl6 Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/sym/14&#34;&gt;Symbolic Programming: VB.NET&#38;#x30A4;&#38;#x30DF;&#38;#x30C7;&#38;#x30A3;&#38;#x30A8;&#38;#x30A4;&#38;#x30C8;&#38;#x30A6;&#38;#x30A3;&#38;#x30F3;&#38;#x30C9;&#38;#x30A6;&#38;#x3067;&#38;#x8A18;&#38;#x53F7;&#38;#x30D7;&#38;#x30ED;&#38;#x30B0;&#38;#x30E9;&#38;#x30DF;&#38;#x30F3;&#38;#x30B0; - JPerl Advent Calendar 2010 Sym Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/meta_adcal/14&#34;&gt;Meta Advent Calendar: - JPerl Advent Calendar 2010 Meta_adcal Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/win32/14&#34;&gt;Win32: JScript&#38;#x304B;&#38;#x3089;perl&#38;#x3092;&#38;#x547C;&#38;#x3073;&#38;#x51FA;&#38;#x3059;&#38;#x3088;&#38;#xFF01; - JPerl Advent Calendar 2010 Win32 Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/acme/14&#34;&gt;Acme: Acme::Seclusion::JP - JPerl Advent Calendar 2010 Acme Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/english/14&#34;&gt;English: Testing TCP servers with Test::TCP - JPerl Advent Calendar 2010 English Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/casual/14&#34;&gt;Casual: &#38;#x66F8;&#38;#x304D;&#38;#x6368;&#38;#x3066;&#38;#x30B9;&#38;#x30AF;&#38;#x30EA;&#38;#x30D7;&#38;#x30C8;&#38;#x3092;&#38;#x66F8;&#38;#x304F;&#38;#x3068;&#38;#x304D;&#38;#x306B;&#38;#x4FBF;&#38;#x5229;&#38;#x306A;&#38;#x30E2;&#38;#x30B8;&#38;#x30E5;&#38;#x30FC;&#38;#x30EB;&#38;#x3068;Pragmatic Module - JPerl Advent Calendar 2010 Casual Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/hacker/14&#34;&gt;Hacker: DBIx::ObjectMapper&#38;#x3067;Data Mapper&#38;#x30D1;&#38;#x30BF;&#38;#x30FC;&#38;#x30F3;! - JPerl Advent Calendar 2010 Hacker Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;teng: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;Entrepreneurship-Advent&#34;&gt;Entrepreneurship Advent&lt;/h2&gt;
+
+&lt;p&gt;24 Ways to Start: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;PHP&#34;&gt;PHP&lt;/h2&gt;
+
+&lt;p&gt;The PHP advent uses slugged titles for their URIs, so we can&#38;#39;t acdcess them by day of month llike everybody else. You can find the PHP Advent Calendar here &lt;a href=&#34;http://www.phpadvent.org/2010&#34;&gt;PHPadvent: PHP Advent 2010&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;HTML5-Adventure-Calendar&#34;&gt;HTML5 Adventure Calendar&lt;/h2&gt;
+
+&lt;p&gt;HTML5: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;SysAdvent&#34;&gt;SysAdvent&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sysadvent.blogspot.com&#34;&gt;SysAdvent: sysadvent&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</summary><updated>2010-12-14T00:00:00-05:00</updated><category term="Perl Advent Calendars"/><author><name>len jaffe</name></author></entry><entry><title>2010-12-13</title><link href="http://www.theycomewithcheese.com/PerlAdventPlanet/2010/2010-12-13.html"/><id>http://www.theycomewithcheese.com/PerlAdventPlanet/2010/2010-12-13.html</id><summary type="html">&lt;div class=&#39;pod&#39;&gt;&lt;h2 id=&#34;Perl&#34;&gt;Perl&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perladvent.org/2010/13/&#34;&gt;Perl: 2010 Perl Advent Calendar: Tkx Tkx Tkx&#38;amp;hellip; is Christmas every going to get here?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.catalystframework.org/calendar/2010/13&#34;&gt;Catalyst: Catalyst Advent Calendar - Day 13&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perldancer.org/2010/13&#34;&gt;Dancer: DancerJukebox - controlling MPD from Dancer - PerlDancer Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl6advent.wordpress.com/2010/12/13/&#34;&gt;Perl 6: 2010 December 13 &#38;amp;laquo; Perl 6 Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.rjbs.manxome.org/2010/2010-12-13.html&#34;&gt;Ricardo Signes: RJBS Advent Calendar 2010 - All Marked Up with No Place to Go &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-Advent-Calendar-Japan:&#34;&gt;Perl Advent Calendar Japan:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/perl6/13&#34;&gt;Perl6: MiniDBI&#38;#x3067;mysql&#38;#x3092;&#38;#x4F7F;&#38;#x3063;&#38;#x3066;&#38;#x307F;&#38;#x3088;&#38;#x3046; - JPerl Advent Calendar 2010 Perl6 Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/sym/13&#34;&gt;Symbolic Programming: &#38;#x8A18;&#38;#x53F7;&#38;#x30D7;&#38;#x30ED;&#38;#x30B0;&#38;#x30E9;&#38;#x30DF;&#38;#x30F3;&#38;#x30B0;&#38;#x3067;&#38;#x5B66;&#38;#x3076;Ruby1.9&#38;#x306E;&#38;#x4ED5;&#38;#x69D8;&#38;#x5909;&#38;#x66F4;?? - JPerl Advent Calendar 2010 Sym Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/meta_adcal/13&#34;&gt;Meta Advent Calendar: - JPerl Advent Calendar 2010 Meta_adcal Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/win32/13&#34;&gt;Win32: &#38;#x305D;&#38;#x308C;&#38;#x591A;&#38;#x5206;IIS7&#38;#x3067;&#38;#x3067;&#38;#x304D;&#38;#x308B;&#38;#x3088; - JPerl Advent Calendar 2010 Win32 Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/acme/13&#34;&gt;Acme: Acme::W - JPerl Advent Calendar 2010 Acme Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/english/13&#34;&gt;English: Using DBI Callbacks - JPerl Advent Calendar 2010 English Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/casual/13&#34;&gt;Casual: &#38;#x3068;&#38;#x3042;&#38;#x308B;&#38;#x8A00;&#38;#x8A9E;&#38;#x306E;&#38;#x4F8B;&#38;#x5916;&#38;#x51E6;&#38;#x7406; &#38;#x307E;&#38;#x305F;&#38;#x306F;Try::Tiny&#38;#x306E;&#38;#x843D;&#38;#x3068;&#38;#x3057;&#38;#x7A74; - JPerl Advent Calendar 2010 Casual Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/hacker/13&#34;&gt;Hacker: SQL::Maker&#38;#x3067;&#38;#x52D5;&#38;#x7684;&#38;#x306B; SQL&#38;#x3092;&#38;#x751F;&#38;#x6210;&#38;#x3059;&#38;#x308B; - JPerl Advent Calendar 2010 Hacker Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;teng: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;Entrepreneurship-Advent&#34;&gt;Entrepreneurship Advent&lt;/h2&gt;
+
+&lt;p&gt;24 Ways to Start: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;PHP&#34;&gt;PHP&lt;/h2&gt;
+
+&lt;p&gt;The PHP advent uses slugged titles for their URIs, so we can&#38;#39;t acdcess them by day of month llike everybody else. You can find the PHP Advent Calendar here &lt;a href=&#34;http://www.phpadvent.org/2010&#34;&gt;PHPadvent: PHP Advent 2010&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;HTML5-Adventure-Calendar&#34;&gt;HTML5 Adventure Calendar&lt;/h2&gt;
+
+&lt;p&gt;HTML5: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;SysAdvent&#34;&gt;SysAdvent&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sysadvent.blogspot.com&#34;&gt;SysAdvent: sysadvent&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</summary><updated>2010-12-13T00:00:00-05:00</updated><category term="Perl Advent Calendars"/><author><name>len jaffe</name></author></entry><entry><title>2010-12-12</title><link href="http://www.theycomewithcheese.com/PerlAdventPlanet/2010/2010-12-12.html"/><id>http://www.theycomewithcheese.com/PerlAdventPlanet/2010/2010-12-12.html</id><summary type="html">&lt;div class=&#39;pod&#39;&gt;&lt;h2 id=&#34;Perl&#34;&gt;Perl&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perladvent.org/2010/12/&#34;&gt;Perl: 2010 Perl Advent Calendar: &#38;#x30E1;&#38;#x30EA;&#38;#x30FC; VAXmas&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.catalystframework.org/calendar/2010/12&#34;&gt;Catalyst: Catalyst Advent Calendar - Day 12&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perldancer.org/2010/12&#34;&gt;Dancer: Adding a feed to your application - PerlDancer Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl6advent.wordpress.com/2010/12/12/&#34;&gt;Perl 6: 2010 December 12 &#38;amp;laquo; Perl 6 Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.rjbs.manxome.org/2010/2010-12-12.html&#34;&gt;Ricardo Signes: RJBS Advent Calendar 2010 - One People, One Address Book &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-Advent-Calendar-Japan:&#34;&gt;Perl Advent Calendar Japan:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/perl6/12&#34;&gt;Perl6: &#38;#x30B5;&#38;#x30D6;&#38;#x30D7;&#38;#x30ED;&#38;#x30BB;&#38;#x30B9;&#38;#x3092;fork&#38;#x3057;&#38;#x305F;&#38;#x3044; - JPerl Advent Calendar 2010 Perl6 Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/sym/12&#34;&gt;Symbolic Programming: 7&#38;#x7A2E;&#38;#x985E;&#38;#x306E;&#38;#x8A18;&#38;#x53F7;&#38;#x3060;&#38;#x3051;&#38;#x3067;Perl&#38;#x30D7;&#38;#x30ED;&#38;#x30B0;&#38;#x30E9;&#38;#x30E0;&#38;#x3092;&#38;#x66F8;&#38;#x304F; - JPerl Advent Calendar 2010 Sym Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/meta_adcal/12&#34;&gt;Meta Advent Calendar: pod &#38;#x306B;&#38;#x5BFE;&#38;#x5FDC;&#38;#x3059;&#38;#x308B; - JPerl Advent Calendar 2010 Meta_adcal Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/win32/12&#34;&gt;Win32: Windows &#38;#x3067;&#38;#x3082; Growl &#38;#x3092;&#38;#x4F7F;&#38;#x304A;&#38;#x3046; - JPerl Advent Calendar 2010 Win32 Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/acme/12&#34;&gt;Acme: Acme::Ikamusume&#38;#x3067;&#38;#x4FB5;&#38;#x7565;&#38;#x3057;&#38;#x306A;&#38;#x30A4;&#38;#x30AB;&#38;#xFF1F; - JPerl Advent Calendar 2010 Acme Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/english/12&#34;&gt;English: Class::Accessor::Lite - yet another accessor builder - JPerl Advent Calendar 2010 English Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/casual/12&#34;&gt;Casual: Image::Size&#38;#x3068;Image::Imlib2&#38;#x3092;&#38;#x4F7F;&#38;#x3063;&#38;#x3066;CSS Sprite&#38;#x3057;&#38;#x3066;&#38;#x307F;&#38;#x3088;&#38;#x3046; - JPerl Advent Calendar 2010 Casual Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/hacker/12&#34;&gt;Hacker: Sub::Args&#38;#x306B;&#38;#x3088;&#38;#x308B;&#38;#x9AD8;&#38;#x901F;&#38;#x7C21;&#38;#x6613;&#38;#x30D0;&#38;#x30EA;&#38;#x30C7;&#38;#x30FC;&#38;#x30B7;&#38;#x30E7;&#38;#x30F3; - JPerl Advent Calendar 2010 Hacker Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;teng: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;Entrepreneurship-Advent&#34;&gt;Entrepreneurship Advent&lt;/h2&gt;
+
+&lt;p&gt;24 Ways to Start: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;PHP&#34;&gt;PHP&lt;/h2&gt;
+
+&lt;p&gt;The PHP advent uses slugged titles for their URIs, so we can&#38;#39;t acdcess them by day of month llike everybody else. You can find the PHP Advent Calendar here &lt;a href=&#34;http://www.phpadvent.org/2010&#34;&gt;PHPadvent: PHP Advent 2010&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;HTML5-Adventure-Calendar&#34;&gt;HTML5 Adventure Calendar&lt;/h2&gt;
+
+&lt;p&gt;HTML5: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;SysAdvent&#34;&gt;SysAdvent&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sysadvent.blogspot.com&#34;&gt;SysAdvent: sysadvent&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</summary><updated>2010-12-12T00:00:00-05:00</updated><category term="Perl Advent Calendars"/><author><name>len jaffe</name></author></entry><entry><title>2010-12-11</title><link href="http://www.theycomewithcheese.com/PerlAdventPlanet/2010/2010-12-11.html"/><id>http://www.theycomewithcheese.com/PerlAdventPlanet/2010/2010-12-11.html</id><summary type="html">&lt;div class=&#39;pod&#39;&gt;&lt;h2 id=&#34;Perl&#34;&gt;Perl&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perladvent.org/2010/11/&#34;&gt;Perl: 2010 Perl Advent Calendar: karp bo&#38;amp;#x17c;onarodzenie OR Dear Santa, Please REPL&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.catalystframework.org/calendar/2010/11&#34;&gt;Catalyst: Catalyst Advent Calendar - Day 11&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perldancer.org/2010/11&#34;&gt;Dancer: Using DBIx::Class within a Dancer application - PerlDancer Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl6advent.wordpress.com/2010/12/11/&#34;&gt;Perl 6: 2010 December 11 &#38;amp;laquo; Perl 6 Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.rjbs.manxome.org/2010/2010-12-11.html&#34;&gt;Ricardo Signes: RJBS Advent Calendar 2010 - Putting less on Your Wish List &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-Advent-Calendar-Japan:&#34;&gt;Perl Advent Calendar Japan:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/perl6/11&#34;&gt;Perl6: &#38;#x30D5;&#38;#x30A1;&#38;#x30A4;&#38;#x30EB;&#38;#x306E;&#38;#x6271;&#38;#x3044; - JPerl Advent Calendar 2010 Perl6 Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/sym/11&#34;&gt;Symbolic Programming: &#38;#x8A18;&#38;#x53F7;&#38;#x306E;&#38;#x307F;&#38;#x3067;&#38;#x4EFB;&#38;#x610F;&#38;#x306E;PowerShell&#38;#x30B3;&#38;#x30FC;&#38;#x30C9;&#38;#x3092;&#38;#x5B9F;&#38;#x884C; - JPerl Advent Calendar 2010 Sym Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/meta_adcal/11&#34;&gt;Meta Advent Calendar: markdown &#38;#x306B;&#38;#x5BFE;&#38;#x5FDC;&#38;#x3059;&#38;#x308B; - JPerl Advent Calendar 2010 Meta_adcal Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/win32/11&#34;&gt;Win32: Windows &#38;#x3067;&#38;#x8907;&#38;#x6570;&#38;#x306E; perl &#38;#x3092;&#38;#x4F7F;&#38;#x3044;&#38;#x5206;&#38;#x3051;&#38;#x3088;&#38;#x3046;&#38;#xFF01; - JPerl Advent Calendar 2010 Win32 Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/acme/11&#34;&gt;Acme: CPAN&#38;#x611B;&#38;#x306E;&#38;#x30E2;&#38;#x30B8;&#38;#x30E5;&#38;#x30FC;&#38;#x30EB; - Acme&#38;#x304B;&#38;#x3089;&#38;#x59CB;&#38;#x307E;&#38;#x3089;&#38;#x306A;&#38;#x3044;&#38;#x7269;&#38;#x8A9E; - JPerl Advent Calendar 2010 Acme Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/english/11&#34;&gt;English: Sub::Throttle - a tiny module for throttling down an operation - JPerl Advent Calendar 2010 English Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/casual/11&#34;&gt;Casual: Perl&#38;#x3067;&#38;#x6587;&#38;#x5B66;&#38;#x3092;&#38;#x55DC;&#38;#x3080; Net::AozoraBunko - JPerl Advent Calendar 2010 Casual Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/hacker/11&#34;&gt;Hacker: Cache::LRU &#38;#x304C;&#38;#x901F;&#38;#x3044;&#38;#x7406;&#38;#x7531; - JPerl Advent Calendar 2010 Hacker Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;teng: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;Entrepreneurship-Advent&#34;&gt;Entrepreneurship Advent&lt;/h2&gt;
+
+&lt;p&gt;24 Ways to Start: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;PHP&#34;&gt;PHP&lt;/h2&gt;
+
+&lt;p&gt;The PHP advent uses slugged titles for their URIs, so we can&#38;#39;t acdcess them by day of month llike everybody else. You can find the PHP Advent Calendar here &lt;a href=&#34;http://www.phpadvent.org/2010&#34;&gt;PHPadvent: PHP Advent 2010&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;HTML5-Adventure-Calendar&#34;&gt;HTML5 Adventure Calendar&lt;/h2&gt;
+
+&lt;p&gt;HTML5: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;SysAdvent&#34;&gt;SysAdvent&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sysadvent.blogspot.com&#34;&gt;SysAdvent: sysadvent&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</summary><updated>2010-12-11T00:00:00-05:00</updated><category term="Perl Advent Calendars"/><author><name>len jaffe</name></author></entry><entry><title>2010-12-10</title><link href="http://www.theycomewithcheese.com/PerlAdventPlanet/2010/2010-12-10.html"/><id>http://www.theycomewithcheese.com/PerlAdventPlanet/2010/2010-12-10.html</id><summary type="html">&lt;div class=&#39;pod&#39;&gt;&lt;h2 id=&#34;Perl&#34;&gt;Perl&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perladvent.org/2010/10/&#34;&gt;Perl: Catsup Redirect&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.catalystframework.org/calendar/2010/10&#34;&gt;Catalyst: Catalyst Advent Calendar - Day 10&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perldancer.org/2010/10&#34;&gt;Dancer: Deploying Dancer in CGI and VPS Environments - PerlDancer Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl6advent.wordpress.com/2010/12/10/&#34;&gt;Perl 6: 2010 December 10 &#38;amp;laquo; Perl 6 Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.rjbs.manxome.org/2010/2010-12-10.html&#34;&gt;Ricardo Signes: RJBS Advent Calendar 2010 - In Lieu of Coal, Naughty Children May Be Given M4 Files &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-Advent-Calendar-Japan:&#34;&gt;Perl Advent Calendar Japan:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/perl6/10&#34;&gt;Perl6: echo&#38;#x30B5;&#38;#x30FC;&#38;#x30D0;&#38;#x30FC;&#38;#x3092;&#38;#x66F8;&#38;#x3053;&#38;#x3046; - JPerl Advent Calendar 2010 Perl6 Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/sym/10&#34;&gt;Symbolic Programming: C#(ASP.NET 4)&#38;#x3067;&#38;#x8A18;&#38;#x53F7;&#38;#x30D7;&#38;#x30ED;&#38;#x30B0;&#38;#x30E9;&#38;#x30DF;&#38;#x30F3;&#38;#x30B0;&#38;#x3092;&#38;#x3084;&#38;#x3063;&#38;#x3066;&#38;#x307F;&#38;#x305F;&#38;#x3044;! - JPerl Advent Calendar 2010 Sym Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/meta_adcal/10&#34;&gt;Meta Advent Calendar: Acvent Calendar Application&#38;#x3092;&#38;#x9AD8;&#38;#x901F;&#38;#x5316;&#38;#x3059;&#38;#x308B; - JPerl Advent Calendar 2010 Meta_adcal Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/win32/10&#34;&gt;Win32: &#38;#x305D;&#38;#x308C;&#38;#x591A;&#38;#x5206;Perl&#38;#x3067;&#38;#x3067;&#38;#x304D;&#38;#x308B;&#38;#x3088; - JPerl Advent Calendar 2010 Win32 Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/acme/10&#34;&gt;Acme: Acme::Yomeru - JPerl Advent Calendar 2010 Acme Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/english/10&#34;&gt;English: Use Perl with UNIX tools - JPerl Advent Calendar 2010 English Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/casual/10&#34;&gt;Casual: Data::Validator&#38;#x3067;&#38;#x30D0;&#38;#x30EA;&#38;#x30C7;&#38;#x30FC;&#38;#x30B7;&#38;#x30E7;&#38;#x30F3;&#38;#x3059;&#38;#x308B; - JPerl Advent Calendar 2010 Casual Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/hacker/10&#34;&gt;Hacker: WebService::Async &#38;#x3067;&#38;#x30A6;&#38;#x30A7;&#38;#x30D6;&#38;#x30B5;&#38;#x30FC;&#38;#x30D3;&#38;#x30B9;&#38;#x306E;&#38;#x975E;&#38;#x540C;&#38;#x671F;&#38;#x30A2;&#38;#x30AF;&#38;#x30BB;&#38;#x30B9;&#38;#x3092;&#38;#x7C21;&#38;#x5358;&#38;#x306B;! &#38;#x3042;&#38;#x308B;&#38;#x3044;&#38;#x306F;&#38;#x79C1;&#38;#x306F;&#38;#x5982;&#38;#x4F55;&#38;#x306B;&#38;#x3057;&#38;#x3066;MacBookPro&#38;#x3092;&#38;#x624B;&#38;#x306B;&#38;#x5165;&#38;#x308C;&#38;#x305F;&#38;#x304B;&#38;#xFF1F; - JPerl Advent Calendar 2010 Hacker Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;teng: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;Entrepreneurship-Advent&#34;&gt;Entrepreneurship Advent&lt;/h2&gt;
+
+&lt;p&gt;24 Ways to Start: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;PHP&#34;&gt;PHP&lt;/h2&gt;
+
+&lt;p&gt;The PHP advent uses slugged titles for their URIs, so we can&#38;#39;t acdcess them by day of month llike everybody else. You can find the PHP Advent Calendar here &lt;a href=&#34;http://www.phpadvent.org/2010&#34;&gt;PHPadvent: PHP Advent 2010&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;HTML5-Adventure-Calendar&#34;&gt;HTML5 Adventure Calendar&lt;/h2&gt;
+
+&lt;p&gt;HTML5: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;SysAdvent&#34;&gt;SysAdvent&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sysadvent.blogspot.com&#34;&gt;SysAdvent: sysadvent&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</summary><updated>2010-12-10T00:00:00-05:00</updated><category term="Perl Advent Calendars"/><author><name>len jaffe</name></author></entry><entry><title>2010-12-09</title><link href="http://www.theycomewithcheese.com/PerlAdventPlanet/2010/2010-12-09.html"/><id>http://www.theycomewithcheese.com/PerlAdventPlanet/2010/2010-12-09.html</id><summary type="html">&lt;div class=&#39;pod&#39;&gt;&lt;h2 id=&#34;Perl&#34;&gt;Perl&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perladvent.org/2010/9/&#34;&gt;Perl: 2010 Perl Advent Calendar: Making a list and checking it twice&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.catalystframework.org/calendar/2010/9&#34;&gt;Catalyst: Catalyst Advent Calendar - Day 9&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perldancer.org/2010/9&#34;&gt;Dancer: Writing a Quick NaNoWriMo Graphing Web Application with Dancer - PerlDancer Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl6advent.wordpress.com/2010/12/9/&#34;&gt;Perl 6: 2010 December 09 &#38;amp;laquo; Perl 6 Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.rjbs.manxome.org/2010/2010-12-09.html&#34;&gt;Ricardo Signes: RJBS Advent Calendar 2010 - A Place to Shove Your Settings &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-Advent-Calendar-Japan:&#34;&gt;Perl Advent Calendar Japan:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/perl6/9&#34;&gt;Perl6: &#38;#x300E;Perl6&#38;#x5165;&#38;#x9580;&#38;#x300F;&#38;#x5165;&#38;#x9580; - JPerl Advent Calendar 2010 Perl6 Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/sym/9&#34;&gt;Symbolic Programming: &#38;#x30B5;&#38;#x30EB;&#38;#x3067;&#38;#x3082;&#38;#x308F;&#38;#x304B;&#38;#x308B;Python&#38;#x9854;&#38;#x6587;&#38;#x5B57;&#38;#x30D7;&#38;#x30ED;&#38;#x30B0;&#38;#x30E9;&#38;#x30DF;&#38;#x30F3;&#38;#x30B0; - JPerl Advent Calendar 2010 Sym Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/meta_adcal/9&#34;&gt;Meta Advent Calendar: RFC822&#38;#x5BFE;&#38;#x5FDC;&#38;#x3057;&#38;#x3066;&#38;#x3066;&#38;#x30B5;&#38;#x30FC;&#38;#x30D0;&#38;#x30A2;&#38;#x30D7;&#38;#x30EA;&#38;#x30B1;&#38;#x30FC;&#38;#x30B7;&#38;#x30E7;&#38;#x30F3;&#38;#x52D5;&#38;#x304B;&#38;#x306A;&#38;#x304F;&#38;#x306A;&#38;#x3063;&#38;#x305F; - JPerl Advent Calendar 2010 Meta_adcal Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/win32/9&#34;&gt;Win32: &#38;#x5E30;&#38;#x308B;&#38;#x5BB6;&#38;#x3001;HOME&#38;#x304C;&#38;#x3042;&#38;#x308B;&#38;#x3068;&#38;#x3044;&#38;#x3046;&#38;#x4E8B;&#38;#x5B9F;&#38;#x306F;&#38;#x3001;&#38;#x5E78;&#38;#x305B;&#38;#x306B;&#38;#x3064;&#38;#x306A;&#38;#x304C;&#38;#x308B;&#38;#x3002;&#38;#x826F;&#38;#x3044;&#38;#x3053;&#38;#x3068;&#38;#x3060;&#38;#x3088;&#38;#x3002; - JPerl Advent Calendar 2010 Win32 Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/acme/9&#34;&gt;Acme: Acme::CheckCharactorsOutsideRange - JPerl Advent Calendar 2010 Acme Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/english/9&#34;&gt;English: More Easily To Write Perl By Vim. - JPerl Advent Calendar 2010 English Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/casual/9&#34;&gt;Casual: Google Docs&#38;#x306E;&#38;#x8868;&#38;#x8A08;&#38;#x7B97;&#38;#x66F8;&#38;#x985E;&#38;#x3092;Net::Google::Spreadsheets&#38;#x3092;&#38;#x4F7F;&#38;#x3063;&#38;#x3066;&#38;#x30D6;&#38;#x30E9;&#38;#x30A6;&#38;#x30B6;&#38;#x629C;&#38;#x304D;&#38;#x3067;&#38;#x8AAD;&#38;#x307F;&#38;#x66F8;&#38;#x304D;&#38;#x3059;&#38;#x308B; - JPerl Advent Calendar 2010 Casual Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/hacker/9&#34;&gt;Hacker: HTML5 &#38;#x306A;&#38;#x4ECA;&#38;#x3060;&#38;#x304B;&#38;#x3089;&#38;#x3053;&#38;#x305D;&#38;#x306E;&#38;#x4F4D;&#38;#x7F6E;&#38;#x60C5;&#38;#x5831;&#38;#x30CF;&#38;#x30F3;&#38;#x30C9;&#38;#x30EA;&#38;#x30F3;&#38;#x30B0;&#38;#x2661; - Geo::Coordinates::Converter - JPerl Advent Calendar 2010 Hacker Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;teng: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;Entrepreneurship-Advent&#34;&gt;Entrepreneurship Advent&lt;/h2&gt;
+
+&lt;p&gt;24 Ways to Start: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;PHP&#34;&gt;PHP&lt;/h2&gt;
+
+&lt;p&gt;The PHP advent uses slugged titles for their URIs, so we can&#38;#39;t acdcess them by day of month llike everybody else. You can find the PHP Advent Calendar here &lt;a href=&#34;http://www.phpadvent.org/2010&#34;&gt;PHPadvent: PHP Advent 2010&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;HTML5-Adventure-Calendar&#34;&gt;HTML5 Adventure Calendar&lt;/h2&gt;
+
+&lt;p&gt;HTML5: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;SysAdvent&#34;&gt;SysAdvent&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sysadvent.blogspot.com&#34;&gt;SysAdvent: sysadvent&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</summary><updated>2010-12-09T00:00:00-05:00</updated><category term="Perl Advent Calendars"/><author><name>len jaffe</name></author></entry><entry><title>2010-12-08</title><link href="http://www.theycomewithcheese.com/PerlAdventPlanet/2010/2010-12-08.html"/><id>http://www.theycomewithcheese.com/PerlAdventPlanet/2010/2010-12-08.html</id><summary type="html">&lt;div class=&#39;pod&#39;&gt;&lt;h2 id=&#34;Perl&#34;&gt;Perl&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perladvent.org/2010/8/&#34;&gt;Perl: 2010 Perl Advent Calendar: Selfless gifting&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.catalystframework.org/calendar/2010/8&#34;&gt;Catalyst: Catalyst Advent Calendar - Day 8&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perldancer.org/2010/8&#34;&gt;Dancer: Writing REST web services with Dancer - PerlDancer Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl6advent.wordpress.com/2010/12/8/&#34;&gt;Perl 6: 2010 December 08 &#38;amp;laquo; Perl 6 Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.rjbs.manxome.org/2010/2010-12-08.html&#34;&gt;Ricardo Signes: RJBS Advent Calendar 2010 - Option Processing -- This Time, Invented Here! &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-Advent-Calendar-Japan:&#34;&gt;Perl Advent Calendar Japan:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/perl6/8&#34;&gt;Perl6: &#38;#x30E2;&#38;#x30B8;&#38;#x30E5;&#38;#x30FC;&#38;#x30EB;&#38;#x3092;&#38;#x516C;&#38;#x958B;&#38;#x3057;&#38;#x3066;&#38;#x307F;&#38;#x3088;&#38;#x3046; - JPerl Advent Calendar 2010 Perl6 Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/sym/8&#34;&gt;Symbolic Programming: Haskell(GHC)&#38;#x3067;&#38;#x8A18;&#38;#x53F7;&#38;#x30D7;&#38;#x30ED;&#38;#x30B0;&#38;#x30E9;&#38;#x30DF;&#38;#x30F3;&#38;#x30B0; - JPerl Advent Calendar 2010 Sym Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/meta_adcal/8&#34;&gt;Meta Advent Calendar: &#38;#x305D;&#38;#x3046;&#38;#x3060;&#38;#x3001;&#38;#x30AB;&#38;#x30EC;&#38;#x30F3;&#38;#x30C0;&#38;#x3092;&#38;#x51FA;&#38;#x305D;&#38;#x3046; - JPerl Advent Calendar 2010 Meta_adcal Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/win32/8&#34;&gt;Win32: Win32::GUITest &#38;#x3068; Win32::Clipboard &#38;#x3067; GUI &#38;#x64CD;&#38;#x4F5C;&#38;#x3092;&#38;#x81EA;&#38;#x52D5;&#38;#x5316;&#38;#x3059;&#38;#x308B; - JPerl Advent Calendar 2010 Win32 Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/acme/8&#34;&gt;Acme: Acme::Tsu - JPerl Advent Calendar 2010 Acme Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/english/8&#34;&gt;English: How to run MovableType with Plack - JPerl Advent Calendar 2010 English Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/casual/8&#34;&gt;Casual: Kolon&#38;#x3067;&#38;#x304B;&#38;#x3053;&#38;#x3046; - JPerl Advent Calendar 2010 Casual Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/hacker/8&#34;&gt;Hacker: HTTP&#38;#x30B5;&#38;#x30FC;&#38;#x30D0;&#38;#x30D5;&#38;#x30EC;&#38;#x30FC;&#38;#x30E0;&#38;#x30EF;&#38;#x30FC;&#38;#x30AF;&#38;#x3068;&#38;#x3057;&#38;#x3066;&#38;#x306E;Plack&#38;#x6D3B;&#38;#x7528;&#38;#x6CD5;&#38;#x3068;&#38;#x3001;Plack::Middleware::Pictogram::MobileJp&#38;#x3092;&#38;#x4F7F;&#38;#x3063;&#38;#x305F;&#38;#x305D;&#38;#x306E;&#38;#x4E8B;&#38;#x4F8B;&#38;#x7D39;&#38;#x4ECB; - JPerl Advent Calendar 2010 Hacker Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;teng: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;Entrepreneurship-Advent&#34;&gt;Entrepreneurship Advent&lt;/h2&gt;
+
+&lt;p&gt;24 Ways to Start: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;PHP&#34;&gt;PHP&lt;/h2&gt;
+
+&lt;p&gt;The PHP advent uses slugged titles for their URIs, so we can&#38;#39;t acdcess them by day of month llike everybody else. You can find the PHP Advent Calendar here &lt;a href=&#34;http://www.phpadvent.org/2010&#34;&gt;PHPadvent: PHP Advent 2010&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;HTML5-Adventure-Calendar&#34;&gt;HTML5 Adventure Calendar&lt;/h2&gt;
+
+&lt;p&gt;HTML5: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;SysAdvent&#34;&gt;SysAdvent&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sysadvent.blogspot.com&#34;&gt;SysAdvent: sysadvent&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</summary><updated>2010-12-08T00:00:00-05:00</updated><category term="Perl Advent Calendars"/><author><name>len jaffe</name></author></entry><entry><title>2010-12-07</title><link href="http://www.theycomewithcheese.com/PerlAdventPlanet/2010/2010-12-07.html"/><id>http://www.theycomewithcheese.com/PerlAdventPlanet/2010/2010-12-07.html</id><summary type="html">&lt;div class=&#39;pod&#39;&gt;&lt;h2 id=&#34;Perl&#34;&gt;Perl&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perladvent.org/2010/7/&#34;&gt;Perl: 2010 Perl Advent Calendar: &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.catalystframework.org/calendar/2010/7&#34;&gt;Catalyst: Catalyst Advent Calendar - Day 7&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perldancer.org/2010/7&#34;&gt;Dancer: Storing sessions in cookies - PerlDancer Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl6advent.wordpress.com/2010/12/7/&#34;&gt;Perl 6: 2010 December 07 &#38;amp;laquo; Perl 6 Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.rjbs.manxome.org/2010/2010-12-07.html&#34;&gt;Ricardo Signes: RJBS Advent Calendar 2010 - Safe, Simple, Deadly &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-Advent-Calendar-Japan:&#34;&gt;Perl Advent Calendar Japan:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/perl6/7&#34;&gt;Perl6: &#38;#x30A4;&#38;#x30F3;&#38;#x30BF;&#38;#x30E9;&#38;#x30AF;&#38;#x30C6;&#38;#x30A3;&#38;#x30D6;&#38;#x306A;&#38;#x5B9F;&#38;#x884C;&#38;#x74B0;&#38;#x5883;&#38;#x3092;&#38;#x4F7F;&#38;#x304A;&#38;#x3046; - JPerl Advent Calendar 2010 Perl6 Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/sym/7&#34;&gt;Symbolic Programming: 86&#38;#x30D0;&#38;#x30A4;&#38;#x30CA;&#38;#x30EA;&#38;#x3067;&#38;#x3082;&#38;#x8A18;&#38;#x53F7;&#38;#x30D7;&#38;#x30ED;&#38;#x30B0;&#38;#x30E9;&#38;#x30DF;&#38;#x30F3;&#38;#x30B0;&#38;#xFF01; - JPerl Advent Calendar 2010 Sym Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/meta_adcal/7&#34;&gt;Meta Advent Calendar: &#38;#x30A4;&#38;#x30F3;&#38;#x30C7;&#38;#x30C3;&#38;#x30AF;&#38;#x30B9;&#38;#x306B;&#38;#x8A18;&#38;#x4E8B;&#38;#x306E;&#38;#x30BF;&#38;#x30A4;&#38;#x30C8;&#38;#x30EB;&#38;#x3092;&#38;#x51FA;&#38;#x3057;&#38;#x3066;&#38;#x307F;&#38;#x308B; - JPerl Advent Calendar 2010 Meta_adcal Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/win32/7&#34;&gt;Win32: Windows &#38;#x306E;&#38;#x30A4;&#38;#x30D9;&#38;#x30F3;&#38;#x30C8;&#38;#x30ED;&#38;#x30B0;&#38;#x3067;&#38;#x52E4;&#38;#x52D9;&#38;#x6642;&#38;#x9593;&#38;#x3092;&#38;#x8ABF;&#38;#x3079;&#38;#x3088;&#38;#x3046; - JPerl Advent Calendar 2010 Win32 Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/acme/7&#34;&gt;Acme: Acme::AKB48 - JPerl Advent Calendar 2010 Acme Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/english/7&#34;&gt;English: POSIX character classes in regexp - JPerl Advent Calendar 2010 English Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/casual/7&#34;&gt;Casual: &#38;#x30A2;&#38;#x30AF;&#38;#x30BB;&#38;#x30B9;&#38;#x30ED;&#38;#x30B0;&#38;#x306E;&#38;#x89E3;&#38;#x6790;&#38;#x6642;&#38;#x306E;DateTime&#38;#x306B;&#38;#x3088;&#38;#x308B;&#38;#x65E5;&#38;#x4ED8;&#38;#x51E6;&#38;#x7406; - JPerl Advent Calendar 2010 Casual Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/hacker/7&#34;&gt;Hacker: AnyEvent::APNS&#38;#x3067;iPhone&#38;#x306E;&#38;#x30D7;&#38;#x30C3;&#38;#x30B7;&#38;#x30E5;&#38;#x901A;&#38;#x77E5;&#38;#x3092;&#38;#x5B9F;&#38;#x88C5;&#38;#x3057;&#38;#x3088;&#38;#x3046; - JPerl Advent Calendar 2010 Hacker Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;teng: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;Entrepreneurship-Advent&#34;&gt;Entrepreneurship Advent&lt;/h2&gt;
+
+&lt;p&gt;24 Ways to Start: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;PHP&#34;&gt;PHP&lt;/h2&gt;
+
+&lt;p&gt;The PHP advent uses slugged titles for their URIs, so we can&#38;#39;t acdcess them by day of month llike everybody else. You can find the PHP Advent Calendar here &lt;a href=&#34;http://www.phpadvent.org/2010&#34;&gt;PHPadvent: PHP Advent 2010&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;HTML5-Adventure-Calendar&#34;&gt;HTML5 Adventure Calendar&lt;/h2&gt;
+
+&lt;p&gt;HTML5: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;SysAdvent&#34;&gt;SysAdvent&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sysadvent.blogspot.com&#34;&gt;SysAdvent: sysadvent&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</summary><updated>2010-12-07T00:00:00-05:00</updated><category term="Perl Advent Calendars"/><author><name>len jaffe</name></author></entry><entry><title>2010-12-06</title><link href="http://www.theycomewithcheese.com/PerlAdventPlanet/2010/2010-12-06.html"/><id>http://www.theycomewithcheese.com/PerlAdventPlanet/2010/2010-12-06.html</id><summary type="html">&lt;div class=&#39;pod&#39;&gt;&lt;h2 id=&#34;Perl&#34;&gt;Perl&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perladvent.org/2010/6/&#34;&gt;Perl: 2010 Perl Advent Calendar: Spreading Christmas Cheer&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.catalystframework.org/calendar/2010/6&#34;&gt;Catalyst: Catalyst Advent Calendar - Day 6&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perldancer.org/2010/6&#34;&gt;Dancer: Testing a Dancer application - PerlDancer Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl6advent.wordpress.com/2010/12/6/&#34;&gt;Perl 6: 2010 December 06 &#38;amp;laquo; Perl 6 Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.rjbs.manxome.org/2010/2010-12-06.html&#34;&gt;Ricardo Signes: RJBS Advent Calendar 2010 - Feast of St. Burl &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-Advent-Calendar-Japan:&#34;&gt;Perl Advent Calendar Japan:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/perl6/6&#34;&gt;Perl6: &#38;#x516C;&#38;#x958B;&#38;#x3055;&#38;#x308C;&#38;#x3066;&#38;#x3044;&#38;#x308B;&#38;#x30E2;&#38;#x30B8;&#38;#x30E5;&#38;#x30FC;&#38;#x30EB;&#38;#x3092;&#38;#x4F7F;&#38;#x3063;&#38;#x3066;&#38;#x307F;&#38;#x3088;&#38;#x3046; - JPerl Advent Calendar 2010 Perl6 Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/sym/6&#34;&gt;Symbolic Programming: J&#38;#x8A00;&#38;#x8A9E;&#38;#x3067;&#38;#x8A18;&#38;#x53F7;&#38;#x30D7;&#38;#x30ED;&#38;#x30B0;&#38;#x30E9;&#38;#x30DF;&#38;#x30F3;&#38;#x30B0; - JPerl Advent Calendar 2010 Sym Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/meta_adcal/6&#34;&gt;Meta Advent Calendar: RSS &#38;#x51FA;&#38;#x529B;&#38;#x5BFE;&#38;#x5FDC;&#38;#x3057;&#38;#x305F;&#38;#x4F5C;&#38;#x696D;&#38;#x30ED;&#38;#x30B0; - JPerl Advent Calendar 2010 Meta_adcal Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/win32/6&#34;&gt;Win32: CPAN&#38;#x30E2;&#38;#x30B8;&#38;#x30E5;&#38;#x30FC;&#38;#x30EB;&#38;#x3092;Windows&#38;#x306E;&#38;#x307F;&#38;#x3067;&#38;#x4F5C;&#38;#x6210;&#38;#x3059;&#38;#x308B;&#38;#x65B9;&#38;#x6CD5; - JPerl Advent Calendar 2010 Win32 Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/acme/6&#34;&gt;Acme: Acme::PrettyCure - JPerl Advent Calendar 2010 Acme Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/english/6&#34;&gt;English: Useful modules for writing tool scripts (opts, Config::Pit and Script::State) - JPerl Advent Calendar 2010 English Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/casual/6&#34;&gt;Casual: MySQL &#38;#x3068; SQLite &#38;#x306B;&#38;#x5BFE;&#38;#x5FDC;&#38;#x3057;&#38;#x305F; DBIx &#38;#x306A;&#38;#x30E2;&#38;#x30B8;&#38;#x30E5;&#38;#x30FC;&#38;#x30EB;&#38;#x3092; PostgreSQL &#38;#x306B;&#38;#x5BFE;&#38;#x5FDC;&#38;#x3055;&#38;#x305B;&#38;#x308B; Tips &#38;#x3044;&#38;#x304F;&#38;#x3064;&#38;#x304B; - JPerl Advent Calendar 2010 Casual Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/hacker/6&#34;&gt;Hacker: &#38;#x5909;&#38;#x614B;&#38;#x7684;&#38;#x6B63;&#38;#x898F;&#38;#x8868;&#38;#x73FE;&#38;#x30E2;&#38;#x30B8;&#38;#x30E5;&#38;#x30FC;&#38;#x30EB;&#38;#x3092;&#38;#x652F;&#38;#x3048;&#38;#x308B; Regexp::Assemble::Compressed - JPerl Advent Calendar 2010 Hacker Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;teng: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;Entrepreneurship-Advent&#34;&gt;Entrepreneurship Advent&lt;/h2&gt;
+
+&lt;p&gt;24 Ways to Start: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;PHP&#34;&gt;PHP&lt;/h2&gt;
+
+&lt;p&gt;The PHP advent uses slugged titles for their URIs, so we can&#38;#39;t acdcess them by day of month llike everybody else. You can find the PHP Advent Calendar here &lt;a href=&#34;http://www.phpadvent.org/2010&#34;&gt;PHPadvent: PHP Advent 2010&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;HTML5-Adventure-Calendar&#34;&gt;HTML5 Adventure Calendar&lt;/h2&gt;
+
+&lt;p&gt;HTML5: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;SysAdvent&#34;&gt;SysAdvent&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sysadvent.blogspot.com&#34;&gt;SysAdvent: sysadvent&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</summary><updated>2010-12-06T00:00:00-05:00</updated><category term="Perl Advent Calendars"/><author><name>len jaffe</name></author></entry><entry><title>2010-12-05</title><link href="http://www.theycomewithcheese.com/PerlAdventPlanet/2010/2010-12-05.html"/><id>http://www.theycomewithcheese.com/PerlAdventPlanet/2010/2010-12-05.html</id><summary type="html">&lt;div class=&#39;pod&#39;&gt;&lt;h2 id=&#34;Perl&#34;&gt;Perl&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perladvent.org/2010/5/&#34;&gt;Perl: 2010 Perl Advent Calendar: Merry Christmap&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.catalystframework.org/calendar/2010/5&#34;&gt;Catalyst: Catalyst Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perldancer.org/2010/5&#34;&gt;Dancer: How to write a plugin - PerlDancer Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl6advent.wordpress.com/2010/12/5/&#34;&gt;Perl 6: 2010 December 05 &#38;amp;laquo; Perl 6 Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.rjbs.manxome.org/2010/2010-12-05.html&#34;&gt;Ricardo Signes: RJBS Advent Calendar 2010 - It&#38;amp;#39;s a Time for Tolerance &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-Advent-Calendar-Japan:&#34;&gt;Perl Advent Calendar Japan:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/perl6/5&#34;&gt;Perl6: &#38;#x30E2;&#38;#x30B8;&#38;#x30E5;&#38;#x30FC;&#38;#x30EB;&#38;#x3092;&#38;#x66F8;&#38;#x3044;&#38;#x3066;&#38;#x307F;&#38;#x3088;&#38;#x3046; - JPerl Advent Calendar 2010 Perl6 Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/sym/5&#34;&gt;Symbolic Programming: &#38;#x8A18;&#38;#x53F7;&#38;#x3060;&#38;#x3051;&#38;#x306E;Perl&#38;#x30D7;&#38;#x30ED;&#38;#x30B0;&#38;#x30E9;&#38;#x30DF;&#38;#x30F3;&#38;#x30B0;&#38;#x306E;&#38;#x57FA;&#38;#x672C;&#38;#x539F;&#38;#x7406; - JPerl Advent Calendar 2010 Sym Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/meta_adcal/5&#34;&gt;Meta Advent Calendar: Text::Xatena - &#38;#x306F;&#38;#x3066;&#38;#x306A;&#38;#x8A18;&#38;#x6CD5;&#38;#x306E;&#38;#x3088;&#38;#x3046;&#38;#x306A;&#38;#x8A18;&#38;#x6CD5;&#38;#x30D5;&#38;#x30A9;&#38;#x30FC;&#38;#x30DE;&#38;#x30C3;&#38;#x30C8;&#38;#x30D1;&#38;#x30FC;&#38;#x30B5;&#38;#x30FC; - JPerl Advent Calendar 2010 Meta_adcal Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/win32/5&#34;&gt;Win32: &#38;#x30AA;&#38;#x30B9;&#38;#x30B9;&#38;#x30E1;&#38;#x3057;&#38;#x306A;&#38;#x3044;perl&#38;#x306E;&#38;#x5B9F;&#38;#x884C;&#38;#x65B9;&#38;#x6CD5; - JPerl Advent Calendar 2010 Win32 Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/acme/5&#34;&gt;Acme: Acme::Code::Police vs Acme::Code::FreedomFighter - JPerl Advent Calendar 2010 Acme Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/english/5&#34;&gt;English: Furl - Lightning fast HTTP client library - JPerl Advent Calendar 2010 English Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/casual/5&#34;&gt;Casual: Vim &#38;#x3068; Perl &#38;#x3067;&#38;#x97F3;&#38;#x697D;&#38;#x30D7;&#38;#x30EC;&#38;#x30FC;&#38;#x30E4;&#38;#x3092;&#38;#x4F5C;&#38;#x308D;&#38;#x3046; - JPerl Advent Calendar 2010 Casual Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/hacker/5&#34;&gt;Hacker: DBIx::Inspector &#38;#x3067; DB &#38;#x306E;&#38;#x4E2D;&#38;#x3092;&#38;#x306E;&#38;#x305E;&#38;#x304D;&#38;#x307F;&#38;#x308B; - JPerl Advent Calendar 2010 Hacker Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;teng: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;Entrepreneurship-Advent&#34;&gt;Entrepreneurship Advent&lt;/h2&gt;
+
+&lt;p&gt;24 Ways to Start: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;PHP&#34;&gt;PHP&lt;/h2&gt;
+
+&lt;p&gt;The PHP advent uses slugged titles for their URIs, so we can&#38;#39;t acdcess them by day of month llike everybody else. You can find the PHP Advent Calendar here &lt;a href=&#34;http://www.phpadvent.org/2010&#34;&gt;PHPadvent: PHP Advent 2010&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;HTML5-Adventure-Calendar&#34;&gt;HTML5 Adventure Calendar&lt;/h2&gt;
+
+&lt;p&gt;HTML5: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;SysAdvent&#34;&gt;SysAdvent&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sysadvent.blogspot.com&#34;&gt;SysAdvent: sysadvent&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</summary><updated>2010-12-05T00:00:00-05:00</updated><category term="Perl Advent Calendars"/><author><name>len jaffe</name></author></entry><entry><title>2010-12-04</title><link href="http://www.theycomewithcheese.com/PerlAdventPlanet/2010/2010-12-04.html"/><id>http://www.theycomewithcheese.com/PerlAdventPlanet/2010/2010-12-04.html</id><summary type="html">&lt;div class=&#39;pod&#39;&gt;&lt;h2 id=&#34;Perl&#34;&gt;Perl&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perladvent.org/2010/4/&#34;&gt;Perl: 2010 Perl Advent Calendar: Debuggin&#38;#39; blinken strings&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.catalystframework.org/calendar/2010/4&#34;&gt;Catalyst: Catalyst Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perldancer.org/2010/4&#34;&gt;Dancer: Database connections with Dancer::Plugin::Database - PerlDancer Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl6advent.wordpress.com/2010/12/4/&#34;&gt;Perl 6: 2010 December 04 &#38;amp;laquo; Perl 6 Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.rjbs.manxome.org/2010/2010-12-04.html&#34;&gt;Ricardo Signes: RJBS Advent Calendar 2010 - 83% of Advent Remaining &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-Advent-Calendar-Japan:&#34;&gt;Perl Advent Calendar Japan:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/perl6/4&#34;&gt;Perl6: &#38;#x30E2;&#38;#x30B8;&#38;#x30E5;&#38;#x30FC;&#38;#x30EB;&#38;#x3092;&#38;#x4F7F;&#38;#x3063;&#38;#x3066;&#38;#x307F;&#38;#x3088;&#38;#x3046; - JPerl Advent Calendar 2010 Perl6 Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/sym/4&#34;&gt;Symbolic Programming: Ruby1.8&#38;#x3067;&#38;#x5B66;&#38;#x3076;&#38;#x3001;&#38;#x7C21;&#38;#x5358;?!&#38;#x8A18;&#38;#x53F7;&#38;#x30D7;&#38;#x30ED;&#38;#x30B0;&#38;#x30E9;&#38;#x30DF;&#38;#x30F3;&#38;#x30B0; - JPerl Advent Calendar 2010 Sym Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/meta_adcal/4&#34;&gt;Meta Advent Calendar: &#38;#x898B;&#38;#x305F;&#38;#x76EE;&#38;#x91CD;&#38;#x8981; - JPerl Advent Calendar 2010 Meta_adcal Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/win32/4&#34;&gt;Win32: system &#38;#x4F7F;&#38;#x7528;&#38;#x6642;&#38;#x306B;&#38;#x30D7;&#38;#x30ED;&#38;#x30B0;&#38;#x30E9;&#38;#x30E0;&#38;#x306E;&#38;#x7D42;&#38;#x4E86;&#38;#x3092;&#38;#x5F85;&#38;#x305F;&#38;#x305A;&#38;#x306B;&#38;#x5236;&#38;#x5FA1;&#38;#x3092;&#38;#x8FD4;&#38;#x3059;&#38;#x65B9;&#38;#x6CD5; - JPerl Advent Calendar 2010 Win32 Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/acme/4&#34;&gt;Acme: Acme::Porn::JP - JPerl Advent Calendar 2010 Acme Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/english/4&#34;&gt;English: Writing a prefork server / daemon using Parallel::Prefork - JPerl Advent Calendar 2010 English Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/casual/4&#34;&gt;Casual: &#38;#x7D9A;&#38;#x30FB;Encode&#38;#x3067;&#38;#x30E9;&#38;#x30AF;&#38;#x30E9;&#38;#x30AF;&#38;#x65E5;&#38;#x672C;&#38;#x8A9E;&#38;#x51E6;&#38;#x7406; - JPerl Advent Calendar 2010 Casual Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/hacker/4&#34;&gt;Hacker: Module::Install::TestTarget &#38;#x3067; let&#38;amp;apos;s `make love` - JPerl Advent Calendar 2010 Hacker Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;teng: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;Entrepreneurship-Advent&#34;&gt;Entrepreneurship Advent&lt;/h2&gt;
+
+&lt;p&gt;24 Ways to Start: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;PHP&#34;&gt;PHP&lt;/h2&gt;
+
+&lt;p&gt;The PHP advent uses slugged titles for their URIs, so we can&#38;#39;t acdcess them by day of month llike everybody else. You can find the PHP Advent Calendar here &lt;a href=&#34;http://www.phpadvent.org/2010&#34;&gt;PHPadvent: PHP Advent 2010&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;HTML5-Adventure-Calendar&#34;&gt;HTML5 Adventure Calendar&lt;/h2&gt;
+
+&lt;p&gt;HTML5: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;SysAdvent&#34;&gt;SysAdvent&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sysadvent.blogspot.com&#34;&gt;SysAdvent: sysadvent&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</summary><updated>2010-12-04T00:00:00-05:00</updated><category term="Perl Advent Calendars"/><author><name>len jaffe</name></author></entry><entry><title>2010-12-03</title><link href="http://www.theycomewithcheese.com/PerlAdventPlanet/2010/2010-12-03.html"/><id>http://www.theycomewithcheese.com/PerlAdventPlanet/2010/2010-12-03.html</id><summary type="html">&lt;div class=&#39;pod&#39;&gt;&lt;h2 id=&#34;Perl&#34;&gt;Perl&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perladvent.org/2010/3/&#34;&gt;Perl: 2010 Perl Advent Calendar: Seasonal Help&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.catalystframework.org/calendar/2010/3&#34;&gt;Catalyst: Catalyst Advent Calendar - Day 3&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perldancer.org/2010/3&#34;&gt;Dancer: Tutorial: writing a tiny blog engine - PerlDancer Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl6advent.wordpress.com/2010/12/3/&#34;&gt;Perl 6: 2010 December 03 &#38;amp;laquo; Perl 6 Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.rjbs.manxome.org/2010/2010-12-03.html&#34;&gt;Ricardo Signes: RJBS Advent Calendar 2010 - Exceptionally Extensible Exceptions &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-Advent-Calendar-Japan:&#34;&gt;Perl Advent Calendar Japan:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/perl6/3&#34;&gt;Perl6: &#38;#x3069;&#38;#x3093;&#38;#x306A;&#38;#x30E1;&#38;#x30BD;&#38;#x30C3;&#38;#x30C9;&#38;#x304C;&#38;#x3042;&#38;#x308B;&#38;#x306E;&#38;#x304B;&#38;#x308F;&#38;#x304B;&#38;#x3089;&#38;#x306A;&#38;#x3044;&#38;#xFF01; - JPerl Advent Calendar 2010 Perl6 Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/sym/3&#34;&gt;Symbolic Programming: &#38;#x8A18;&#38;#x53F7;&#38;#x3060;&#38;#x3051;&#38;#x306E;JavaScript&#38;#x30D7;&#38;#x30ED;&#38;#x30B0;&#38;#x30E9;&#38;#x30DF;&#38;#x30F3;&#38;#x30B0;&#38;#x306E;&#38;#x57FA;&#38;#x672C;&#38;#x539F;&#38;#x7406; - JPerl Advent Calendar 2010 Sym Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/meta_adcal/3&#34;&gt;Meta Advent Calendar: &#38;#x306A;&#38;#x306B;&#38;#x306F;&#38;#x306A;&#38;#x304F;&#38;#x3068;&#38;#x3082;12&#38;#x6708;&#38;#x306E;&#38;#x30AB;&#38;#x30EC;&#38;#x30F3;&#38;#x30C0;&#38;#x30FC;&#38;#x3092;&#38;#x51FA;&#38;#x3059; - JPerl Advent Calendar 2010 Meta_adcal Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/win32/3&#34;&gt;Win32: cmd.exe &#38;#x306E; C &#38;#x306F;&#38;hellip;&#38;hellip; - JPerl Advent Calendar 2010 Win32 Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/acme/3&#34;&gt;Acme: Acme::JavaTrace - JPerl Advent Calendar 2010 Acme Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/english/3&#34;&gt;English: Pseudo closures in XS - JPerl Advent Calendar 2010 English Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/casual/3&#34;&gt;Casual: &#38;#x30B3;&#38;#x30DE;&#38;#x30F3;&#38;#x30C9;&#38;#x30E9;&#38;#x30A4;&#38;#x30F3;&#38;#x3067;&#38;#x4F7F;&#38;#x3048;&#38;#x308B;&#38;#x304B;&#38;#x3082;&#38;#x3057;&#38;#x308C;&#38;#x306A;&#38;#x3044;&#38;#x30C4;&#38;#x30FC;&#38;#x30EB;&#38;#x7B49;&#38;#x3042;&#38;#x308C;&#38;#x3053;&#38;#x308C; - JPerl Advent Calendar 2010 Casual Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/hacker/3&#34;&gt;Hacker: Scope::Container &#38;#x3067;&#38;#x30EA;&#38;#x30BD;&#38;#x30FC;&#38;#x30B9;&#38;#x7BA1;&#38;#x7406;&#38;#x3092;&#38;#x884C;&#38;#x3046; - JPerl Advent Calendar 2010 Hacker Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;teng: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;Entrepreneurship-Advent&#34;&gt;Entrepreneurship Advent&lt;/h2&gt;
+
+&lt;p&gt;24 Ways to Start: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;PHP&#34;&gt;PHP&lt;/h2&gt;
+
+&lt;p&gt;The PHP advent uses slugged titles for their URIs, so we can&#38;#39;t acdcess them by day of month llike everybody else. You can find the PHP Advent Calendar here &lt;a href=&#34;http://www.phpadvent.org/2010&#34;&gt;PHPadvent: PHP Advent 2010&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;HTML5-Adventure-Calendar&#34;&gt;HTML5 Adventure Calendar&lt;/h2&gt;
+
+&lt;p&gt;HTML5: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;SysAdvent&#34;&gt;SysAdvent&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sysadvent.blogspot.com&#34;&gt;SysAdvent: sysadvent&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</summary><updated>2010-12-03T00:00:00-05:00</updated><category term="Perl Advent Calendars"/><author><name>len jaffe</name></author></entry><entry><title>2010-12-02</title><link href="http://www.theycomewithcheese.com/PerlAdventPlanet/2010/2010-12-02.html"/><id>http://www.theycomewithcheese.com/PerlAdventPlanet/2010/2010-12-02.html</id><summary type="html">&lt;div class=&#39;pod&#39;&gt;&lt;h2 id=&#34;Perl&#34;&gt;Perl&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perladvent.org/2010/2/&#34;&gt;Perl: 2010 Perl Advent Calendar: Setting the bar high with an array of unique gifts&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.catalystframework.org/calendar/2010/2&#34;&gt;Catalyst: Catalyst Advent Calendar - Day 2&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perldancer.org/2010/2&#34;&gt;Dancer: Why routes - route-based programming introduction - PerlDancer Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl6advent.wordpress.com/2010/12/2/&#34;&gt;Perl 6: 2010 December 02 &#38;amp;laquo; Perl 6 Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.rjbs.manxome.org/2010/2010-12-02.html&#34;&gt;Ricardo Signes: RJBS Advent Calendar 2010 - Bringing out the Good Exporter for Company &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-Advent-Calendar-Japan:&#34;&gt;Perl Advent Calendar Japan:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/perl6/2&#34;&gt;Perl6: &#38;#x30B3;&#38;#x30DE;&#38;#x30F3;&#38;#x30C9;&#38;#x30E9;&#38;#x30A4;&#38;#x30F3;&#38;#x30C4;&#38;#x30FC;&#38;#x30EB;&#38;#x3092;&#38;#x3064;&#38;#x304F;&#38;#x3063;&#38;#x3066;&#38;#x307F;&#38;#x3088;&#38;#x3046; - JPerl Advent Calendar 2010 Perl6 Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/sym/2&#34;&gt;Symbolic Programming: PHP&#38;#x3067;&#38;#x3082;&#38;#x8A18;&#38;#x53F7;&#38;#x30D7;&#38;#x30ED;&#38;#x30B0;&#38;#x30E9;&#38;#x30DF;&#38;#x30F3;&#38;#x30B0;&#38;#xFF01; - JPerl Advent Calendar 2010 Sym Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/meta_adcal/2&#34;&gt;Meta Advent Calendar: URL&#38;#x306B;&#38;#x5FDC;&#38;#x3058;&#38;#x305F;&#38;#x30DA;&#38;#x30FC;&#38;#x30B8;&#38;#x304C;&#38;#x8868;&#38;#x793A;&#38;#x3055;&#38;#x308C;&#38;#x308B;&#38;#x307E;&#38;#x3067; - JPerl Advent Calendar 2010 Meta_adcal Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/win32/2&#34;&gt;Win32: Windows GUI &#38;#x30A2;&#38;#x30D7;&#38;#x30EA;&#38;#x30B1;&#38;#x30FC;&#38;#x30B7;&#38;#x30E7;&#38;#x30F3;&#38;#x3067;&#38;#x306E; Perl &#38;#x30D7;&#38;#x30E9;&#38;#x30B0;&#38;#x30A4;&#38;#x30F3;&#38;#x306E;&#38;#x4F5C;&#38;#x308A;&#38;#x65B9; - JPerl Advent Calendar 2010 Win32 Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/acme/2&#34;&gt;Acme: Acme::Pokemon - JPerl Advent Calendar 2010 Acme Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/english/2&#34;&gt;English: To Write Perl For The Perl Beginners. - JPerl Advent Calendar 2010 English Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/casual/2&#34;&gt;Casual: POD&#38;#x306E;&#38;#x30B3;&#38;#x30FC;&#38;#x30C9;&#38;#x90E8;&#38;#x5206;&#38;#x3092;&#38;#x304B;&#38;#x3063;&#38;#x3053;&#38;#x3088;&#38;#x304F;HTML&#38;#x3067;&#38;#x307F;&#38;#x305F;&#38;#x3044;&#38;#x3088;&#38;#x306D;&#38;#x30FC; - JPerl Advent Calendar 2010 Casual Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/hacker/2&#34;&gt;Hacker: Jonk&#38;#x3067;&#38;#x4F5C;&#38;#x308B;&#38;#x304A;&#38;#x308C;&#38;#x304A;&#38;#x308C;JobQueue&#38;#x30D5;&#38;#x30EC;&#38;#x30FC;&#38;#x30E0;&#38;#x30EF;&#38;#x30FC;&#38;#x30AF; - JPerl Advent Calendar 2010 Hacker Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;teng: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;Entrepreneurship-Advent&#34;&gt;Entrepreneurship Advent&lt;/h2&gt;
+
+&lt;p&gt;24 Ways to Start: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;PHP&#34;&gt;PHP&lt;/h2&gt;
+
+&lt;p&gt;The PHP advent uses slugged titles for their URIs, so we can&#38;#39;t acdcess them by day of month llike everybody else. You can find the PHP Advent Calendar here &lt;a href=&#34;http://www.phpadvent.org/2010&#34;&gt;PHPadvent: PHP Advent 2010&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;HTML5-Adventure-Calendar&#34;&gt;HTML5 Adventure Calendar&lt;/h2&gt;
+
+&lt;p&gt;HTML5: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;SysAdvent&#34;&gt;SysAdvent&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sysadvent.blogspot.com&#34;&gt;SysAdvent: sysadvent&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</summary><updated>2010-12-02T00:00:00-05:00</updated><category term="Perl Advent Calendars"/><author><name>len jaffe</name></author></entry><entry><title>2010-12-01</title><link href="http://www.theycomewithcheese.com/PerlAdventPlanet/2010/2010-12-01.html"/><id>http://www.theycomewithcheese.com/PerlAdventPlanet/2010/2010-12-01.html</id><summary type="html">&lt;div class=&#39;pod&#39;&gt;&lt;h2 id=&#34;Perl&#34;&gt;Perl&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perladvent.org/2010/1/&#34;&gt;Perl: 2010 Perl Advent Calendar: Tangled Tidings&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.catalystframework.org/calendar/2010/1&#34;&gt;Catalyst: Catalyst Advent Calendar - Day 1&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.perldancer.org/2010/1&#34;&gt;Dancer: Dancer 1.2 - a micro web framework milestone - PerlDancer Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl6advent.wordpress.com/2010/12/1/&#34;&gt;Perl 6: 2010 December 01 &#38;amp;laquo; Perl 6 Advent Calendar&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://advent.rjbs.manxome.org/2010/2010-12-01.html&#34;&gt;Ricardo Signes: RJBS Advent Calendar 2010 - A Logging Library that Really Stinks &lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;Perl-Advent-Calendar-Japan:&#34;&gt;Perl Advent Calendar Japan:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/perl6/1&#34;&gt;Perl6: Perl6&#38;#x3092;&#38;#x5165;&#38;#x308C;&#38;#x3066;&#38;#x307F;&#38;#x3088;&#38;#x3046;&#38;#xFF01; - JPerl Advent Calendar 2010 Perl6 Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/sym/1&#34;&gt;Symbolic Programming: &#38;#x8A18;&#38;#x53F7;&#38;#x30D7;&#38;#x30ED;&#38;#x30B0;&#38;#x30E9;&#38;#x30DF;&#38;#x30F3;&#38;#x30B0;&#38;#x306E;&#38;#x7B2C;&#38;#x4E00;&#38;#x6B69;&#38;#x306F; BrainF*ck - JPerl Advent Calendar 2010 Sym Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/meta_adcal/1&#34;&gt;Meta Advent Calendar: &#38;#x306F;&#38;#x3058;&#38;#x3081;&#38;#x306E;&#38;#x4E00;&#38;#x6B69; - JPerl Advent Calendar 2010 Meta_adcal Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/win32/1&#34;&gt;Win32: Windows &#38;#x3067; Perl &#38;#x3092;&#38;#x306F;&#38;#x3058;&#38;#x3081;&#38;#x3088;&#38;#x3046;&#38;#xFF01; - JPerl Advent Calendar 2010 Win32 Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/acme/1&#34;&gt;Acme: Hello Acme World! - JPerl Advent Calendar 2010 Acme Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/english/1&#34;&gt;English: Japan Perl Association Wants To Work With You! - JPerl Advent Calendar 2010 English Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/casual/1&#34;&gt;Casual: Perl&#38;#x306E;&#38;#x958B;&#38;#x767A;&#38;#x74B0;&#38;#x5883;&#38;#x3092;Casual&#38;#x306B;&#38;#x4F5C;&#38;#x308D;&#38;#x3046; - JPerl Advent Calendar 2010 Casual Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://perl-users.jp/articles/advent-calendar/2010/hacker/1&#34;&gt;Hacker: Test::Fixture::DBI &#38;#x3067;&#38;#x899A;&#38;#x3048;&#38;#x308B;&#38;#x30C7;&#38;#x30FC;&#38;#x30BF;&#38;#x30D9;&#38;#x30FC;&#38;#x30B9;&#38;#x30C6;&#38;#x30B9;&#38;#x30C8; - JPerl Advent Calendar 2010 Hacker Track&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;teng: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;Entrepreneurship-Advent&#34;&gt;Entrepreneurship Advent&lt;/h2&gt;
+
+&lt;p&gt;24 Ways to Start: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;PHP&#34;&gt;PHP&lt;/h2&gt;
+
+&lt;p&gt;The PHP advent uses slugged titles for their URIs, so we can&#38;#39;t acdcess them by day of month llike everybody else. You can find the PHP Advent Calendar here &lt;a href=&#34;http://www.phpadvent.org/2010&#34;&gt;PHPadvent: PHP Advent 2010&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;HTML5-Adventure-Calendar&#34;&gt;HTML5 Adventure Calendar&lt;/h2&gt;
+
+&lt;p&gt;HTML5: is unavailable.&lt;/p&gt;
+
+&lt;h2 id=&#34;SysAdvent&#34;&gt;SysAdvent&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sysadvent.blogspot.com&#34;&gt;SysAdvent: sysadvent&lt;/a&gt;&lt;/p&gt;
+
+&lt;/div&gt;</summary><updated>2010-12-01T00:00:00-05:00</updated><category term="Perl Advent Calendars"/><author><name>len jaffe</name></author></entry></feed>

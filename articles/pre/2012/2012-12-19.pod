@@ -1,0 +1,67 @@
+title: 2012-12-19
+author: len jaffe <lenjaffe@jaffesystems.com>
+topic: Perl Advent Planet
+
+=head1 Perl
+
+=head2 Perl Advent
+
+L<Perl|http://perladvent.org/2012/2012-12-19.html>
+
+=head2 Catalyst Advent
+
+L<Catalyst|http://www.catalystframework.org/calendar/2012/19>
+
+=head2 Dancer Advent
+
+L<Dancer|http://advent.perldancer.org/2012/19>
+
+=head2 OX
+
+L<OX|http://iinteractive.github.com/OX/advent/2012-12-19.html>
+
+=head2 Perl 6  Advent
+
+L<Perl 6|http://perl6advent.wordpress.com/2012/12/19/>
+
+=head2 Perl Advent Japan:
+
+L<Hacker Track|http://perl-users.jp/articles/advent-calendar/2012/hacker/19>
+
+L<Casual Track|http://perl-users.jp/articles/advent-calendar/2012/casual/19>
+
+=head2 Seoul.pm Perl Advent Calendar 2012
+
+L<Seoul.pm|http://advent.perl.kr/2012/2012-12-19.html>
+
+=head1 Not Perl
+
+=head2 Ruby
+
+1-12:L<12 Gems of Christmas|http://www.mikeperham.com/2012/12/19/>
+
+L<Qiita Ruby Advent 2012|http://qiita.com/advent-calendar/2012/ruby>
+
+=head2 Python
+
+L<Python|http://www.worldofballpythons.com/christmas/>
+
+The main advent page loads but the individual days are broken.
+
+=head2 PHP / WEBadvent
+
+The PHP advent changed its name to 
+L< WEBadvent|http://webadvent.org/2012> - 
+like the PHPadvents before it, it uses slugs instead of day numbers. This is a link to the 2012 landing page.
+
+=head2 SysAdvent
+ 
+L<SysAdvent|http://sysadvent.blogspot.com> the Advent Calendar for System Administrators - uses slugs, not numbers - find the home page at 
+
+=head2 Java 
+
+L<Java Advent:|http://www.javaadvent.com> also a blogger.com-hosted site, so no simply addressable articles.
+
+=head2 24Ways Advent
+
+L<24 Ways to impress your friends|http://24ways.org/2012/>   also slugged
