@@ -1,0 +1,7 @@
+title: 2013-12-04
+author: len jaffe <lenjaffe@jaffesystems.com>
+topic: Perl Advent Planet
+
+=head1 It is not Decmeber yet
+
+<!-- 4 -->
