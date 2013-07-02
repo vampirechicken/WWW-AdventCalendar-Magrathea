@@ -40,7 +40,7 @@ while [ -n "$1" ]; do
 
     echo "Generate $YEAR"
     ${PERL} preprocesspod.pl -v $YEAR
-    ${ADVCAL} -c ${CONFIGDIR}/advent.ini --article-dir ${ARTICLE_DIR} --out ${OUTDIR}
+    ${ADVCAL} -c ${CONFIGDIR}/advent.ini --article-dir ${ARTICLE_DIR} --out ${OUTDIR}  --year-links
     mkdir -p ${HTML_ROOT}
     cp -r out/${YEAR}/* ${HTML_ROOT}
 
@@ -66,5 +66,5 @@ while [ -n "$1" ]; do
 done
 
 
-echo "$0 Finsished: " `date`
+echo "$0 Finished: " `date`
 

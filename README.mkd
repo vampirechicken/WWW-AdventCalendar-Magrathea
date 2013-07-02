@@ -9,9 +9,16 @@ and extract the title for use as the link's anchor text.
 TODO:
 1. Documentation
   * how to install and configure
+
   * how to run
+     $ mkadvent.sh [gen|git] YEAR
+        * gen - generate YEAR's configuration and pod files from templates, process the pod into HTML, etc
+        * git - commit the geneated HTML advent cal to git and push it to the remote for post-commit deploy
+        * neither - execute 'gen' followed by 'git'
+
   * how to modify preprocessor templates to create a new planet
-2. Package it and put it on the CPAN
+
+2. Package it and put it on the CPAN (Dist::Zilla)
 3. Add year relinking logic so that when we add new year to the calendar, the adjacent index.html pages are updated to link to the new years index.html
-4. Add logic so that the three steps of the mkadvent.sh can be run individually, and with the option to quit after each step
+4. Add logic so that the steps of the mkadvent.sh can be run individually, and with the option to quit after each step
 5. Track last-midified times/dependencies so that we can avoid processing unmodified day-pods.
