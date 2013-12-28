@@ -14,9 +14,17 @@ ADVCAL="/usr/bin/env advcal"
 PERL="/usr/bin/env perl"
 SCP="/usr/bin/env scp"
 
+PREPROCESS=1
+GENERATE=1
+GIT_PUSH=1
+
 RUN_MODE=$1
 case $RUN_MODE in
-	gen | git)  shift;;
+  pre) GIT_PUSH=0; GENERATE=0; shift;;
+  gen) PREPROCESS=0; GIT_PUSH=0; shift;;
+  git) PREPROCESS=0; GENERATE=0; shift;;
+  pre+gen|gen+pre) GIT_PUSH=0; shift;;
+  git+gen|gen+git) PREPROCESS=0; shift;;
 esac
 
 while [ -n "$1" ]; do
@@ -28,7 +36,11 @@ while [ -n "$1" ]; do
   HTML_ROOT=/home/len/PerlAdventPlanet/${YEAR}
   REPO=/home/len/repos/lenjaffe.com/PerlAdventPlanet/${YEAR}
 
-  if [ $RUN_MODE != 'git' ]; then
+  if [ $PREPROCESS == 1 ]; then
+    ${PERL} preprocesspod.pl -v $YEAR
+  fi
+
+  if [ $GENERATE == 1 ]; then
     cd ${RUNDIR}
     if [ ! -d $OUTDIR ]; then
       mkdir -p $OUTDIR
@@ -39,7 +51,6 @@ while [ -n "$1" ]; do
     fi
 
     echo "Generate $YEAR"
-    ${PERL} preprocesspod.pl -v $YEAR
     ${ADVCAL} -c ${CONFIGDIR}/advent.ini --article-dir ${ARTICLE_DIR} --out ${OUTDIR}  --year-links
     mkdir -p ${HTML_ROOT}
     cp -r out/${YEAR}/* ${HTML_ROOT}
@@ -50,7 +61,7 @@ while [ -n "$1" ]; do
     cp ${HTML_ROOT}/* ${REPO}
   fi
 
-  if [ $RUN_MODE != "gen" ]; then
+  if [ $GIT_PUSH == 1 ]; then
     echo "Commit $YEAR to the repo"
     cd ${REPO}
     git add .
