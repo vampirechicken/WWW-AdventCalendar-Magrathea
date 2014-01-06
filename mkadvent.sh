@@ -8,7 +8,7 @@ export PERLBREW_HOME=/home/len/.perlbrew
 . ${PERLBREW_ROOT}/etc/bashrc
 perlbrew use 5.18.0
 
-RUNDIR=/home/len/PerlAdventPlanet/WWW-AdventCalendar-Magrathea
+RUNDIR=/home/len/AdventPlanet/WWW-AdventCalendar-Magrathea
 
 ADVCAL="/usr/bin/env advcal"
 PERL="/usr/bin/env perl"
@@ -33,11 +33,11 @@ while [ -n "$1" ]; do
   CONFIGDIR=config/${YEAR}
   ARTICLE_DIR=articles/post/${YEAR}
 
-  HTML_ROOT=/home/len/PerlAdventPlanet/${YEAR}
-  REPO=/home/len/repos/lenjaffe.com/PerlAdventPlanet/${YEAR}
+  HTML_ROOT=/home/len/AdventPlanet/${YEAR}
+  REPO=/home/len/repos/lenjaffe.com/AdventPlanet/${YEAR}
 
   if [ $PREPROCESS == 1 ]; then
-    ${PERL} preprocesspod.pl -v $YEAR
+    ${PERL} ${RUNDIR}/preprocesspod.pl -v $YEAR
   fi
 
   if [ $GENERATE == 1 ]; then
