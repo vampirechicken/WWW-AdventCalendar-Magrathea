@@ -11,7 +11,7 @@ use HTML::Template;
 use File::Path qw(make_path);
 use IO::Any;
 
-my $advent_planet_uri = 'http://lenjaffe.com/PerlAdventPlanet';
+my $advent_planet_uri = 'http://lenjaffe.com/AdventPlanet';
 
 my $verbose = 0;  # status messages to STDERR if $verbose == 1
 if ($ARGV[0] && $ARGV[0] eq '-v') {
