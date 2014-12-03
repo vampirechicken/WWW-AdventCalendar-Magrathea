@@ -54,7 +54,8 @@ while [ -n "$1" ]; do
     echo "Generate $YEAR"
     ${ADVCAL} -c ${CONFIGDIR}/advent.ini --article-dir ${ARTICLE_DIR} --out ${OUTDIR}  --year-links
     mkdir -p ${HTML_ROOT}
-    cp -r out/${YEAR}/* ${HTML_ROOT}
+    cp -r ${OUTDIR}/* ${HTML_ROOT}
+    #cp -r out/${YEAR}/* ${HTML_ROOT}
 
     mkdir -p ${REPO}
     cd ${REPO}
