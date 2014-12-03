@@ -13,4 +13,4 @@ $(DESTDIR)/index.html.gz: $(DESTDIR)/index.html
 
 
 $(DESTDIR)/news.html.gz: $(DESTDIR)/news.html
-	(cd $(DESTDIR); gzip -c news.html > news.html.gz; git add index.html.gz)
+	(cd $(DESTDIR); gzip -c news.html > news.html.gz; git add news.html.gz)

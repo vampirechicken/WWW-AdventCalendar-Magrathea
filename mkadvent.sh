@@ -55,7 +55,6 @@ while [ -n "$1" ]; do
     ${ADVCAL} -c ${CONFIGDIR}/advent.ini --article-dir ${ARTICLE_DIR} --out ${OUTDIR}  --year-links
     mkdir -p ${HTML_ROOT}
     cp -r ${OUTDIR}/* ${HTML_ROOT}
-    #cp -r out/${YEAR}/* ${HTML_ROOT}
 
     mkdir -p ${REPO}
     cd ${REPO}
@@ -72,7 +71,8 @@ while [ -n "$1" ]; do
     cd ..
     git checkout master
     git merge --no-ff development
-    git push
+    git push origin
+    git push mirror
   fi
 
   shift
