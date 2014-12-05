@@ -3,3 +3,4 @@ articles/post/*
 articles/pre/*
 out/*
 config/*
+log/
