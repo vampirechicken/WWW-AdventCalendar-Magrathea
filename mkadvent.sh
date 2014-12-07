@@ -60,6 +60,10 @@ while [ -n "$1" ]; do
     cd ${REPO}
     git checkout development
     cp ${HTML_ROOT}/* ${REPO}
+    for htmlfile in *.html
+    do
+      gzip -c $htmlfile > ${htmlfile}.gz
+    done
   fi
 
   if [ $GIT_PUSH == 1 ]; then
