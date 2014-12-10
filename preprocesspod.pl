@@ -10,6 +10,7 @@ use HTML::Template;
 
 use File::Path qw(make_path);
 use IO::Any;
+use Time::Piece;
 
 my $advent_planet_uri = 'http://lenjaffe.com/AdventPlanet';
 
@@ -17,6 +18,7 @@ my $verbose = 0;  # status messages to STDERR if $verbose == 1
 if ($ARGV[0] && $ARGV[0] eq '-v') {
   shift @ARGV;
   $verbose = 1;
+  say STDERR "************************* VERBOSE MODE *********************************************";
 }
 
 my $usage = "$0 [-v] year";
@@ -101,6 +103,7 @@ sub initialize_template {
 
 
 
+my %last_post_day;
 sub preprocess {
   my ($day, $year, $prefile, $postfile, $verbose) = @_;
 
@@ -116,20 +119,19 @@ sub preprocess {
   }
 
   say STDERR "Preprocessing $prefile:" if $verbose;
+  my @weekdays = ('Sunday', 'Monday','Tuesday','Wednesday','Thursday','Friday', 'Saturday');
   INPUTLINE:
   while (<$prefh>) {
+    next if /^\s*#/;
     unless ( /^\s*
-	         (?<day_range>
-		   (?<start_day>\d+)
-	           \s*-\s*
-	           (?<end_day>\d+)
-	           \s*
-	           :
-		 )?
+           (
+	           (?<day_range>(?<start_day>\d+)\s*-\s*(?<end_day>\d+)\s*:)
+		         |
+             (?<skipweekends>SKIPWEEKENDS\s*:\s*)
+           )?
 	         \s*
-	         L<(?<link>[^>]+)>
-	     /x ) {
-       print $postfh $_;
+	         L<(?<link>[^>]+)> /x ) {
+       print $postfh $_;  #print the non-link lines
        next INPUTLINE;
     }
     my ($label, $url) = split(/\|/, $+{link});
@@ -144,13 +146,32 @@ sub preprocess {
         next INPUTLINE;
       }
     }
+    elsif ($+{skipweekends}) {
+      # determine which day of the week $day is in $year, and if its a weekend, frobnigat the counter for the link 
+      my $date = sprintf("%d-12-%02d", $year, $day);
+      my $time = Time::Piece->strptime($date, '%Y-%m-%d');
+      my $dow = $time->day_of_week;
+      my $weekday = $weekdays[$dow];
+      if ($weekday eq 'Sunday' || $weekday eq 'Saturday') {
+        say STDERR "\t\t${label}: does not publish articles on weekends" if $verbose;
+        say $postfh "${label}: does not publish articles on weekends";
+        next INPUTLINE;
+      }
+      else {
+        $last_post_day{$label} += 1;
+        $url =~ s/WEEKDAY/$last_post_day{$label}/g;
+        say STDERR "\t\tUsing $url on $date" if $verbose;
+      }
+    }
 
     my $response = $web->get($url);
     if ( $response->{status} != 200) {
-       say $postfh "${label}: appears to be unavailable on ${year}-12-" . sprintf("%02d - ", $day);
+       say $postfh "${label}: appears to be unavailable on ${year}-12-" . sprintf("%02d - ", $day) .
+                   "Please try again later.";
+       next INPUTLINE;
     }
 
-    if ( $response->{content} =~ m!<title>(?<title>.*)</title>!s ) {
+    if ( $response->{content} =~ m!<title[^>]*>(?<title>.*)</title>!s ) {
         $label .= ": $+{title}";
 	      $label =~ s/&laquo;/--/mg;
         $label =~ s/[|]/-/mg;
