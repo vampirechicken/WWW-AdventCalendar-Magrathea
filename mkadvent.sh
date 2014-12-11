@@ -55,15 +55,16 @@ while [ -n "$1" ]; do
     ${ADVCAL} -c ${CONFIGDIR}/advent.ini --article-dir ${ARTICLE_DIR} --out ${OUTDIR}  --year-links
     mkdir -p ${HTML_ROOT}
     cp -r ${OUTDIR}/* ${HTML_ROOT}
+    cd ${HTML_ROOT}
+    for htmlfile in *.html
+    do
+      gzip -c $htmlfile > ${htmlfile}.gz
+    done
 
     mkdir -p ${REPO}
     cd ${REPO}
     git checkout development
     cp ${HTML_ROOT}/* ${REPO}
-    for htmlfile in *.html
-    do
-      gzip -c $htmlfile > ${htmlfile}.gz
-    done
   fi
 
   if [ $GIT_PUSH == 1 ]; then
