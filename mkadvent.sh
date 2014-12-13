@@ -68,15 +68,20 @@ while [ -n "$1" ]; do
   fi
 
   if [ $GIT_PUSH == 1 ]; then
-    echo "Commit $YEAR to the repo"
+    echo "Commit $YEAR and merbe to master"
     cd ${REPO}
     git add .
     git status
     git commit -m "ran $YEAR"
     cd ..
     git checkout master
+
+    echo "merge dev into master"
     git merge --no-ff development
+
+    echo "push to the origin (dreamhost)"
     git push origin
+    echo "push to the mirror (bitbucket)"
     git push mirror
   fi
 
