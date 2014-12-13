@@ -11,6 +11,7 @@ use HTML::Template;
 use File::Path qw(make_path);
 use IO::Any;
 use Time::Piece;
+use Data::Dumper;
 
 my $advent_planet_uri = 'http://lenjaffe.com/AdventPlanet';
 
@@ -103,7 +104,7 @@ sub initialize_template {
 
 
 
-my %last_post_day;
+my %last_post;
 sub preprocess {
   my ($day, $year, $prefile, $postfile, $verbose) = @_;
 
@@ -122,12 +123,12 @@ sub preprocess {
   my @weekdays = ('Sunday', 'Monday','Tuesday','Wednesday','Thursday','Friday', 'Saturday');
   INPUTLINE:
   while (<$prefh>) {
-    next if /^\s*#/;
+    next INPUTLINE if /^\s*#/;
     unless ( /^\s*
            (
 	           (?<day_range>(?<start_day>\d+)\s*-\s*(?<end_day>\d+)\s*:)
 		         |
-             (?<skipweekends>SKIPWEEKENDS\s*:\s*)
+             (?<mst_fill>MST_FILL\s*:\s*)
            )?
 	         \s*
 	         L<(?<link>[^>]+)> /x ) {
@@ -135,41 +136,44 @@ sub preprocess {
        next INPUTLINE;
     }
     my ($label, $url) = split(/\|/, $+{link});
+    $last_post{$label}->{day} ||= 0;
     say STDERR sprintf("\tprocessing %32s: %s", $label, $url) if $verbose;
 
     if ($+{day_range}) {
       if ( $+{start_day} > $day || $day > $+{end_day} ) {
-        say $postfh "${label}: is available from " . 
-	     sprintf("L<12/%02d|%s/%d/%d-12-%02d.html>", $+{start_day}, $advent_planet_uri, $year, $year, $+{start_day} )
-             . '-' .		     
-	     sprintf("L<12/%02d|%s/%d/%d-12-%02d.html>", $+{end_day}, $advent_planet_uri, $year, $year, $+{end_day} );
+        say $postfh "${label}: is available from " .
+	        sprintf("L<12/%02d|%s/%d/%d-12-%02d.html>", $+{start_day}, $advent_planet_uri, $year, $year, $+{start_day} )
+                . '-' .	
+	        sprintf("L<12/%02d|%s/%d/%d-12-%02d.html>", $+{end_day}, $advent_planet_uri, $year, $year, $+{end_day} );
         next INPUTLINE;
-      }
-    }
-    elsif ($+{skipweekends}) {
-      # determine which day of the week $day is in $year, and if its a weekend, frobnigat the counter for the link 
-      my $date = sprintf("%d-12-%02d", $year, $day);
-      my $time = Time::Piece->strptime($date, '%Y-%m-%d');
-      my $dow = $time->day_of_week;
-      my $weekday = $weekdays[$dow];
-      if ($weekday eq 'Sunday' || $weekday eq 'Saturday') {
-        say STDERR "\t\t${label}: does not publish articles on weekends" if $verbose;
-        say $postfh "${label}: does not publish articles on weekends";
-        next INPUTLINE;
-      }
-      else {
-        $last_post_day{$label} += 1;
-        $url =~ s/WEEKDAY/$last_post_day{$label}/g;
-        say STDERR "\t\tUsing $url on $date" if $verbose;
       }
     }
 
     my $response = $web->get($url);
     if ( $response->{status} != 200) {
-       say $postfh "${label}: appears to be unavailable on ${year}-12-" . sprintf("%02d - ", $day) .
-                   "Please try again later.";
-       next INPUTLINE;
+
+      if ($+{mst_fill}) {
+        if ( $last_post{$label}->{day} == 0 ) {
+          say $postfh "${label}: has not published any articles yet. "
+                    . "Please try again later.";
+        }
+        else {
+          say $postfh "${label}: does not publish on weekends. So you're either ahead of the publication schedule, "
+                    . "or the Day $day article has not been published yet. The last published article was "
+                    . "L<$last_post{$label}->{label}|$last_post{$label}->{url}>. "
+                    . "Please try again later.";
+        }
+      }
+      else {
+        say $postfh "${label}: appears to be unavailable on ${year}-12-" . sprintf("%02d - ", $day) . ". "
+                    . "Please try again later.";
+      }
+      next INPUTLINE;
     }
+
+    my $tag = $label;
+    $last_post{$tag}->{day} += 1;
+    $last_post{$tag}->{url} = $url;
 
     if ( $response->{content} =~ m!<title[^>]*>(?<title>.*)</title>!s ) {
         $label .= ": $+{title}";
@@ -179,6 +183,7 @@ sub preprocess {
         $label =~ s/\n/ /mg;
     }
 
+    $last_post{$tag}->{label} = $label;
     say $postfh "L<$label|$url>";
   }
 
