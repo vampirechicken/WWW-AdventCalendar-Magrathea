@@ -2,7 +2,6 @@
 
 echo "$0 Started: " `date`
 
-
 export PERLBREW_ROOT=/home/len/perl5/perlbrew
 export PERLBREW_HOME=/home/len/.perlbrew
 . ${PERLBREW_ROOT}/etc/bashrc
@@ -68,7 +67,7 @@ while [ -n "$1" ]; do
   fi
 
   if [ $GIT_PUSH == 1 ]; then
-    echo "Commit $YEAR and merbe to master"
+    echo "Commit $YEAR to repo"
     cd ${REPO}
     git add .
     git status
@@ -79,7 +78,7 @@ while [ -n "$1" ]; do
     echo "merge dev into master"
     git merge --no-ff development
 
-    echo "push to the origin (github)"
+    echo "push to the origin (dreamhost)"
     git push origin
     echo "push to the mirror (bitbucket)"
     git push mirror
