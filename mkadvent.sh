@@ -79,7 +79,7 @@ while [ -n "$1" ]; do
     echo "merge dev into master"
     git merge --no-ff development
 
-    echo "push to the origin (dreamhost)"
+    echo "push to the origin (github)"
     git push origin
     echo "push to the mirror (bitbucket)"
     git push mirror
