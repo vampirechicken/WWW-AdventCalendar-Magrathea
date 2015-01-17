@@ -22,14 +22,17 @@ if ($ARGV[0] && $ARGV[0] eq '-v') {
   say STDERR "************************* VERBOSE MODE *********************************************";
 }
 
-my $usage = "$0 [-v] year";
+my $usage = "$0 [-v] year [last_day]";
 
 my $year = shift @ARGV;
 die $usage unless $year;
 
+my $last_day = shift @ARGV || 25;
+
+
 my $config = initialize_year($year);
 my $web    = HTTP::Tiny->new;
-foreach my $day ( 1..25 ) {
+foreach my $day ( 1..${last_day} ) {
   $config->{article_tmpl}->param( DAY => $day );
 
   my $day02 = sprintf "%02d", $day;
