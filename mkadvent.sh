@@ -27,8 +27,9 @@ case $RUN_MODE in
   git+gen|gen+git) PREPROCESS=0; shift;;
 esac
 
-while [ -n "$1" ]; do
+if [ -n "$1" ]; then
   YEAR=$1
+  LAST_DAY=${2:-25}
   OUTDIR=out/${YEAR}
   CONFIGDIR=config/${YEAR}
   ARTICLE_DIR=articles/post/${YEAR}
@@ -37,7 +38,7 @@ while [ -n "$1" ]; do
   REPO=/home/len/repos/lenjaffe.com/AdventPlanet/${YEAR}
 
   if [ $PREPROCESS == 1 ]; then
-    ${PERL} ${RUNDIR}/preprocesspod.pl -v $YEAR
+    ${PERL} ${RUNDIR}/preprocesspod.pl -v ${YEAR} ${LAST_DAY}
   fi
 
   if [ $GENERATE == 1 ]; then
@@ -83,9 +84,9 @@ while [ -n "$1" ]; do
     echo "push to the mirror (bitbucket)"
     git push mirror
   fi
-
-  shift
-done
+else
+  echo "usage: $0 (pre|gen|git|pre+gen|gen+git) year [last_day]"
+fi
 
 
 echo "$0 Finished: " `date`
