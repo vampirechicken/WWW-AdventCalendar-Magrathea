@@ -5,8 +5,7 @@ echo "$0 Started: " `date`
 export PERLBREW_ROOT=/home/len/perl5/perlbrew
 export PERLBREW_HOME=/home/len/.perlbrew
 . ${PERLBREW_ROOT}/etc/bashrc
-perlbrew use 5.20.1
-#perlbrew use 5.18.2
+perlbrew use 5.20.2
 
 RUNDIR=/home/len/AdventPlanet/WWW-AdventCalendar-Magrathea
 
