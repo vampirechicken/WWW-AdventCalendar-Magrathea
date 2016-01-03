@@ -78,8 +78,8 @@ if [ -n "$1" ]; then
     echo "merge dev into master"
     git merge --no-ff development
 
-    #echo "push to the origin (dreamhost)"
-    #git push origin
+    echo "push to the origin (linode)"
+    git push advent_origin
     echo "push to the mirror (bitbucket)"
     git push mirror
   fi
