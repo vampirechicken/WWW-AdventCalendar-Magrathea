@@ -79,9 +79,9 @@ if [ -n "$1" ]; then
     git merge --no-ff development
 
     echo "push to the origin"
-    git push origin
+    git push origin master
     echo "push to the mirror"
-    git push mirror
+    git push mirror master
   fi
 else
   echo "usage: $0 (pre|gen|git|pre+gen|gen+git) year [last_day]"
