@@ -5,7 +5,7 @@ echo "$0 Started: " `date`
 export PERLBREW_ROOT=/home/len/perl5/perlbrew
 export PERLBREW_HOME=/home/len/.perlbrew
 . ${PERLBREW_ROOT}/etc/bashrc
-perlbrew use 5.20.3
+perlbrew use 5.24.0
 
 RUNDIR=/home/len/AdventPlanet/WWW-AdventCalendar-Magrathea
 
@@ -76,12 +76,12 @@ if [ -n "$1" ]; then
     git checkout master
 
     echo "merge dev into master"
-    git merge --no-ff development
+    git merge --no-ff -m 'merge development into master' development
 
     echo "push to the origin"
     git push origin master
     echo "push to the mirror"
-    git push mirror master
+    git push deploy master
   fi
 else
   echo "usage: $0 (pre|gen|git|pre+gen|gen+git) year [last_day]"
