@@ -71,7 +71,7 @@ if [ -n "$1" ]; then
     cd ${REPO}
     git add .
     git status
-    git commit -m "ran $YEAR"
+    git commit -m "ran $YEAR $LAST_DAY"
     cd ..
     git checkout master
 
@@ -79,8 +79,9 @@ if [ -n "$1" ]; then
     git merge --no-ff -m 'merge development into master' development
 
     echo "push to the origin"
+    git push origin development
     git push origin master
-    echo "push to the mirror"
+    echo "deploy to production"
     git push deploy master
   fi
 else
