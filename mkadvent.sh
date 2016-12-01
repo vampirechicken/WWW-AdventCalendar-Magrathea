@@ -76,12 +76,12 @@ if [ -n "$1" ]; then
     git checkout master
 
     echo "merge dev into master"
-    git merge --no-ff development
+    git merge --no-ff -m 'merge development into master' development
 
     echo "push to the origin"
     git push origin master
     echo "push to the mirror"
-    git push mirror master
+    git push deploy master
   fi
 else
   echo "usage: $0 (pre|gen|git|pre+gen|gen+git) year [last_day]"
