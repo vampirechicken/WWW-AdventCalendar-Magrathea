@@ -170,6 +170,9 @@ sub preprocess {
       else {
         say $postfh "${label}: appears to be unavailable on ${year}-12-" . sprintf("%02d - ", $day) . ". "
                     . "Please try again later.";
+        my $content = substr($response->{content}, 0, 132);
+        $content =~ s/\s+/ /gsm;
+        my $err = sprintf("request for %s failed:\n\tstatus = %d\n\treason = %s\n\tcontent = %s\n", $url, $response->{status}, $response->{reason}, $content) if $verbose;
       }
       next INPUTLINE;
     }
