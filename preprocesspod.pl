@@ -181,9 +181,9 @@ sub preprocess {
     $last_post{$tag}->{day} += 1;
     $last_post{$tag}->{url} = $url;
 
-    if ( $response->{content} =~ m!<title[^>]*>(?<title>.*)</title>!s ) {
+    if ( $response->{content} =~ m!<title[^>]*>(?<title>.*?)</title>!s ) {
         $label .= ": $+{title}";
-	      $label =~ s/&laquo;/--/mg;
+        $label =~ s/&laquo;/--/mg;
         $label =~ s/[|]/-/mg;
         $label =~ s/&#039;/'/mg;
         $label =~ s/\n/ /mg;
