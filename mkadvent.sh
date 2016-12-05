@@ -31,13 +31,17 @@ if [ -z "$1" ]; then
 else
   YEAR=$1
   if [ -n "$2" ]; then
-echo "[$1]  [$2]"
     LAST_DAY=${2}
   else
     day=`date '+%d' |sed  s/^0//`
     month=`date '+%m'`
+    year=`date '+%Y'`
     if [ $month == 12 ]; then
-      LAST_DAY=$day
+      if [ $YEAR == $year ]; then
+        LAST_DAY=$day
+      else
+        LAST_DAY=25
+      fi
     else
       LAST_DAY=1
     fi
