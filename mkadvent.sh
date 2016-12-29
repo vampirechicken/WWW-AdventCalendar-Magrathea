@@ -72,11 +72,15 @@ else
     ${ADVCAL} -c ${CONFIGDIR}/advent.ini --article-dir ${ARTICLE_DIR} --out ${OUTDIR}  --year-links
     mkdir -p ${HTML_ROOT}
     cp -r ${OUTDIR}/* ${HTML_ROOT}
-    cd ${HTML_ROOT}
-    for htmlfile in *.html
-    do
-      gzip -c $htmlfile > ${htmlfile}.gz
-    done
+    make -f makefile.main
+    ./mkmakefile.sh ${YEAR}
+    make -f makefile.${YEAR}
+
+    #cd ${HTML_ROOT}
+    #for htmlfile in *.html
+    #do
+    #  gzip -c $htmlfile > ${htmlfile}.gz
+    #done
 
     mkdir -p ${REPO}
     cd ${REPO}
