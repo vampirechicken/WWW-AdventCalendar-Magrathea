@@ -1,0 +1,90 @@
+DESTDIR=/home/len/repos/lenjaffe.com/AdventPlanet/2011
+all: index atom css days
+index: $(DESTDIR)/index.html.gz
+atom: $(DESTDIR)/atom.xml.gz
+css: $(DESTDIR)/style.css.gz
+days: $(DESTDIR)/2011-12-01.html.gz $(DESTDIR)/2011-12-02.html.gz $(DESTDIR)/2011-12-03.html.gz $(DESTDIR)/2011-12-04.html.gz $(DESTDIR)/2011-12-05.html.gz $(DESTDIR)/2011-12-06.html.gz $(DESTDIR)/2011-12-07.html.gz $(DESTDIR)/2011-12-08.html.gz $(DESTDIR)/2011-12-09.html.gz $(DESTDIR)/2011-12-10.html.gz $(DESTDIR)/2011-12-11.html.gz $(DESTDIR)/2011-12-12.html.gz $(DESTDIR)/2011-12-13.html.gz $(DESTDIR)/2011-12-14.html.gz $(DESTDIR)/2011-12-15.html.gz $(DESTDIR)/2011-12-16.html.gz $(DESTDIR)/2011-12-17.html.gz $(DESTDIR)/2011-12-18.html.gz $(DESTDIR)/2011-12-19.html.gz $(DESTDIR)/2011-12-20.html.gz $(DESTDIR)/2011-12-21.html.gz $(DESTDIR)/2011-12-22.html.gz $(DESTDIR)/2011-12-23.html.gz $(DESTDIR)/2011-12-24.html.gz $(DESTDIR)/2011-12-25.html.gz 
+
+$(DESTDIR)/index.html.gz: $(DESTDIR)/index.html
+	(cd $(DESTDIR); git checkout development; gzip -c index.html > index.html.gz; git add index.html.gz)
+
+$(DESTDIR)/atom.xml.gz: $(DESTDIR)/atom.xml
+	(cd $(DESTDIR); git checkout development; gzip -c atom.xml > atom.xml.gz; git add atom.xml.gz)
+
+$(DESTDIR)/style.css.gz: $(DESTDIR)/style.css
+	(cd $(DESTDIR); git checkout development; gzip -c style.css > style.css.gz; git add style.css.gz)
+
+$(DESTDIR)/2011-12-1.html.gz: $(DESTDIR)/2011-12-1.html
+	(cd $(DESTDIR); git checkout development; gzip -c 2011-12-1.html > 2011-12-1.html.gz; git add 2011-12-1.html.gz)
+
+$(DESTDIR)/2011-12-2.html.gz: $(DESTDIR)/2011-12-2.html
+	(cd $(DESTDIR); git checkout development; gzip -c 2011-12-2.html > 2011-12-2.html.gz; git add 2011-12-2.html.gz)
+
+$(DESTDIR)/2011-12-3.html.gz: $(DESTDIR)/2011-12-3.html
+	(cd $(DESTDIR); git checkout development; gzip -c 2011-12-3.html > 2011-12-3.html.gz; git add 2011-12-3.html.gz)
+
+$(DESTDIR)/2011-12-4.html.gz: $(DESTDIR)/2011-12-4.html
+	(cd $(DESTDIR); git checkout development; gzip -c 2011-12-4.html > 2011-12-4.html.gz; git add 2011-12-4.html.gz)
+
+$(DESTDIR)/2011-12-5.html.gz: $(DESTDIR)/2011-12-5.html
+	(cd $(DESTDIR); git checkout development; gzip -c 2011-12-5.html > 2011-12-5.html.gz; git add 2011-12-5.html.gz)
+
+$(DESTDIR)/2011-12-6.html.gz: $(DESTDIR)/2011-12-6.html
+	(cd $(DESTDIR); git checkout development; gzip -c 2011-12-6.html > 2011-12-6.html.gz; git add 2011-12-6.html.gz)
+
+$(DESTDIR)/2011-12-7.html.gz: $(DESTDIR)/2011-12-7.html
+	(cd $(DESTDIR); git checkout development; gzip -c 2011-12-7.html > 2011-12-7.html.gz; git add 2011-12-7.html.gz)
+
+$(DESTDIR)/2011-12-8.html.gz: $(DESTDIR)/2011-12-8.html
+	(cd $(DESTDIR); git checkout development; gzip -c 2011-12-8.html > 2011-12-8.html.gz; git add 2011-12-8.html.gz)
+
+$(DESTDIR)/2011-12-9.html.gz: $(DESTDIR)/2011-12-9.html
+	(cd $(DESTDIR); git checkout development; gzip -c 2011-12-9.html > 2011-12-9.html.gz; git add 2011-12-9.html.gz)
+
+$(DESTDIR)/2011-12-10.html.gz: $(DESTDIR)/2011-12-10.html
+	(cd $(DESTDIR); git checkout development; gzip -c 2011-12-10.html > 2011-12-10.html.gz; git add 2011-12-10.html.gz)
+
+$(DESTDIR)/2011-12-11.html.gz: $(DESTDIR)/2011-12-11.html
+	(cd $(DESTDIR); git checkout development; gzip -c 2011-12-11.html > 2011-12-11.html.gz; git add 2011-12-11.html.gz)
+
+$(DESTDIR)/2011-12-12.html.gz: $(DESTDIR)/2011-12-12.html
+	(cd $(DESTDIR); git checkout development; gzip -c 2011-12-12.html > 2011-12-12.html.gz; git add 2011-12-12.html.gz)
+
+$(DESTDIR)/2011-12-13.html.gz: $(DESTDIR)/2011-12-13.html
+	(cd $(DESTDIR); git checkout development; gzip -c 2011-12-13.html > 2011-12-13.html.gz; git add 2011-12-13.html.gz)
+
+$(DESTDIR)/2011-12-14.html.gz: $(DESTDIR)/2011-12-14.html
+	(cd $(DESTDIR); git checkout development; gzip -c 2011-12-14.html > 2011-12-14.html.gz; git add 2011-12-14.html.gz)
+
+$(DESTDIR)/2011-12-15.html.gz: $(DESTDIR)/2011-12-15.html
+	(cd $(DESTDIR); git checkout development; gzip -c 2011-12-15.html > 2011-12-15.html.gz; git add 2011-12-15.html.gz)
+
+$(DESTDIR)/2011-12-16.html.gz: $(DESTDIR)/2011-12-16.html
+	(cd $(DESTDIR); git checkout development; gzip -c 2011-12-16.html > 2011-12-16.html.gz; git add 2011-12-16.html.gz)
+
+$(DESTDIR)/2011-12-17.html.gz: $(DESTDIR)/2011-12-17.html
+	(cd $(DESTDIR); git checkout development; gzip -c 2011-12-17.html > 2011-12-17.html.gz; git add 2011-12-17.html.gz)
+
+$(DESTDIR)/2011-12-18.html.gz: $(DESTDIR)/2011-12-18.html
+	(cd $(DESTDIR); git checkout development; gzip -c 2011-12-18.html > 2011-12-18.html.gz; git add 2011-12-18.html.gz)
+
+$(DESTDIR)/2011-12-19.html.gz: $(DESTDIR)/2011-12-19.html
+	(cd $(DESTDIR); git checkout development; gzip -c 2011-12-19.html > 2011-12-19.html.gz; git add 2011-12-19.html.gz)
+
+$(DESTDIR)/2011-12-20.html.gz: $(DESTDIR)/2011-12-20.html
+	(cd $(DESTDIR); git checkout development; gzip -c 2011-12-20.html > 2011-12-20.html.gz; git add 2011-12-20.html.gz)
+
+$(DESTDIR)/2011-12-21.html.gz: $(DESTDIR)/2011-12-21.html
+	(cd $(DESTDIR); git checkout development; gzip -c 2011-12-21.html > 2011-12-21.html.gz; git add 2011-12-21.html.gz)
+
+$(DESTDIR)/2011-12-22.html.gz: $(DESTDIR)/2011-12-22.html
+	(cd $(DESTDIR); git checkout development; gzip -c 2011-12-22.html > 2011-12-22.html.gz; git add 2011-12-22.html.gz)
+
+$(DESTDIR)/2011-12-23.html.gz: $(DESTDIR)/2011-12-23.html
+	(cd $(DESTDIR); git checkout development; gzip -c 2011-12-23.html > 2011-12-23.html.gz; git add 2011-12-23.html.gz)
+
+$(DESTDIR)/2011-12-24.html.gz: $(DESTDIR)/2011-12-24.html
+	(cd $(DESTDIR); git checkout development; gzip -c 2011-12-24.html > 2011-12-24.html.gz; git add 2011-12-24.html.gz)
+
+$(DESTDIR)/2011-12-25.html.gz: $(DESTDIR)/2011-12-25.html
+	(cd $(DESTDIR); git checkout development; gzip -c 2011-12-25.html > 2011-12-25.html.gz; git add 2011-12-25.html.gz)
