@@ -72,9 +72,11 @@ else
     ${ADVCAL} -c ${CONFIGDIR}/advent.ini --article-dir ${ARTICLE_DIR} --out ${OUTDIR}  --year-links
     mkdir -p ${HTML_ROOT}
     cp -r ${OUTDIR}/* ${HTML_ROOT}
-    make -f makefile.main
-    ./mkmakefile.sh ${YEAR}
-    make -f makefile.${YEAR}
+    make -f makefiles/makefile.main
+    if [ ! -e makefiles/makefile.${YEAR} ]; then
+      ./mkmakefile.sh ${YEAR}
+    fi
+    make -f makefiles/makefile.${YEAR}
 
     #cd ${HTML_ROOT}
     #for htmlfile in *.html

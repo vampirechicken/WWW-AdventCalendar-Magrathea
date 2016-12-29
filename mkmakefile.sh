@@ -2,7 +2,7 @@
 
 
 YEAR=$1;
-MAKEFILE=makefile.${YEAR}
+MAKEFILE=makefiles/makefile.${YEAR}
 
 
 echo "DESTDIR=/home/len/repos/lenjaffe.com/AdventPlanet/${YEAR}" > ${MAKEFILE}
