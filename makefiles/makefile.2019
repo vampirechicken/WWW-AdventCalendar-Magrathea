@@ -1,5 +1,5 @@
 DESTDIR=/home/len/repos/lenjaffe.com/AdventPlanet/2019
-all: index atom css days
+all: index atom css
 index: $(DESTDIR)/index.html.gz
 atom: $(DESTDIR)/atom.xml.gz
 css: $(DESTDIR)/style.css.gz
