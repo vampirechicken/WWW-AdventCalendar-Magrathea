@@ -7,7 +7,7 @@ MAKEFILE=makefiles/makefile.${YEAR}
 
 echo "DESTDIR=/home/len/repos/lenjaffe.com/AdventPlanet/${YEAR}" > ${MAKEFILE}
 
-echo 'all: index atom css days' >> ${MAKEFILE}
+echo 'all: index atom css' >> ${MAKEFILE}
 echo 'index: $(DESTDIR)/index.html.gz' >> ${MAKEFILE}
 echo 'atom: $(DESTDIR)/atom.xml.gz' >> ${MAKEFILE}
 echo 'css: $(DESTDIR)/style.css.gz' >> ${MAKEFILE}
