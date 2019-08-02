@@ -27,7 +27,7 @@ my $usage = "$0 [-v] year [last_day]";
 my $year = shift @ARGV;
 die $usage unless $year;
 
-my $last_day = shift @ARGV || 25;
+my $last_day = shift @ARGV //  25;
 
 
 my $config = initialize_year($year);
