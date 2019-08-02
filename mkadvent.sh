@@ -77,6 +77,9 @@ else
       ./mkmakefile.sh ${YEAR}
     fi
     make -f makefiles/makefile.${YEAR}
+    if [ $LAST_DAY -ne 0 ]; then
+      make -f makefiles/makefile.${YEAR} days
+    fi
 
     #cd ${HTML_ROOT}
     #for htmlfile in *.html
