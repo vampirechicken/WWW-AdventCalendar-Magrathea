@@ -15,11 +15,11 @@ use Data::Dumper;
 
 my $advent_planet_uri = 'http://lenjaffe.com/AdventPlanet';
 
-my $verbose = 0;  # status messages to STDERR if $verbose == 1
+my $verbose = 0;  # status messages if $verbose == 1
 if ($ARGV[0] && $ARGV[0] eq '-v') {
   shift @ARGV;
   $verbose = 1;
-  say STDERR "************************* VERBOSE MODE *********************************************";
+  say "************************* VERBOSE MODE *********************************************" if $verbose;
 }
 
 my $usage = "$0 [-v] year [last_day]";
@@ -82,7 +82,7 @@ sub make_prefile {
   my $verbose = shift;
   my $prefh = IO::Any->write($prefile) || die "Could not open the preprocess file for writing: $!";
 
-  say STDERR "Creating $prefile" if $verbose;
+  say "Creating $prefile" if $verbose;
   print $prefh $config->{article_tmpl}->output;
   close $prefh;
 }
@@ -122,7 +122,7 @@ sub preprocess {
     return;
   }
 
-  say STDERR "Preprocessing $prefile:" if $verbose;
+  say "Preprocessing $prefile:" if $verbose;
   my @weekdays = ('Sunday', 'Monday','Tuesday','Wednesday','Thursday','Friday', 'Saturday');
   INPUTLINE:
   while (<$prefh>) {
@@ -140,7 +140,7 @@ sub preprocess {
     }
     my ($label, $url) = split(/\|/, $+{link});
     $last_post{$label}->{day} ||= 0;
-    say STDERR sprintf("\tprocessing %32s: %s", $label, $url) if $verbose;
+    say sprintf("\tprocessing %32s: %s", $label, $url) if $verbose;
 
     if ($+{day_range}) {
       if ( $+{start_day} > $day || $day > $+{end_day} ) {
@@ -172,7 +172,7 @@ sub preprocess {
                     . "Please try again later.";
         my $content = substr($response->{content}, 0, 132);
         $content =~ s/\s+/ /gsm;
-        my $err = sprintf("request for %s failed:\n\tstatus = %d\n\treason = %s\n\tcontent = %s\n", $url, $response->{status}, $response->{reason}, $content) if $verbose;
+        say sprintf("\trequest for %s failed:\n\t\tstatus = %d\n\t\treason = %s\n\t\tcontent = %s\n", $url, $response->{status}, $response->{reason}, $content) if $verbose;
       }
       next INPUTLINE;
     }
@@ -191,6 +191,9 @@ sub preprocess {
 
     $last_post{$tag}->{label} = $label;
     say $postfh "L<$label|$url>";
+
+    say sprintf("\trequest for %s succeeded\n\t\tstatus = %d\n\t\treason = %s\n\t\ttitle = %s\n", $url, $response->{status}, $response->{reason}, $label) if $verbose;
+
   }
 
   close $prefh;
