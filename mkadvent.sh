@@ -1,11 +1,17 @@
 #!/bin/bash
 
-echo "$0 Started: " `date`
+function log () {
+  echo `date` $*
+}
+
+log "$0 Started"
 
 export PERLBREW_ROOT=/home/len/perl5/perlbrew
 export PERLBREW_HOME=/home/len/.perlbrew
 . ${PERLBREW_ROOT}/etc/bashrc
-perlbrew use 5.22.2
+
+export PB_DEFAULT_VERSION=5.30.2
+perlbrew use ${PB_VERSION-$PB_DEFAULT_VERSION}
 
 RUNDIR=/home/len/AdventPlanet/WWW-AdventCalendar-Magrathea
 
@@ -28,6 +34,7 @@ esac
 
 if [ -z "$1" ]; then
   echo "usage: $0 (pre|gen|git|pre+gen|gen+git) year [last_day]"
+  log "usage: $0 (pre|gen|git|pre+gen|gen+git) year [last_day]"
 else
   YEAR=$1
   if [ -n "$2" ]; then
@@ -68,7 +75,7 @@ else
       mkdir -p $CONFIGDIR
     fi
 
-    echo "Generate $YEAR"
+    log "Generate $YEAR"
     ${ADVCAL} -c ${CONFIGDIR}/advent.ini --article-dir ${ARTICLE_DIR} --out ${OUTDIR}  --year-links
     mkdir -p ${HTML_ROOT}
     cp -r ${OUTDIR}/* ${HTML_ROOT}
@@ -94,7 +101,7 @@ else
   fi
 
   if [ $GIT_PUSH == 1 ]; then
-    echo "Commit $YEAR to repo"
+    log "Commit $YEAR to repo"
     cd ${REPO}
     git add .
     git status
@@ -102,17 +109,17 @@ else
     cd ..
     git checkout master
 
-    echo "merge dev into master"
+    log "merge dev into master"
     git merge --no-ff -m 'merge development into master' development
 
-    echo "push to the origin"
+    log "push to the origin"
     git push origin development
     git push origin master
-    echo "deploy to production"
+    log "deploy to production"
     git push deploy master
   fi
 fi
 
 
-echo "$0 Finished: " `date`
+log "$0 Finished" 
 
