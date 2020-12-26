@@ -4,3 +4,5 @@ articles/pre/*
 out/*
 config/*
 log/
+*.tmp
+.vscode/*
