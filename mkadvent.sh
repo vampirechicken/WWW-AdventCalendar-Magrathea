@@ -32,10 +32,13 @@ case $RUN_MODE in
   git+gen|gen+git)   PREPROCESS=0; shift;;
 esac
 
-if [ -z "$1" ]; then
+if [ -z "$1" ]; then   # forgot the year
   echo "usage: $0 (pre|gen|git|pre+gen|gen+git) year [last_day]"
   log "usage: $0 (pre|gen|git|pre+gen|gen+git) year [last_day]"
-else
+elif [[ ! -z "$(echo "$1" | grep '[^0-9]')" ]]; then     # year is not numeric
+  echo "usage: $0 (pre|gen|git|pre+gen|gen+git) year [last_day]"
+  log "usage: $0 (pre|gen|git|pre+gen|gen+git) year [last_day]"
+else   # year is numeric - let us proceed
   YEAR=$1
   if [ -n "$2" ]; then
     LAST_DAY=${2}
@@ -119,7 +122,6 @@ else
     git push deploy master
   fi
 fi
-
 
 log "$0 Finished" 
 
