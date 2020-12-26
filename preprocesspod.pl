@@ -148,6 +148,7 @@ sub preprocess {
 	        sprintf("L<12/%02d|%s/%d/%d-12-%02d.html>", $+{start_day}, $advent_planet_uri, $year, $year, $+{start_day} )
                 . '-' .	
 	        sprintf("L<12/%02d|%s/%d/%d-12-%02d.html>", $+{end_day}, $advent_planet_uri, $year, $year, $+{end_day} );
+        say sprintf("\twriting range links") if $verbose;
         next INPUTLINE;
       }
     }
@@ -168,7 +169,7 @@ sub preprocess {
         }
       }
       else {
-        say $postfh "${label}: appears to be unavailable on ${year}-12-" . sprintf("%02d - ", $day) . ". "
+        say $postfh "${label}: appears to be unavailable on ${year}-12-" . sprintf("%02d", $day) . ". "
                     . "Please try again later.";
         my $content = substr($response->{content}, 0, 132);
         $content =~ s/\s+/ /gsm;
