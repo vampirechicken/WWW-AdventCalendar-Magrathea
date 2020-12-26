@@ -49,11 +49,14 @@ else   # year is numeric - let us proceed
     if [ $month == 12 ]; then
       if [ $YEAR == $year ]; then
         LAST_DAY=$day
+        if [ ${LAST_DAY} -gt 25 ]; then
+          LAST_DAY=25
+        fi
       else
         LAST_DAY=25
       fi
     else
-      LAST_DAY=1
+      LAST_DAY=0
     fi
   fi
 
@@ -123,5 +126,5 @@ else   # year is numeric - let us proceed
   fi
 fi
 
-log "$0 Finished" 
+log "$0 Finished"
 
