@@ -2,8 +2,10 @@
 
 use strict;
 use warnings;
-
+use lib '.';
 use feature ':5.14';
+
+use PreprocessPOD;
 
 use HTTP::Tiny;
 use HTML::Template;
@@ -30,7 +32,7 @@ die $usage unless $year;
 my $last_day = shift @ARGV //  25;
 
 
-my $config = initialize_year($year);
+my $config = PreprocessPOD::initialize_year($year);
 my $web    = HTTP::Tiny->new;
 foreach my $day ( 1..${last_day} ) {
   $config->{article_tmpl}->param( DAY => $day );
@@ -47,34 +49,6 @@ foreach my $day ( 1..${last_day} ) {
   preprocess($day, $year, $prefile, $postfile, $verbose);
 }
 
-sub initialize_year {
-  my $year = shift;
-  my $config;
-
-  $config->{pre_dir}  = "articles/pre/$year";  # this is where the processed templates get written. It gets preprocessed into the @post_dir
-  $config->{post_dir} = "articles/post/$year"; # these files are the souce for advcal
-  my $config_dir      = "config/$year";
-  my $template_dir    = "articles/templates/$year";
-  foreach my $dir ( $template_dir, $config->{pre_dir}, $config->{post_dir}, $config_dir )  {
-    make_dir($dir);
-  }
-
-  my $article_tmpl_name   = 'article.pod.tmpl';
-  my $article_tmpl_file   = "$template_dir/$article_tmpl_name";
-  $config->{article_tmpl} = initialize_template($article_tmpl_file, $year);
-
-  my $config_tmpl_file = "$template_dir/advent.ini.tmpl";
-  my $config_file      = "$config_dir/advent.ini";
-  make_config_file($config_tmpl_file, $config_file, $year);
-
-  return $config;
-}
-
-sub make_dir {
-  my $dir = shift;
-  return if -e -d $dir;
-  make_path($dir, { mode => 0755 }) || die "could not create $dir: $!";
-}
 
 sub make_prefile {
   my $prefile = shift;
@@ -86,25 +60,6 @@ sub make_prefile {
   print $prefh $config->{article_tmpl}->output;
   close $prefh;
 }
-
-
-sub make_config_file {
-  my ($tmpl_file, $config_file, $year) = @_;
-  my $config_template = initialize_template($tmpl_file, $year);
-
-  my $config_fh = IO::Any->write($config_file) or die "Could not write $config_file";
-  print $config_fh $config_template->output;
-  close $config_fh;
-}
-
-sub initialize_template {
-  my ($tmpl_file, $year) = @_;
-
-  my $template = HTML::Template->new(filename => $tmpl_file);
-  $template->param( YEAR => $year );
-  return $template;
-}
-
 
 
 my %last_post;
@@ -131,70 +86,80 @@ sub preprocess {
            (
 	           (?<day_range>(?<start_day>\d+)\s*-\s*(?<end_day>\d+)\s*:)
 		         |
-             (?<mst_fill>MST_FILL\s*:\s*)
+             (?<mst_fill>MST_FILL\s*:)
+             |
+             (?<nopre>NOPRE(PROCESS)?\s*:)
            )?
 	         \s*
 	         L<(?<link>[^>]+)> /x ) {
        print $postfh $_;  #print the non-link lines
        next INPUTLINE;
     }
+
     my ($label, $url) = split(/\|/, $+{link});
     $last_post{$label}->{day} ||= 0;
-    say sprintf("\tprocessing %32s: %s", $label, $url) if $verbose;
+    say sprintf("\tProcessing %32s: %s", $label, $url) if $verbose;
 
     if ($+{day_range}) {
       if ( $+{start_day} > $day || $day > $+{end_day} ) {
-        say $postfh "${label}: is available from " .
-	        sprintf("L<12/%02d|%s/%d/%d-12-%02d.html>", $+{start_day}, $advent_planet_uri, $year, $year, $+{start_day} )
+	      my $range = sprintf("L<12/%02d|%s/%d/%d-12-%02d.html>", $+{start_day}, $advent_planet_uri, $year, $year, $+{start_day} )
                 . '-' .	
 	        sprintf("L<12/%02d|%s/%d/%d-12-%02d.html>", $+{end_day}, $advent_planet_uri, $year, $year, $+{end_day} );
-        say sprintf("\twriting range links") if $verbose;
+        say $postfh "\t${label}: is available ${range}";
+        say "\t${label}: is available ${range}" if $verbose;
         next INPUTLINE;
       }
     }
 
-    my $response = $web->get($url);
-    if ( $response->{status} != 200) {
+    if (! $+{nopre}) {
+      my $response = $web->get($url);
+      if ( $response->{status} != 200) {
 
-      if ($+{mst_fill}) {
-        if ( $last_post{$label}->{day} == 0 ) {
-          say $postfh "${label}: has not published any articles yet. "
-                    . "Please try again later.";
+        if ($+{mst_fill}) {
+          if ( $last_post{$label}->{day} == 0 ) {
+            say $postfh "${label}: has not published any articles yet. Please try again later.";
+          }
+          else {
+            say $postfh "${label}: does not publish on weekends. So you're either ahead of the publication schedule, "
+                      . "or the Day $day article has not been published yet. The last published article was "
+                      . "L<$last_post{$label}->{label}|$last_post{$label}->{url}>. "
+                      . "Please try again later.";
+          }
         }
         else {
-          say $postfh "${label}: does not publish on weekends. So you're either ahead of the publication schedule, "
-                    . "or the Day $day article has not been published yet. The last published article was "
-                    . "L<$last_post{$label}->{label}|$last_post{$label}->{url}>. "
-                    . "Please try again later.";
+          say $postfh "${label}: appears to be unavailable on ${year}-12-" . sprintf("%02d", $day) . ". "
+                      . "Please try again later.";
+          my $content = substr($response->{content}, 0, 132);
+          $content =~ s/\s+/ /gsm;
+          say sprintf(qq(\tRequest for %s failed:\n\t\t{status = %d, reason = "%s", content = "%s"}), $url, $response->{status}, $response->{reason}, $content) if $verbose;
         }
+        next INPUTLINE;
       }
-      else {
-        say $postfh "${label}: appears to be unavailable on ${year}-12-" . sprintf("%02d", $day) . ". "
-                    . "Please try again later.";
-        my $content = substr($response->{content}, 0, 132);
-        $content =~ s/\s+/ /gsm;
-        say sprintf("\trequest for %s failed:\n\t\tstatus = %d\n\t\treason = %s\n\t\tcontent = %s\n", $url, $response->{status}, $response->{reason}, $content) if $verbose;
+
+      if ( $response->{content} =~ m!<title[^>]*>(?<title>.*?)</title>!s ) {
+          $label .= ": $+{title}";
+          $label =~ s/&laquo;/--/mg;
+          $label =~ s|&raquo;|--|mg;
+          $label =~ s/[|]/-/mg;
+          $label =~ s/&#039;/'/mg;
+          $label =~ s/&#39;/'/mg;
+          $label =~ s/&#8211;/-/mg;
+          $label =~ s/&#9670;/*/mg;
+          $label =~ s/\n/ /mg;
       }
-      next INPUTLINE;
+
+      say sprintf(qq(\tRequest for %s succeeded\n\t\t{status = %d, reason = "%s", title = "%s"}), $url, $response->{status}, $response->{reason}, $label) if $verbose;
+    }
+    else {
+      say "\tNo preprocessing for ${label}q" if $verbose;
     }
 
     my $tag = $label;
     $last_post{$tag}->{day} += 1;
     $last_post{$tag}->{url} = $url;
 
-    if ( $response->{content} =~ m!<title[^>]*>(?<title>.*?)</title>!s ) {
-        $label .= ": $+{title}";
-        $label =~ s/&laquo;/--/mg;
-        $label =~ s/[|]/-/mg;
-        $label =~ s/&#039;/'/mg;
-        $label =~ s/\n/ /mg;
-    }
-
     $last_post{$tag}->{label} = $label;
     say $postfh "L<$label|$url>";
-
-    say sprintf("\trequest for %s succeeded\n\t\tstatus = %d\n\t\treason = %s\n\t\ttitle = %s\n", $url, $response->{status}, $response->{reason}, $label) if $verbose;
-
   }
 
   close $prefh;
