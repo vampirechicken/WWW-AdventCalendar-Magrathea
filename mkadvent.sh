@@ -104,14 +104,9 @@ else   # year is numeric - let us proceed
     fi
     make -f makefiles/makefile.${YEAR}
     if [ $LAST_DAY -ne 0 ]; then
-      make -f makefiles/makefile.${YEAR} days
+      day02=$(echo $LAST_DAY | awk '{printf("%02d", $1)}')
+      make -f makefiles/makefile.${YEAR} days${day02}
     fi
-
-    #cd ${HTML_ROOT}
-    #for htmlfile in *.html
-    #do
-    #  gzip -c $htmlfile > ${htmlfile}.gz
-    #done
 
     mkdir -p ${REPO}
     cd ${REPO}
