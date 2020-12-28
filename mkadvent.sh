@@ -1,11 +1,26 @@
 #!/bin/bash
 
 function log () {
-  echo `date` $*
+  echo `date '+%Y/%m/%d %H:%M:%S'` $*
 }
 
-log "$0 Started"
+function INFO () {
+  log "INFO" $*
+}
 
+function ERROR () {
+  log "ERROR" $*
+}
+
+function ABEND () {
+  ERROR $*
+  INFO "$0 Abended"
+  exit
+}
+
+INFO "$0 Started"
+
+# TODO: this is brittle.find a way around it.export these vars in the crontab?use mkadvent.rc? 
 export PERLBREW_ROOT=/home/len/perl5/perlbrew
 export PERLBREW_HOME=/home/len/.perlbrew
 . ${PERLBREW_ROOT}/etc/bashrc
@@ -33,11 +48,9 @@ case $RUN_MODE in
 esac
 
 if [ -z "$1" ]; then   # forgot the year
-  echo "usage: $0 (pre|gen|git|pre+gen|gen+git) year [last_day]"
-  log "usage: $0 (pre|gen|git|pre+gen|gen+git) year [last_day]"
+  ABEND "usage: $0 (pre|gen|git|pre+gen|gen+git) year [last_day]"
 elif [[ ! -z "$(echo "$1" | grep '[^0-9]')" ]]; then     # year is not numeric
-  echo "usage: $0 (pre|gen|git|pre+gen|gen+git) year [last_day]"
-  log "usage: $0 (pre|gen|git|pre+gen|gen+git) year [last_day]"
+  ABEND "usage: $0 (pre|gen|git|pre+gen|gen+git) year [last_day]"
 else   # year is numeric - let us proceed
   YEAR=$1
   if [ -n "$2" ]; then
@@ -68,7 +81,7 @@ else   # year is numeric - let us proceed
   REPO=/home/len/repos/lenjaffe.com/AdventPlanet/${YEAR}
 
   if [ $PREPROCESS == 1 ]; then
-    ${PERL} ${RUNDIR}/preprocesspod.pl -v ${YEAR} ${LAST_DAY}
+    ${PERL} ${RUNDIR}/preprocesspod.pl ${YEAR} ${LAST_DAY}
   fi
 
   if [ $GENERATE == 1 ]; then
@@ -81,7 +94,7 @@ else   # year is numeric - let us proceed
       mkdir -p $CONFIGDIR
     fi
 
-    log "Generate $YEAR"
+    INFO "Generate $YEAR"
     ${ADVCAL} -c ${CONFIGDIR}/advent.ini --article-dir ${ARTICLE_DIR} --out ${OUTDIR}  --year-links
     mkdir -p ${HTML_ROOT}
     cp -r ${OUTDIR}/* ${HTML_ROOT}
@@ -107,7 +120,7 @@ else   # year is numeric - let us proceed
   fi
 
   if [ $GIT_PUSH == 1 ]; then
-    log "Commit $YEAR to repo"
+    INFO "Commit $YEAR to repo"
     cd ${REPO}
     git add .
     git status
@@ -115,16 +128,16 @@ else   # year is numeric - let us proceed
     cd ..
     git checkout master
 
-    log "merge dev into master"
+    INFO "merge dev into master"
     git merge --no-ff -m 'merge development into master' development
 
-    log "push to the origin"
+    INFO "push to the origin"
     git push origin development
     git push origin master
-    log "deploy to production"
+    INFO "deploy to production"
     git push deploy master
   fi
 fi
 
-log "$0 Finished"
+INFO "$0 Finished"
 
