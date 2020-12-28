@@ -2,6 +2,16 @@ package PreprocessPOD;
 
 use warnings;
 use strict;
+use File::Path qw(make_path);
+use Log::Log4perl qw(:easy);
+
+our $log4perl_config = {
+  level  => $DEBUG,
+  layout => "%d %p %m%n",
+  file   => "STDOUT",
+};
+
+Log::Log4perl->easy_init($log4perl_config);
 
 sub initialize_year {
   my $year = shift;
@@ -29,7 +39,10 @@ sub initialize_year {
 sub make_dir {
   my $dir = shift;
   return if -e -d $dir;
-  make_path($dir, { mode => 0755 }) || die "could not create $dir: $!";
+  make_path($dir, { mode => 0755 }) || do {
+    FATAL "could not create $dir: $!";
+    exit;
+  }
 }
 
 
@@ -45,10 +58,26 @@ sub make_config_file {
   my ($tmpl_file, $config_file, $year) = @_;
   my $config_template = initialize_template($tmpl_file, $year);
 
-  my $config_fh = IO::Any->write($config_file) or die "Could not write $config_file";
+  my $config_fh = IO::Any->write($config_file) or do {
+    FATAL "Could not write $config_file";
+    exit;
+  };
   print $config_fh $config_template->output;
   close $config_fh;
 }
 
+sub make_prefile {
+  my $prefile = shift;
+  my $config  = shift;
+  my $verbose = shift;
+  my $prefh = IO::Any->write($prefile) || do {
+    FATAL "Could not open the preprocess file for writing: $!";
+    exit;
+  };
+
+  INFO "Creating $prefile";
+  print $prefh $config->{article_tmpl}->output;
+  close $prefh;
+}
 
 1;

@@ -10,23 +10,20 @@ use PreprocessPOD;
 use HTTP::Tiny;
 use HTML::Template;
 
-use File::Path qw(make_path);
 use IO::Any;
 use Time::Piece;
 use Data::Dumper;
+use Log::Log4perl qw(:easy);
 
+Log::Log4perl->easy_init($PreprocessPOD::log4perl_config);
+
+# TODO: read uri (etc.) from a config file 
 my $advent_planet_uri = 'http://lenjaffe.com/AdventPlanet';
 
-my $verbose = 0;  # status messages if $verbose == 1
-if ($ARGV[0] && $ARGV[0] eq '-v') {
-  shift @ARGV;
-  $verbose = 1;
-  say "************************* VERBOSE MODE *********************************************" if $verbose;
-}
-
-my $usage = "$0 [-v] year [last_day]";
+my $usage = "$0 year [last_day]";
 
 my $year = shift @ARGV;
+ERROR $usage unless $year;
 die $usage unless $year;
 
 my $last_day = shift @ARGV //  25;
@@ -45,39 +42,27 @@ foreach my $day ( 1..${last_day} ) {
   my $prefile  = "$config->{pre_dir}/$podname";
   my $postfile = "$config->{post_dir}/$podname" ;
 
-  make_prefile($prefile, $config, $verbose);
-  preprocess($day, $year, $prefile, $postfile, $verbose);
+  PreprocessPOD::make_prefile($prefile, $config);
+  preprocess($day, $year, $prefile, $postfile);
 }
-
-
-sub make_prefile {
-  my $prefile = shift;
-  my $config  = shift;
-  my $verbose = shift;
-  my $prefh = IO::Any->write($prefile) || die "Could not open the preprocess file for writing: $!";
-
-  say "Creating $prefile" if $verbose;
-  print $prefh $config->{article_tmpl}->output;
-  close $prefh;
-}
-
 
 my %last_post;
 sub preprocess {
   my ($day, $year, $prefile, $postfile, $verbose) = @_;
 
   my $prefh = IO::Any->read($prefile);
-  unless ($prefh) { warn "Could not open $prefile for reading: $!";
+  unless ($prefh) { 
+    WARN "Could not open $prefile for reading: $!";
     return;
   }
 
   my $postfh = IO::Any->write($postfile);
   unless ($postfh) {
-    warn "Could not open $postfile for writing: $!";
+    WARN "Could not open $postfile for writing: $!";
     return;
   }
 
-  say "Preprocessing $prefile:" if $verbose;
+  INFO "Preprocessing $prefile";
   my @weekdays = ('Sunday', 'Monday','Tuesday','Wednesday','Thursday','Friday', 'Saturday');
   INPUTLINE:
   while (<$prefh>) {
@@ -98,15 +83,15 @@ sub preprocess {
 
     my ($label, $url) = split(/\|/, $+{link});
     $last_post{$label}->{day} ||= 0;
-    say sprintf("\tProcessing %32s: %s", $label, $url) if $verbose;
+    INFO sprintf("Processing %s: %s", $label, $url);
 
     if ($+{day_range}) {
       if ( $+{start_day} > $day || $day > $+{end_day} ) {
 	      my $range = sprintf("L<12/%02d|%s/%d/%d-12-%02d.html>", $+{start_day}, $advent_planet_uri, $year, $year, $+{start_day} )
                 . '-' .	
 	        sprintf("L<12/%02d|%s/%d/%d-12-%02d.html>", $+{end_day}, $advent_planet_uri, $year, $year, $+{end_day} );
-        say $postfh "\t${label}: is available ${range}";
-        say "\t${label}: is available ${range}" if $verbose;
+        say $postfh "${label}: is available ${range}";
+        INFO "${label}: is available ${range}";
         next INPUTLINE;
       }
     }
@@ -115,7 +100,7 @@ sub preprocess {
       my $response = $web->get($url);
       if ( $response->{status} != 200) {
 
-        if ($+{mst_fill}) {
+        if ($+{mst_fill}) {  # one-off for MST one year...
           if ( $last_post{$label}->{day} == 0 ) {
             say $postfh "${label}: has not published any articles yet. Please try again later.";
           }
@@ -131,7 +116,8 @@ sub preprocess {
                       . "Please try again later.";
           my $content = substr($response->{content}, 0, 132);
           $content =~ s/\s+/ /gsm;
-          say sprintf(qq(\tRequest for %s failed:\n\t\t{status = %d, reason = "%s", content = "%s"}), $url, $response->{status}, $response->{reason}, $content) if $verbose;
+          WARN sprintf(qq(Request for %s failed), $url);
+          WARN sprintf(qq({status = %d, reason = "%s", url = "%s", content = "%s"}), $response->{status}, $response->{reason}, $url, $content);
         }
         next INPUTLINE;
       }
@@ -148,10 +134,11 @@ sub preprocess {
           $label =~ s/\n/ /mg;
       }
 
-      say sprintf(qq(\tRequest for %s succeeded\n\t\t{status = %d, reason = "%s", title = "%s"}), $url, $response->{status}, $response->{reason}, $label) if $verbose;
+      INFO sprintf(qq(Request for %s succeeded), $url);
+      INFO sprintf(qq({status = %d, reason = "%s", url = "%s", title = "%s"}), $response->{status}, $response->{reason}, $url, $label);
     }
     else {
-      say "\tNo preprocessing for ${label}q" if $verbose;
+      INFO "No preprocessing for ${label}q";
     }
 
     my $tag = $label;
