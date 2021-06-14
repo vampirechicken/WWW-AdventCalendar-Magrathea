@@ -20,12 +20,13 @@ function ABEND () {
 
 INFO "$0 Started"
 
-# TODO: this is brittle.find a way around it.export these vars in the crontab?use mkadvent.rc? 
+# TODO: this is brittle.find a way around it.export these vars in the crontab?use mkadvent.rc?
 export PERLBREW_ROOT=/home/len/perl5/perlbrew
 export PERLBREW_HOME=/home/len/.perlbrew
 . ${PERLBREW_ROOT}/etc/bashrc
 
-export PB_DEFAULT_VERSION=5.30.2
+export PB_DEFAULT_VERSION=5.32.1
+#export PB_DEFAULT_VERSION=5.30.2
 perlbrew use ${PB_VERSION-$PB_DEFAULT_VERSION}
 
 RUNDIR=/home/len/AdventPlanet/WWW-AdventCalendar-Magrathea
@@ -55,19 +56,26 @@ else   # year is numeric - let us proceed
   YEAR=$1
   if [ -n "$2" ]; then
     LAST_DAY=${2}
+    if [ $LAST_DAY > 25 ]; then
+      LAST_DAY=25
+    fi
   else
-    day=`date '+%d' |sed  s/^0//`
-    month=`date '+%m'`
-    year=`date '+%Y'`
-    if [ $month == 12 ]; then
-      if [ $YEAR == $year ]; then
-        LAST_DAY=$day
-        if [ ${LAST_DAY} -gt 25 ]; then
+    today=`date '+%d' |sed  s/^0//`
+    this_month=`date '+%m'`
+    this_year=`date '+%Y'`
+
+    if [ $this_year == $YEAR ]; then
+      if [ $this_month == 12 ]; then
+        if [ $today <= 25 ]; then
+          LAST_DAY=$today
+        else
           LAST_DAY=25
         fi
       else
-        LAST_DAY=25
+        LAST_DAY=0
       fi
+    elif [ $this_year > $YEAR ]; then
+      LAST_DAY=25
     else
       LAST_DAY=0
     fi
