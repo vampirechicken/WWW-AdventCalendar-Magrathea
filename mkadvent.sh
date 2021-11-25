@@ -55,7 +55,7 @@ else   # year is numeric - let us proceed
   YEAR=$1
   if [ -n "$2" ]; then
     LAST_DAY=${2}
-    if [ $LAST_DAY > 25 ]; then
+    if [ $LAST_DAY -gt 25 ]; then
       LAST_DAY=25
     fi
   else
