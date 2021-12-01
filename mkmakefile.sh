@@ -24,7 +24,7 @@ for file in index.html atom.xml style.css
 do
   echo  >> ${MAKEFILE}
   echo "\$(DESTDIR)/${file}.gz: \$(DESTDIR)/${file}" >>${MAKEFILE}
-  echo "	(cd \$(DESTDIR); git checkout development; gzip -c ${file} > ${file}.gz; git add ${file}.gz)" >> ${MAKEFILE}
+  echo -e "\t(cd \$(DESTDIR); git checkout development; gzip -c ${file} > ${file}.gz; git add ${file}.gz)" >> ${MAKEFILE}
 done
 
 
@@ -36,7 +36,7 @@ do
   echo "${DAY}:          ${html_file}.gz"  >> ${MAKEFILE}
   echo "${date}:  ${html_file}.gz"  >> ${MAKEFILE}
   echo "${html_file}.gz:"                  >> ${MAKEFILE}
-  echo "	(cd \$(DESTDIR); git checkout development; -f ${html_file} && gzip -c ${html_file} > ${html_file}.gz; -f ${html_file} && git add ${html_file}.gz)" >> ${MAKEFILE}
+  echo -e "\t(cd \$(DESTDIR); git checkout development; -f ${html_file} && gzip -c ${html_file} > ${html_file}.gz; -f ${html_file} && git add ${html_file}.gz)" >> ${MAKEFILE}
 done
 
 echo  >> ${MAKEFILE}

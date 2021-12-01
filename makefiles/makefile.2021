@@ -17,127 +17,127 @@ $(DESTDIR)/style.css.gz: $(DESTDIR)/style.css
 01:          2021-12-01.html.gz
 2021-12-01:  2021-12-01.html.gz
 2021-12-01.html.gz:
-  (cd $(DESTDIR); git checkout development; -f 2021-12-01.html && gzip -c 2021-12-01.html > 2021-12-01.html.gz; -f 2021-12-01.html && git add 2021-12-01.html.gz)
+	(cd $(DESTDIR); git checkout development; -f 2021-12-01.html && gzip -c 2021-12-01.html > 2021-12-01.html.gz; -f 2021-12-01.html && git add 2021-12-01.html.gz)
 
 02:          2021-12-02.html.gz
 2021-12-02:  2021-12-02.html.gz
 2021-12-02.html.gz:
-  (cd $(DESTDIR); git checkout development; -f 2021-12-02.html && gzip -c 2021-12-02.html > 2021-12-02.html.gz; -f 2021-12-02.html && git add 2021-12-02.html.gz)
+	(cd $(DESTDIR); git checkout development; -f 2021-12-02.html && gzip -c 2021-12-02.html > 2021-12-02.html.gz; -f 2021-12-02.html && git add 2021-12-02.html.gz)
 
 03:          2021-12-03.html.gz
 2021-12-03:  2021-12-03.html.gz
 2021-12-03.html.gz:
-  (cd $(DESTDIR); git checkout development; -f 2021-12-03.html && gzip -c 2021-12-03.html > 2021-12-03.html.gz; -f 2021-12-03.html && git add 2021-12-03.html.gz)
+	(cd $(DESTDIR); git checkout development; -f 2021-12-03.html && gzip -c 2021-12-03.html > 2021-12-03.html.gz; -f 2021-12-03.html && git add 2021-12-03.html.gz)
 
 04:          2021-12-04.html.gz
 2021-12-04:  2021-12-04.html.gz
 2021-12-04.html.gz:
-  (cd $(DESTDIR); git checkout development; -f 2021-12-04.html && gzip -c 2021-12-04.html > 2021-12-04.html.gz; -f 2021-12-04.html && git add 2021-12-04.html.gz)
+	(cd $(DESTDIR); git checkout development; -f 2021-12-04.html && gzip -c 2021-12-04.html > 2021-12-04.html.gz; -f 2021-12-04.html && git add 2021-12-04.html.gz)
 
 05:          2021-12-05.html.gz
 2021-12-05:  2021-12-05.html.gz
 2021-12-05.html.gz:
-  (cd $(DESTDIR); git checkout development; -f 2021-12-05.html && gzip -c 2021-12-05.html > 2021-12-05.html.gz; -f 2021-12-05.html && git add 2021-12-05.html.gz)
+	(cd $(DESTDIR); git checkout development; -f 2021-12-05.html && gzip -c 2021-12-05.html > 2021-12-05.html.gz; -f 2021-12-05.html && git add 2021-12-05.html.gz)
 
 06:          2021-12-06.html.gz
 2021-12-06:  2021-12-06.html.gz
 2021-12-06.html.gz:
-  (cd $(DESTDIR); git checkout development; -f 2021-12-06.html && gzip -c 2021-12-06.html > 2021-12-06.html.gz; -f 2021-12-06.html && git add 2021-12-06.html.gz)
+	(cd $(DESTDIR); git checkout development; -f 2021-12-06.html && gzip -c 2021-12-06.html > 2021-12-06.html.gz; -f 2021-12-06.html && git add 2021-12-06.html.gz)
 
 07:          2021-12-07.html.gz
 2021-12-07:  2021-12-07.html.gz
 2021-12-07.html.gz:
-  (cd $(DESTDIR); git checkout development; -f 2021-12-07.html && gzip -c 2021-12-07.html > 2021-12-07.html.gz; -f 2021-12-07.html && git add 2021-12-07.html.gz)
+	(cd $(DESTDIR); git checkout development; -f 2021-12-07.html && gzip -c 2021-12-07.html > 2021-12-07.html.gz; -f 2021-12-07.html && git add 2021-12-07.html.gz)
 
 08:          2021-12-08.html.gz
 2021-12-08:  2021-12-08.html.gz
 2021-12-08.html.gz:
-  (cd $(DESTDIR); git checkout development; -f 2021-12-08.html && gzip -c 2021-12-08.html > 2021-12-08.html.gz; -f 2021-12-08.html && git add 2021-12-08.html.gz)
+	(cd $(DESTDIR); git checkout development; -f 2021-12-08.html && gzip -c 2021-12-08.html > 2021-12-08.html.gz; -f 2021-12-08.html && git add 2021-12-08.html.gz)
 
 09:          2021-12-09.html.gz
 2021-12-09:  2021-12-09.html.gz
 2021-12-09.html.gz:
-  (cd $(DESTDIR); git checkout development; -f 2021-12-09.html && gzip -c 2021-12-09.html > 2021-12-09.html.gz; -f 2021-12-09.html && git add 2021-12-09.html.gz)
+	(cd $(DESTDIR); git checkout development; -f 2021-12-09.html && gzip -c 2021-12-09.html > 2021-12-09.html.gz; -f 2021-12-09.html && git add 2021-12-09.html.gz)
 
 10:          2021-12-10.html.gz
 2021-12-10:  2021-12-10.html.gz
 2021-12-10.html.gz:
-  (cd $(DESTDIR); git checkout development; -f 2021-12-10.html && gzip -c 2021-12-10.html > 2021-12-10.html.gz; -f 2021-12-10.html && git add 2021-12-10.html.gz)
+	(cd $(DESTDIR); git checkout development; -f 2021-12-10.html && gzip -c 2021-12-10.html > 2021-12-10.html.gz; -f 2021-12-10.html && git add 2021-12-10.html.gz)
 
 11:          2021-12-11.html.gz
 2021-12-11:  2021-12-11.html.gz
 2021-12-11.html.gz:
-  (cd $(DESTDIR); git checkout development; -f 2021-12-11.html && gzip -c 2021-12-11.html > 2021-12-11.html.gz; -f 2021-12-11.html && git add 2021-12-11.html.gz)
+	(cd $(DESTDIR); git checkout development; -f 2021-12-11.html && gzip -c 2021-12-11.html > 2021-12-11.html.gz; -f 2021-12-11.html && git add 2021-12-11.html.gz)
 
 12:          2021-12-12.html.gz
 2021-12-12:  2021-12-12.html.gz
 2021-12-12.html.gz:
-  (cd $(DESTDIR); git checkout development; -f 2021-12-12.html && gzip -c 2021-12-12.html > 2021-12-12.html.gz; -f 2021-12-12.html && git add 2021-12-12.html.gz)
+	(cd $(DESTDIR); git checkout development; -f 2021-12-12.html && gzip -c 2021-12-12.html > 2021-12-12.html.gz; -f 2021-12-12.html && git add 2021-12-12.html.gz)
 
 13:          2021-12-13.html.gz
 2021-12-13:  2021-12-13.html.gz
 2021-12-13.html.gz:
-  (cd $(DESTDIR); git checkout development; -f 2021-12-13.html && gzip -c 2021-12-13.html > 2021-12-13.html.gz; -f 2021-12-13.html && git add 2021-12-13.html.gz)
+	(cd $(DESTDIR); git checkout development; -f 2021-12-13.html && gzip -c 2021-12-13.html > 2021-12-13.html.gz; -f 2021-12-13.html && git add 2021-12-13.html.gz)
 
 14:          2021-12-14.html.gz
 2021-12-14:  2021-12-14.html.gz
 2021-12-14.html.gz:
-  (cd $(DESTDIR); git checkout development; -f 2021-12-14.html && gzip -c 2021-12-14.html > 2021-12-14.html.gz; -f 2021-12-14.html && git add 2021-12-14.html.gz)
+	(cd $(DESTDIR); git checkout development; -f 2021-12-14.html && gzip -c 2021-12-14.html > 2021-12-14.html.gz; -f 2021-12-14.html && git add 2021-12-14.html.gz)
 
 15:          2021-12-15.html.gz
 2021-12-15:  2021-12-15.html.gz
 2021-12-15.html.gz:
-  (cd $(DESTDIR); git checkout development; -f 2021-12-15.html && gzip -c 2021-12-15.html > 2021-12-15.html.gz; -f 2021-12-15.html && git add 2021-12-15.html.gz)
+	(cd $(DESTDIR); git checkout development; -f 2021-12-15.html && gzip -c 2021-12-15.html > 2021-12-15.html.gz; -f 2021-12-15.html && git add 2021-12-15.html.gz)
 
 16:          2021-12-16.html.gz
 2021-12-16:  2021-12-16.html.gz
 2021-12-16.html.gz:
-  (cd $(DESTDIR); git checkout development; -f 2021-12-16.html && gzip -c 2021-12-16.html > 2021-12-16.html.gz; -f 2021-12-16.html && git add 2021-12-16.html.gz)
+	(cd $(DESTDIR); git checkout development; -f 2021-12-16.html && gzip -c 2021-12-16.html > 2021-12-16.html.gz; -f 2021-12-16.html && git add 2021-12-16.html.gz)
 
 17:          2021-12-17.html.gz
 2021-12-17:  2021-12-17.html.gz
 2021-12-17.html.gz:
-  (cd $(DESTDIR); git checkout development; -f 2021-12-17.html && gzip -c 2021-12-17.html > 2021-12-17.html.gz; -f 2021-12-17.html && git add 2021-12-17.html.gz)
+	(cd $(DESTDIR); git checkout development; -f 2021-12-17.html && gzip -c 2021-12-17.html > 2021-12-17.html.gz; -f 2021-12-17.html && git add 2021-12-17.html.gz)
 
 18:          2021-12-18.html.gz
 2021-12-18:  2021-12-18.html.gz
 2021-12-18.html.gz:
-  (cd $(DESTDIR); git checkout development; -f 2021-12-18.html && gzip -c 2021-12-18.html > 2021-12-18.html.gz; -f 2021-12-18.html && git add 2021-12-18.html.gz)
+	(cd $(DESTDIR); git checkout development; -f 2021-12-18.html && gzip -c 2021-12-18.html > 2021-12-18.html.gz; -f 2021-12-18.html && git add 2021-12-18.html.gz)
 
 19:          2021-12-19.html.gz
 2021-12-19:  2021-12-19.html.gz
 2021-12-19.html.gz:
-  (cd $(DESTDIR); git checkout development; -f 2021-12-19.html && gzip -c 2021-12-19.html > 2021-12-19.html.gz; -f 2021-12-19.html && git add 2021-12-19.html.gz)
+	(cd $(DESTDIR); git checkout development; -f 2021-12-19.html && gzip -c 2021-12-19.html > 2021-12-19.html.gz; -f 2021-12-19.html && git add 2021-12-19.html.gz)
 
 20:          2021-12-20.html.gz
 2021-12-20:  2021-12-20.html.gz
 2021-12-20.html.gz:
-  (cd $(DESTDIR); git checkout development; -f 2021-12-20.html && gzip -c 2021-12-20.html > 2021-12-20.html.gz; -f 2021-12-20.html && git add 2021-12-20.html.gz)
+	(cd $(DESTDIR); git checkout development; -f 2021-12-20.html && gzip -c 2021-12-20.html > 2021-12-20.html.gz; -f 2021-12-20.html && git add 2021-12-20.html.gz)
 
 21:          2021-12-21.html.gz
 2021-12-21:  2021-12-21.html.gz
 2021-12-21.html.gz:
-  (cd $(DESTDIR); git checkout development; -f 2021-12-21.html && gzip -c 2021-12-21.html > 2021-12-21.html.gz; -f 2021-12-21.html && git add 2021-12-21.html.gz)
+	(cd $(DESTDIR); git checkout development; -f 2021-12-21.html && gzip -c 2021-12-21.html > 2021-12-21.html.gz; -f 2021-12-21.html && git add 2021-12-21.html.gz)
 
 22:          2021-12-22.html.gz
 2021-12-22:  2021-12-22.html.gz
 2021-12-22.html.gz:
-  (cd $(DESTDIR); git checkout development; -f 2021-12-22.html && gzip -c 2021-12-22.html > 2021-12-22.html.gz; -f 2021-12-22.html && git add 2021-12-22.html.gz)
+	(cd $(DESTDIR); git checkout development; -f 2021-12-22.html && gzip -c 2021-12-22.html > 2021-12-22.html.gz; -f 2021-12-22.html && git add 2021-12-22.html.gz)
 
 23:          2021-12-23.html.gz
 2021-12-23:  2021-12-23.html.gz
 2021-12-23.html.gz:
-  (cd $(DESTDIR); git checkout development; -f 2021-12-23.html && gzip -c 2021-12-23.html > 2021-12-23.html.gz; -f 2021-12-23.html && git add 2021-12-23.html.gz)
+	(cd $(DESTDIR); git checkout development; -f 2021-12-23.html && gzip -c 2021-12-23.html > 2021-12-23.html.gz; -f 2021-12-23.html && git add 2021-12-23.html.gz)
 
 24:          2021-12-24.html.gz
 2021-12-24:  2021-12-24.html.gz
 2021-12-24.html.gz:
-  (cd $(DESTDIR); git checkout development; -f 2021-12-24.html && gzip -c 2021-12-24.html > 2021-12-24.html.gz; -f 2021-12-24.html && git add 2021-12-24.html.gz)
+	(cd $(DESTDIR); git checkout development; -f 2021-12-24.html && gzip -c 2021-12-24.html > 2021-12-24.html.gz; -f 2021-12-24.html && git add 2021-12-24.html.gz)
 
 25:          2021-12-25.html.gz
 2021-12-25:  2021-12-25.html.gz
 2021-12-25.html.gz:
-  (cd $(DESTDIR); git checkout development; -f 2021-12-25.html && gzip -c 2021-12-25.html > 2021-12-25.html.gz; -f 2021-12-25.html && git add 2021-12-25.html.gz)
+	(cd $(DESTDIR); git checkout development; -f 2021-12-25.html && gzip -c 2021-12-25.html > 2021-12-25.html.gz; -f 2021-12-25.html && git add 2021-12-25.html.gz)
 
 days25: 25 days24
 days24: 24 days23
