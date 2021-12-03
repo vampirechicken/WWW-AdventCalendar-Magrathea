@@ -65,7 +65,7 @@ else   # year is numeric - let us proceed
 
     if [ $this_year == $YEAR ]; then
       if [ $this_month == 12 ]; then
-        if [ $today <= 25 ]; then
+        if [ $today -le 25 ]; then
           LAST_DAY=$today
         else
           LAST_DAY=25
@@ -73,7 +73,7 @@ else   # year is numeric - let us proceed
       else
         LAST_DAY=0
       fi
-    elif [ $this_year > $YEAR ]; then
+    elif [ $this_year -gt $YEAR ]; then
       LAST_DAY=25
     else
       LAST_DAY=0
