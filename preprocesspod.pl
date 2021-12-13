@@ -17,7 +17,7 @@ use Log::Log4perl qw(:easy);
 
 Log::Log4perl->easy_init($PreprocessPOD::log4perl_config);
 
-# TODO: read uri (etc.) from a config file 
+# TODO: read uri (etc.) from a config file
 my $advent_planet_uri = 'http://lenjaffe.com/AdventPlanet';
 
 my $usage = "$0 year [last_day]";
@@ -51,7 +51,7 @@ sub preprocess {
   my ($day, $year, $prefile, $postfile, $verbose) = @_;
 
   my $prefh = IO::Any->read($prefile);
-  unless ($prefh) { 
+  unless ($prefh) {
     WARN "Could not open $prefile for reading: $!";
     return;
   }
@@ -69,14 +69,14 @@ sub preprocess {
     next INPUTLINE if /^\s*#/;
     unless ( /^\s*
            (
-	           (?<day_range>(?<start_day>\d+)\s*-\s*(?<end_day>\d+)\s*:)
-		         |
+             (?<day_range>(?<start_day>\d+)\s*-\s*(?<end_day>\d+)\s*:)
+             |
              (?<mst_fill>MST_FILL\s*:)
              |
              (?<nopre>NOPRE(PROCESS)?\s*:)
            )?
-	         \s*
-	         L<(?<link>[^>]+)> /x ) {
+           \s*
+         L<(?<link>[^>]+)> /x ) {
        print $postfh $_;  #print the non-link lines
        next INPUTLINE;
     }
@@ -87,9 +87,15 @@ sub preprocess {
 
     if ($+{day_range}) {
       if ( $+{start_day} > $day || $day > $+{end_day} ) {
-	      my $range = sprintf("L<12/%02d|%s/%d/%d-12-%02d.html>", $+{start_day}, $advent_planet_uri, $year, $year, $+{start_day} )
-                . '-' .	
-	        sprintf("L<12/%02d|%s/%d/%d-12-%02d.html>", $+{end_day}, $advent_planet_uri, $year, $year, $+{end_day} );
+        #my $uri_yr_yr = sprintf("%s/%d%d", $advent_planet_uri, $year, $year)
+        #my $link_fmt = "L<12/%02d|%s-12-%02d.html>"
+        #my $range = sprintf(${link_fmt}-${link_fmt},
+        #                       $+{start_day}, $uri_yr_yr, $+{start_day},
+        #                       $+{end_day},   $uri_yr_yr, $+{end_day} );
+        my $link_fmt = "L<12/%02d|%s/%d/%d-12-%02d.html>";
+        my $range = sprintf(${link_fmt}-${link_fmt},
+                               $+{start_day}, $advent_planet_uri, $year, $year, $+{start_day},
+                               $+{end_day},   $advent_planet_uri, $year, $year, $+{end_day} );
         say $postfh "${label}: is available ${range}";
         INFO "${label}: is available ${range}";
         next INPUTLINE;

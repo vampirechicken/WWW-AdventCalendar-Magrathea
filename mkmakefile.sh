@@ -36,7 +36,7 @@ do
   echo "${DAY}:          ${html_file}.gz"  >> ${MAKEFILE}
   echo "${date}:  ${html_file}.gz"  >> ${MAKEFILE}
   echo "${html_file}.gz:"                  >> ${MAKEFILE}
-  echo -e "\t(cd \$(DESTDIR); git checkout development; -f ${html_file} && gzip -c ${html_file} > ${html_file}.gz; -f ${html_file} && git add ${html_file}.gz)" >> ${MAKEFILE}
+  echo -e "\t(cd \$(DESTDIR); git checkout development; test -f ${html_file} && gzip -c ${html_file} > ${html_file}.gz; test -f ${html_file} && git add ${html_file}.gz)" >> ${MAKEFILE}
 done
 
 echo  >> ${MAKEFILE}
