@@ -6,3 +6,4 @@ config/*
 log/
 *.tmp
 .vscode/*
+cover_db
