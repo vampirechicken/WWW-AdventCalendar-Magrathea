@@ -1,0 +1,166 @@
+DESTDIR=/home/len/repos/lenjaffe.com/AdventPlanet/2024
+all: index atom css
+index: $(DESTDIR)/index.html.gz
+atom: $(DESTDIR)/atom.xml.gz
+css: $(DESTDIR)/style.css.gz
+days: $(DESTDIR)/2024-12-01.html.gz $(DESTDIR)/2024-12-02.html.gz $(DESTDIR)/2024-12-03.html.gz $(DESTDIR)/2024-12-04.html.gz $(DESTDIR)/2024-12-05.html.gz $(DESTDIR)/2024-12-06.html.gz $(DESTDIR)/2024-12-07.html.gz $(DESTDIR)/2024-12-08.html.gz $(DESTDIR)/2024-12-09.html.gz $(DESTDIR)/2024-12-10.html.gz $(DESTDIR)/2024-12-11.html.gz $(DESTDIR)/2024-12-12.html.gz $(DESTDIR)/2024-12-13.html.gz $(DESTDIR)/2024-12-14.html.gz $(DESTDIR)/2024-12-15.html.gz $(DESTDIR)/2024-12-16.html.gz $(DESTDIR)/2024-12-17.html.gz $(DESTDIR)/2024-12-18.html.gz $(DESTDIR)/2024-12-19.html.gz $(DESTDIR)/2024-12-20.html.gz $(DESTDIR)/2024-12-21.html.gz $(DESTDIR)/2024-12-22.html.gz $(DESTDIR)/2024-12-23.html.gz $(DESTDIR)/2024-12-24.html.gz $(DESTDIR)/2024-12-25.html.gz 
+
+$(DESTDIR)/index.html.gz: $(DESTDIR)/index.html
+	(cd $(DESTDIR); git checkout development; gzip -c index.html > index.html.gz; git add index.html.gz)
+
+$(DESTDIR)/atom.xml.gz: $(DESTDIR)/atom.xml
+	(cd $(DESTDIR); git checkout development; gzip -c atom.xml > atom.xml.gz; git add atom.xml.gz)
+
+$(DESTDIR)/style.css.gz: $(DESTDIR)/style.css
+	(cd $(DESTDIR); git checkout development; gzip -c style.css > style.css.gz; git add style.css.gz)
+
+01:          2024-12-01.html.gz
+2024-12-01:  2024-12-01.html.gz
+2024-12-01.html.gz:
+	(cd $(DESTDIR); git checkout development; test -f 2024-12-01.html && gzip -c 2024-12-01.html > 2024-12-01.html.gz; test -f 2024-12-01.html && git add 2024-12-01.html.gz)
+
+02:          2024-12-02.html.gz
+2024-12-02:  2024-12-02.html.gz
+2024-12-02.html.gz:
+	(cd $(DESTDIR); git checkout development; test -f 2024-12-02.html && gzip -c 2024-12-02.html > 2024-12-02.html.gz; test -f 2024-12-02.html && git add 2024-12-02.html.gz)
+
+03:          2024-12-03.html.gz
+2024-12-03:  2024-12-03.html.gz
+2024-12-03.html.gz:
+	(cd $(DESTDIR); git checkout development; test -f 2024-12-03.html && gzip -c 2024-12-03.html > 2024-12-03.html.gz; test -f 2024-12-03.html && git add 2024-12-03.html.gz)
+
+04:          2024-12-04.html.gz
+2024-12-04:  2024-12-04.html.gz
+2024-12-04.html.gz:
+	(cd $(DESTDIR); git checkout development; test -f 2024-12-04.html && gzip -c 2024-12-04.html > 2024-12-04.html.gz; test -f 2024-12-04.html && git add 2024-12-04.html.gz)
+
+05:          2024-12-05.html.gz
+2024-12-05:  2024-12-05.html.gz
+2024-12-05.html.gz:
+	(cd $(DESTDIR); git checkout development; test -f 2024-12-05.html && gzip -c 2024-12-05.html > 2024-12-05.html.gz; test -f 2024-12-05.html && git add 2024-12-05.html.gz)
+
+06:          2024-12-06.html.gz
+2024-12-06:  2024-12-06.html.gz
+2024-12-06.html.gz:
+	(cd $(DESTDIR); git checkout development; test -f 2024-12-06.html && gzip -c 2024-12-06.html > 2024-12-06.html.gz; test -f 2024-12-06.html && git add 2024-12-06.html.gz)
+
+07:          2024-12-07.html.gz
+2024-12-07:  2024-12-07.html.gz
+2024-12-07.html.gz:
+	(cd $(DESTDIR); git checkout development; test -f 2024-12-07.html && gzip -c 2024-12-07.html > 2024-12-07.html.gz; test -f 2024-12-07.html && git add 2024-12-07.html.gz)
+
+08:          2024-12-08.html.gz
+2024-12-08:  2024-12-08.html.gz
+2024-12-08.html.gz:
+	(cd $(DESTDIR); git checkout development; test -f 2024-12-08.html && gzip -c 2024-12-08.html > 2024-12-08.html.gz; test -f 2024-12-08.html && git add 2024-12-08.html.gz)
+
+09:          2024-12-09.html.gz
+2024-12-09:  2024-12-09.html.gz
+2024-12-09.html.gz:
+	(cd $(DESTDIR); git checkout development; test -f 2024-12-09.html && gzip -c 2024-12-09.html > 2024-12-09.html.gz; test -f 2024-12-09.html && git add 2024-12-09.html.gz)
+
+10:          2024-12-10.html.gz
+2024-12-10:  2024-12-10.html.gz
+2024-12-10.html.gz:
+	(cd $(DESTDIR); git checkout development; test -f 2024-12-10.html && gzip -c 2024-12-10.html > 2024-12-10.html.gz; test -f 2024-12-10.html && git add 2024-12-10.html.gz)
+
+11:          2024-12-11.html.gz
+2024-12-11:  2024-12-11.html.gz
+2024-12-11.html.gz:
+	(cd $(DESTDIR); git checkout development; test -f 2024-12-11.html && gzip -c 2024-12-11.html > 2024-12-11.html.gz; test -f 2024-12-11.html && git add 2024-12-11.html.gz)
+
+12:          2024-12-12.html.gz
+2024-12-12:  2024-12-12.html.gz
+2024-12-12.html.gz:
+	(cd $(DESTDIR); git checkout development; test -f 2024-12-12.html && gzip -c 2024-12-12.html > 2024-12-12.html.gz; test -f 2024-12-12.html && git add 2024-12-12.html.gz)
+
+13:          2024-12-13.html.gz
+2024-12-13:  2024-12-13.html.gz
+2024-12-13.html.gz:
+	(cd $(DESTDIR); git checkout development; test -f 2024-12-13.html && gzip -c 2024-12-13.html > 2024-12-13.html.gz; test -f 2024-12-13.html && git add 2024-12-13.html.gz)
+
+14:          2024-12-14.html.gz
+2024-12-14:  2024-12-14.html.gz
+2024-12-14.html.gz:
+	(cd $(DESTDIR); git checkout development; test -f 2024-12-14.html && gzip -c 2024-12-14.html > 2024-12-14.html.gz; test -f 2024-12-14.html && git add 2024-12-14.html.gz)
+
+15:          2024-12-15.html.gz
+2024-12-15:  2024-12-15.html.gz
+2024-12-15.html.gz:
+	(cd $(DESTDIR); git checkout development; test -f 2024-12-15.html && gzip -c 2024-12-15.html > 2024-12-15.html.gz; test -f 2024-12-15.html && git add 2024-12-15.html.gz)
+
+16:          2024-12-16.html.gz
+2024-12-16:  2024-12-16.html.gz
+2024-12-16.html.gz:
+	(cd $(DESTDIR); git checkout development; test -f 2024-12-16.html && gzip -c 2024-12-16.html > 2024-12-16.html.gz; test -f 2024-12-16.html && git add 2024-12-16.html.gz)
+
+17:          2024-12-17.html.gz
+2024-12-17:  2024-12-17.html.gz
+2024-12-17.html.gz:
+	(cd $(DESTDIR); git checkout development; test -f 2024-12-17.html && gzip -c 2024-12-17.html > 2024-12-17.html.gz; test -f 2024-12-17.html && git add 2024-12-17.html.gz)
+
+18:          2024-12-18.html.gz
+2024-12-18:  2024-12-18.html.gz
+2024-12-18.html.gz:
+	(cd $(DESTDIR); git checkout development; test -f 2024-12-18.html && gzip -c 2024-12-18.html > 2024-12-18.html.gz; test -f 2024-12-18.html && git add 2024-12-18.html.gz)
+
+19:          2024-12-19.html.gz
+2024-12-19:  2024-12-19.html.gz
+2024-12-19.html.gz:
+	(cd $(DESTDIR); git checkout development; test -f 2024-12-19.html && gzip -c 2024-12-19.html > 2024-12-19.html.gz; test -f 2024-12-19.html && git add 2024-12-19.html.gz)
+
+20:          2024-12-20.html.gz
+2024-12-20:  2024-12-20.html.gz
+2024-12-20.html.gz:
+	(cd $(DESTDIR); git checkout development; test -f 2024-12-20.html && gzip -c 2024-12-20.html > 2024-12-20.html.gz; test -f 2024-12-20.html && git add 2024-12-20.html.gz)
+
+21:          2024-12-21.html.gz
+2024-12-21:  2024-12-21.html.gz
+2024-12-21.html.gz:
+	(cd $(DESTDIR); git checkout development; test -f 2024-12-21.html && gzip -c 2024-12-21.html > 2024-12-21.html.gz; test -f 2024-12-21.html && git add 2024-12-21.html.gz)
+
+22:          2024-12-22.html.gz
+2024-12-22:  2024-12-22.html.gz
+2024-12-22.html.gz:
+	(cd $(DESTDIR); git checkout development; test -f 2024-12-22.html && gzip -c 2024-12-22.html > 2024-12-22.html.gz; test -f 2024-12-22.html && git add 2024-12-22.html.gz)
+
+23:          2024-12-23.html.gz
+2024-12-23:  2024-12-23.html.gz
+2024-12-23.html.gz:
+	(cd $(DESTDIR); git checkout development; test -f 2024-12-23.html && gzip -c 2024-12-23.html > 2024-12-23.html.gz; test -f 2024-12-23.html && git add 2024-12-23.html.gz)
+
+24:          2024-12-24.html.gz
+2024-12-24:  2024-12-24.html.gz
+2024-12-24.html.gz:
+	(cd $(DESTDIR); git checkout development; test -f 2024-12-24.html && gzip -c 2024-12-24.html > 2024-12-24.html.gz; test -f 2024-12-24.html && git add 2024-12-24.html.gz)
+
+25:          2024-12-25.html.gz
+2024-12-25:  2024-12-25.html.gz
+2024-12-25.html.gz:
+	(cd $(DESTDIR); git checkout development; test -f 2024-12-25.html && gzip -c 2024-12-25.html > 2024-12-25.html.gz; test -f 2024-12-25.html && git add 2024-12-25.html.gz)
+
+days25: 25 days24
+days24: 24 days23
+days23: 23 days22
+days22: 22 days21
+days21: 21 days20
+days20: 20 days19
+days19: 19 days18
+days18: 18 days17
+days17: 17 days16
+days16: 16 days15
+days15: 15 days14
+days14: 14 days13
+days13: 13 days12
+days12: 12 days11
+days11: 11 days10
+days10: 10 days09
+days09: 09 days08
+days08: 08 days07
+days07: 07 days06
+days06: 06 days05
+days05: 05 days04
+days04: 04 days03
+days03: 03 days02
+days02: 02 days01
+days01: 01
