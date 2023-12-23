@@ -93,7 +93,7 @@ sub preprocess {
         #                       $+{start_day}, $uri_yr_yr, $+{start_day},
         #                       $+{end_day},   $uri_yr_yr, $+{end_day} );
         my $link_fmt = "L<12/%02d|%s/%d/%d-12-%02d.html>";
-        my $range = sprintf(${link_fmt}-${link_fmt},
+        my $range = sprintf("${link_fmt}-${link_fmt}",
                                $+{start_day}, $advent_planet_uri, $year, $year, $+{start_day},
                                $+{end_day},   $advent_planet_uri, $year, $year, $+{end_day} );
         say $postfh "${label}: is available ${range}";
