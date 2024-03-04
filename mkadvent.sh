@@ -15,6 +15,7 @@ function ERROR () {
 function ABEND () {
   ERROR $*
   INFO "$0 Abended"
+  cd -
   exit
 }
 
@@ -26,7 +27,6 @@ export PERLBREW_HOME=/home/len/.perlbrew
 . ${PERLBREW_ROOT}/etc/bashrc
 
 export PB_DEFAULT_VERSION=5.38.0
-#export PB_DEFAULT_VERSION=5.32.1
 perlbrew use ${PB_VERSION-$PB_DEFAULT_VERSION}
 
 RUNDIR=/home/len/AdventPlanet/WWW-AdventCalendar-Magrathea
@@ -80,6 +80,13 @@ else   # year is numeric - let us proceed
       LAST_DAY=0
     fi
   fi
+
+
+set -xv
+  if [[ ! -z ${MAGRATHEA_ROOT} ]]; then 
+    cd "${MAGRATHEA_ROOT}"
+  fi
+set +vx
 
   OUTDIR=out/${YEAR}
   CONFIGDIR=config/${YEAR}
@@ -144,3 +151,8 @@ fi
 
 INFO "$0 Finished"
 
+if [[ ! -z "${MAGRATHEA_ROOT}" ]]; then
+  cd -
+fi
+
+exit 0

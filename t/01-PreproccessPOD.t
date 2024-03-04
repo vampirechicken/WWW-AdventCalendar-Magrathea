@@ -86,7 +86,7 @@ my $config_file      = "$test_config{config}{template_dir}/advent.ini";
 PreprocessPOD::make_config_file("$test_config{barn_dir}/$test_config{t_config}{template_name}", $config_file, $test_year);
 ok(-e $config_file, "config template initialized");
 
-cleanup("t_");
+#cleanup("t_");
 
 
 #copy("$test_config{barn_dir}/$test_config{articles}{template_name}", $test_config{articles}{template_dir});
