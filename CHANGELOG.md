@@ -10,3 +10,8 @@
 - articles/templates/2023/article.pod.tmpl: Python Advent only 1-14
 - articles/templates/2024/article.pod.tmpl: Updated Advent of Cyber and Steam Games
 
+## 2024-13-03 - Len Jaffe - lenjaffe@jaffesystems.com
+### add-pdf-and-qiita
+- CHANGELOG.md: updated
+- articles/templates/2024/article.pod.tmpl: Added PDL, CSS, AI, atlantic/hubble, and system calls
+
