@@ -15,22 +15,22 @@ function ERROR () {
 function ABEND () {
   ERROR $*
   INFO "$0 Abended"
+  cd -
   exit
 }
 
 INFO "$0 Started"
 
-# TODO: this is brittle.find a way around it.export these vars in the crontab?use mkadvent.rc?
+# TODO: this is brittle. Find a way around it.export these vars in the crontab?use mkadvent.rc?
 export PERLBREW_ROOT=/home/len/perl5/perlbrew
 export PERLBREW_HOME=/home/len/.perlbrew
 . ${PERLBREW_ROOT}/etc/bashrc
 
-export PB_DEFAULT_VERSION=5.38.0
-#export PB_DEFAULT_VERSION=5.32.1
+export PB_DEFAULT_VERSION=5.40.0
+#export PB_DEFAULT_VERSION=5.38.2
 perlbrew use ${PB_VERSION-$PB_DEFAULT_VERSION}
 
 RUNDIR=/home/len/AdventPlanet/WWW-AdventCalendar-Magrathea
-
 ADVCAL="advcal"
 PERL="/usr/bin/env perl"
 SCP="/usr/bin/env scp"
@@ -81,6 +81,11 @@ else   # year is numeric - let us proceed
     fi
   fi
 
+
+  if [[ ! -z ${MAGRATHEA_ROOT} ]]; then 
+    cd "${MAGRATHEA_ROOT}"
+  fi
+
   OUTDIR=out/${YEAR}
   CONFIGDIR=config/${YEAR}
   ARTICLE_DIR=articles/post/${YEAR}
@@ -103,7 +108,7 @@ else   # year is numeric - let us proceed
     fi
 
     INFO "Generate $YEAR"
-    ${ADVCAL} -c ${CONFIGDIR}/advent.ini --article-dir ${ARTICLE_DIR} --out ${OUTDIR}  --year-links
+    ${ADVCAL} -c ${CONFIGDIR}/advent.ini --article-dir ${ARTICLE_DIR} --out ${OUTDIR}  --year-links --share-dir share
     mkdir -p ${HTML_ROOT}
     cp -r ${OUTDIR}/* ${HTML_ROOT}
     make -f makefiles/makefile.main
@@ -144,3 +149,8 @@ fi
 
 INFO "$0 Finished"
 
+if [[ ! -z "${MAGRATHEA_ROOT}" ]]; then
+  cd -
+fi
+
+exit 0
