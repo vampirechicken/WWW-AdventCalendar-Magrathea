@@ -138,6 +138,7 @@ sub preprocess {
           $label =~ s/&#8211;/-/mg;
           $label =~ s/&#9670;/*/mg;
           $label =~ s/\n/ /mg;
+          $label =~ s/[^\x00-\x7F]+//;
       }
 
       INFO sprintf(qq(Request for %s succeeded), $url);
