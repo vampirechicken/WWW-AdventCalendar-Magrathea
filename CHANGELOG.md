@@ -15,3 +15,24 @@
 - CHANGELOG.md: updated
 - articles/templates/2024/article.pod.tmpl: Added PDL, CSS, AI, atlantic/hubble, and system calls
 
+## 2024-13-03 - Len Jaffe - lenjaffe@jaffesystems.com
+### backfill-calendars
+- CHANGELOG.md: updated
+- articles/templates/2024/article.pod.tmpl: updated links: added, removed, updated 
+- articles/templates/2023/article.pod.tmpl: updated links: added, removed, updated 
+- articles/templates/2022/article.pod.tmpl: updated links: added, removed, updated 
+- articles/templates/2021/article.pod.tmpl: updated links: added, removed, updated 
+- articles/templates/2020/article.pod.tmpl: updated links: added, removed, updated 
+- articles/templates/2019/article.pod.tmpl: updated links: added, removed, updated 
+- articles/templates/2018/article.pod.tmpl: updated links: added, removed, updated 
+- articles/templates/2017/article.pod.tmpl: updated links: added, removed, updated 
+- articles/templates/2016/article.pod.tmpl: updated links: added, removed, updated 
+- articles/templates/2014/article.pod.tmpl: updated links: added, removed, updated 
+- articles/templates/2013/article.pod.tmpl: updated links: added, removed, updated 
+- articles/templates/2011/article.pod.tmpl: updated links: added, removed, updated 
+- articles/templates/2010/article.pod.tmpl: updated links: added, removed, updated 
+- articles/templates/2009/article.pod.tmpl: updated links: added, removed, updated 
+- articles/templates/2008/article.pod.tmpl: updated links: added, removed, updated 
+- articles/templates/2007/article.pod.tmpl: updated links: added, removed, updated 
+- articles/templates/2006/article.pod.tmpl: updated links: added, removed, updated 
+- articles/templates/2005/article.pod.tmpl: updated links: added, removed, updated 
