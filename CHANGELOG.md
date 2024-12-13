@@ -42,3 +42,10 @@
 - CHANGELOG.md: updated
 - articles/templates/2024/article.pod.tmpl: moved javascript and CSS links
 
+## 2024-12-12 - Len Jaffe - lenjaffe@jaffesystems.com
+### feature/initialize-2025
+- CHANGELOG.md: updated
+- articles/templates/2024/article.pod.tmpl: replaced "2024" woth TMPL_VAR
+- articles/templates/2025/article.pod.tmpl: copied from 2024
+- articles/templates/2025/advent.ini.tmpl: copied from 2024
+
