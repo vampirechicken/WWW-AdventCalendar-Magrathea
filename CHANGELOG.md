@@ -50,7 +50,7 @@
 - articles/templates/2025/advent.ini.tmpl: copied from 2024
 
 ## 2024-12-23 - Len Jaffe - lenjaffe@jaffesystems.com
-### add-1999
+### feature/add-1999
 - CHANGELOG.md: updated
 - mkadvent.sh: added command line option comment
 - articles/templates/1999/article.pod.tmpl: added
@@ -59,4 +59,12 @@
 - makefiles/makefile.2025: created
 - udpated templates for other years - updated links, corrected pod
 
-
+## 2024-12-23 - Len Jaffe - lenjaffe@jaffesystems.com
+### feature/perl-advent-ordinal-translations
+- CHANGELOG.md: updated
+- preprocesspod.pl: added logic for cardinal-to-ordinal conversion for Perl Advent 2000-2003
+- templates/articles/2000/article.pod.tmpl: added ord2card: preproccessor tag; removed X<DAY> comment
+- templates/articles/2001/article.pod.tmpl: added ord2card: preproccessor tag
+- templates/articles/2002/article.pod.tmpl: added ord2card: preproccessor tag
+- templates/articles/2003/article.pod.tmpl: added ord2card: preproccessor tag
+- templates/articles/2004/article.pod.tmpl: added ord2card: preproccessor tag; removed X<> comments
