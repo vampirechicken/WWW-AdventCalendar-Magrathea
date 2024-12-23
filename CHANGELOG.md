@@ -49,3 +49,14 @@
 - articles/templates/2025/article.pod.tmpl: copied from 2024
 - articles/templates/2025/advent.ini.tmpl: copied from 2024
 
+## 2024-12-23 - Len Jaffe - lenjaffe@jaffesystems.com
+### add-1999
+- CHANGELOG.md: updated
+- mkadvent.sh: added command line option comment
+- articles/templates/1999/article.pod.tmpl: added
+- articles/templates/1999/advent.ini.tmpl: added
+- makefiles/makefile.1999: created
+- makefiles/makefile.2025: created
+- udpated templates for other years - updated links, corrected pod
+
+

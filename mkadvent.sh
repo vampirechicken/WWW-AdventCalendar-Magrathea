@@ -35,6 +35,13 @@ ADVCAL="advcal"
 PERL="/usr/bin/env perl"
 SCP="/usr/bin/env scp"
 
+
+##################################################################
+# Default to running pre+gen+git. If a command line arg is given
+# then turn off those not given. This way we do not need an
+# explicit "All" option. Maybe this is simpler. Maybe not.
+# But it works despite the backwards-ish logic.
+##################################################################
 PREPROCESS=1
 GENERATE=1
 GIT_PUSH=1
