@@ -17,7 +17,7 @@ use Log::Log4perl qw(:easy);
 
 Log::Log4perl->easy_init($PreprocessPOD::log4perl_config);
 
-# TODO: read uri (etc.) from a config file
+# TODO: get uri (etc.) from a config file or command line
 my $advent_planet_uri = 'http://lenjaffe.com/AdventPlanet';
 
 my $usage = "$0 year [last_day]";
@@ -27,7 +27,6 @@ ERROR $usage unless $year;
 die $usage unless $year;
 
 my $last_day = shift @ARGV //  25;
-
 
 my $config = PreprocessPOD::initialize_year($year);
 my $web    = HTTP::Tiny->new;
@@ -45,6 +44,42 @@ foreach my $day ( 1..${last_day} ) {
   PreprocessPOD::make_prefile($prefile, $config);
   preprocess($day, $year, $prefile, $postfile);
 }
+
+
+sub card2ord {
+  my $cardinal = shift;
+
+  my %ordinal = (
+     1 => "1st", 
+     2 => "2nd", 
+     3 => "3rd", 
+     4 => "4th", 
+     5 => "5th", 
+     6 => "6th", 
+     7 => "7th", 
+     8 => "8th", 
+     9 => "1st", 
+     10 => "10th", 
+     11 => "11th", 
+     12 => "12th", 
+     13 => "13th", 
+     14 => "14th", 
+     15 => "15th", 
+     16 => "16th", 
+     17 => "17th", 
+     18 => "18th", 
+     19 => "19th", 
+     20 => "20th", 
+     21 => "2125", 
+     22 => "22nd", 
+     23 => "23rd", 
+     24 => "24th", 
+     25 => "25th", 
+  );
+
+  return $ordinal{$cardinal};
+}
+
 
 my %last_post;
 sub preprocess {
@@ -73,6 +108,8 @@ sub preprocess {
              |
              (?<mst_fill>MST_FILL\s*:)
              |
+             (?<card2ord>card2ord:)
+             |
              (?<nopre>NOPRE(PROCESS)?\s*:)
            )?
            \s*
@@ -87,11 +124,6 @@ sub preprocess {
 
     if ($+{day_range}) {
       if ( $+{start_day} > $day || $day > $+{end_day} ) {
-        #my $uri_yr_yr = sprintf("%s/%d%d", $advent_planet_uri, $year, $year)
-        #my $link_fmt = "L<12/%02d|%s-12-%02d.html>"
-        #my $range = sprintf(${link_fmt}-${link_fmt},
-        #                       $+{start_day}, $uri_yr_yr, $+{start_day},
-        #                       $+{end_day},   $uri_yr_yr, $+{end_day} );
         my $link_fmt = "L<12/%02d|%s/%d/%d-12-%02d.html>";
         my $range = sprintf("${link_fmt}-${link_fmt}",
                                $+{start_day}, $advent_planet_uri, $year, $year, $+{start_day},
@@ -102,7 +134,19 @@ sub preprocess {
       }
     }
 
-    if (! $+{nopre}) {
+    if ($+{nopre}) {
+      INFO "No preprocessing for ${label}q";
+    }
+    else {
+
+      if ($+{card2ord}) {
+        # convert the day to it's ordinal value     - the day is at .*/DAY/
+        my @splits = split(/\//, $url);
+        $splits[-1] = card2ord($splits[-1]) ;
+        $url = join('/', @splits);
+        $url .= "/"; 
+      }
+
       my $response = $web->get($url);
       if ( $response->{status} != 200) {
 
@@ -143,9 +187,6 @@ sub preprocess {
 
       INFO sprintf(qq(Request for %s succeeded), $url);
       INFO sprintf(qq({status = %d, reason = "%s", url = "%s", title = "%s"}), $response->{status}, $response->{reason}, $url, $label);
-    }
-    else {
-      INFO "No preprocessing for ${label}q";
     }
 
     my $tag = $label;
