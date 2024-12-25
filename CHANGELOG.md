@@ -68,3 +68,9 @@
 - templates/articles/2002/article.pod.tmpl: added ord2card: preproccessor tag
 - templates/articles/2003/article.pod.tmpl: added ord2card: preproccessor tag
 - templates/articles/2004/article.pod.tmpl: added ord2card: preproccessor tag; removed X<> comments
+
+## 2024-12-25 - Len Jaffe - lenjaffe@jaffesystems.com
+### hotfix/perladvent-no-25
+- CHANGELOG.md: updated
+- articles/templates/2024/article.pod.tmpl: Added 1-24 inidcator to perl advent
+
