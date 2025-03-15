@@ -26,7 +26,7 @@ export PERLBREW_ROOT=/home/len/perl5/perlbrew
 export PERLBREW_HOME=/home/len/.perlbrew
 . ${PERLBREW_ROOT}/etc/bashrc
 
-export PB_DEFAULT_VERSION=5.40.0
+export PB_DEFAULT_VERSION=5.40.1
 #export PB_DEFAULT_VERSION=5.38.2
 perlbrew use ${PB_VERSION-$PB_DEFAULT_VERSION}
 

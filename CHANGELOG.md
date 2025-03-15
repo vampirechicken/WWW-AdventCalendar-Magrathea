@@ -74,3 +74,8 @@
 - CHANGELOG.md: updated
 - articles/templates/2024/article.pod.tmpl: Added 1-24 inidcator to perl advent
 
+## 2025-03-15 - Len Jaffe - lenjaffe@jaffesystems.com
+### hotfix/perladvent-no-25
+- CHANGELOG.md: updated
+- mkadvent.sh: perbrew use perl 5.40.1
+
