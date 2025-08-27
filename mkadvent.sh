@@ -21,12 +21,13 @@ function ABEND () {
 
 INFO "$0 Started"
 
-# TODO: this is brittle. Find a way around it.export these vars in the crontab?use mkadvent.rc?
+# TODO: this is brittle. Find a way around it:
+# * export these vars in the crontab?
+# * use mkadvent.rc?
 export PERLBREW_ROOT=/home/len/perl5/perlbrew
 export PERLBREW_HOME=/home/len/.perlbrew
 . ${PERLBREW_ROOT}/etc/bashrc
 
-#export PB_DEFAULT_VERSION=5.40.2
 export PB_DEFAULT_VERSION=5.42.0
 perlbrew use ${PB_VERSION-$PB_DEFAULT_VERSION}
 
