@@ -79,3 +79,14 @@
 - CHANGELOG.md: updated
 - mkadvent.sh: perbrew use perl 5.40.1
 
+## 2025-12-02 - Len Jaffe - lenjaffe@jaffesystems.com
+### update-2025-article-template
+- CHANGELOG.md: updated
+- templates/articles/2025/article.pod.tmpl: updated links
+
+## 2025-12-02 - Len Jaffe - lenjaffe@jaffesystems.com
+### update-2025-article-template
+- CHANGELOG.md: updated
+- templates/articles/2025/article.pod.tmpl: Added links provided by [mikkoi](https://github.com/mikkoi)
+
+
