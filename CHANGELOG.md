@@ -89,4 +89,13 @@
 - CHANGELOG.md: updated
 - templates/articles/2025/article.pod.tmpl: Added links provided by [mikkoi](https://github.com/mikkoi)
 
+## 2025-12-21 - Len Jaffe - lenjaffe@jaffesystems.com
+### fix-2025-calander-urls
+- CHANGELOG.md: updated
+- templates/articles/2025/article.pod.tmpl: comments ruthmalan.com; changed Advent of Craft URLifrom LinkedIn to github
 
+## 2025-12-24 - Len Jaffe - lenjaffe@jaffesystems.com
+### enable-2026
+- CHANGELOG.md: updated
+- articles/templates/2025/article.pod.tmpl - replaced 2025 with template var
+- articles/templates/2026/article.pod.tmpl - commented most of the page for expediency
